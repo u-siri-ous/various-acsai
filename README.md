@@ -7,7 +7,7 @@ devo imparare a usare le pull request
 le materie sono nei branch:
 - dma-2
 - stats
-- aiml (ci stanno sue sotto cartelle, ai e ml)
+- aiml (ci stanno 2 sotto cartelle, ai e ml)
 - ai-lab
 
 istruzioni: (linea di comando git bash)
