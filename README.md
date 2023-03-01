@@ -11,8 +11,8 @@ le materie sono nei branch:
 - ai-lab
 
 istruzioni: (linea di comando git bash)
-- clonare la repo (git clone "url della repo")
-- se volete caricare le cose, usare git checkout nome_materia (vedi su)
+- clonare la repo (git clone https://github.com/u-siri-ous/various-acsai.git) nella cartella che volete (usando cd)
+- se volete caricare le cose, usare git checkout nome_materia (vedi su) e poi mettetele dentro
 
 ordine dei comandi per caricare la robbbbba:
 - git add .
