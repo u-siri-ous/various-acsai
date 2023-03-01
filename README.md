@@ -19,4 +19,4 @@ ordine dei comandi per caricare la robbbbba:
 - git commit -m "messaggio che ve pare siate descrittivi"
 - git push
 
-divertiamoci insieme
+divertiamoci insieme, caricate quello che volete, non incasiniamoci coi merge
