@@ -20,3 +20,12 @@ ordine dei comandi per caricare la robbbbba:
 - git push
 
 divertiamoci insieme, caricate quello che volete, non incasiniamoci coi merge
+
+COMANDI CHE SERVONO:
+- git clone
+- git add .
+- git commit -m 
+- git push
+- git pull
+- git fetch
+- git checkout
