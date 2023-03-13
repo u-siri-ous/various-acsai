@@ -17,8 +17,8 @@ cv2.waitKey() """
 #changing the color of a portion of the image
 #corner = img[0:100,0:100]  doesn't work as lists are passed by reference
 img[0:100,0:100] = (0,0,255)            #what if i want to change the image permanently?
-#cv2.imshow("title", img)
-#cv2.waitKey(0)
+cv2.imshow("colosseo con angolo rosso", img)
+cv2.waitKey(0)
 
 #how to: create a black picture
 canvas = np.zeros((500,500,3), dtype='uint8')       #an rgb (3 channel) 500x500 image, unsigned int, to create grayscale, remove the number of channels
@@ -39,6 +39,28 @@ blue = (255,0,0)
 cv2.circle(canvas, (350,350), 50, blue)                 #create unfilled circle with center (350,350) and radius 50
 cv2.circle(canvas, (30,30), 20, blue, -1)               #create filled circle with center (30,30) and radius 20
 
-cv2.imshow("title", canvas)
+#cv2.imshow("title", canvas)
+#cv2.waitKey(0)
+
+#intro to image processing
+
+(b,g,r) = cv2.split(img)    #store the three channels of img separately, separate channels are grayscale images
+
+cv2.imshow("b", b)
 cv2.waitKey(0)
 
+cv2.imshow("g", g)
+cv2.waitKey(0)
+
+cv2.imshow("r", r)
+cv2.waitKey(0)
+
+#invert channels
+img2 = cv2.merge((r,g,b))       #swapped b and r channels, merge merges the channels of an image however you want
+cv2.imshow("colosseo alieno matto", img2)
+cv2.waitKey(0)
+
+# we can access channels in numpy notation as well
+# blue channel = img[:,:,0]
+# green channel = img[:,:,1]
+# red channel = img[:,:,2]
