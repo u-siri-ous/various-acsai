@@ -1,0 +1,16 @@
+NFA and DFA are two types of finite automata, which are mathematical models used to represent the behavior of systems.
+
+NFA (Nondeterministic Finite Automaton) is a finite automaton where for some cases, there may be multiple transitions possible for a single input symbol from a single state. 
+This means that there is an inherent ambiguity in the behavior of the NFA for some inputs.
+
+DFA (Deterministic Finite Automaton) is a finite automaton where there is only one transition possible for each input symbol from a single state. 
+This means that the behavior of the DFA is deterministic and unambiguous for all inputs.
+
+NFSA (Nondeterministic Finite State Automaton) and DFSA (Deterministic Finite State Automaton) are similar to NFA and DFA, respectively, but are used more specifically to describe 
+the behavior of systems modeled as finite state automata.
+
+In summary, the difference between NFA and DFA is that the former allows for multiple transitions for a single input symbol, while the latter allows only one transition.
+Non-deterministic : when the same action leads to different outputs/state
+ 
+The difference between NFSA and DFSA is that the former is used to describe the behavior of systems modeled as finite state automata that allow multiple transitions, 
+while the latter is used to describe the behavior of systems modeled as finite state automata that are deterministic.
