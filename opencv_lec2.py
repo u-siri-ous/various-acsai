@@ -56,7 +56,9 @@ cv2.imshow("r", r)
 cv2.waitKey(0)
 
 #invert channels
-img2 = cv2.merge((r,g,b))       #swapped b and r channels, merge merges the channels of an image however you want
+#img2 = cv2.merge((r,g,b))       #swapped b and r channels, merge merges the channels of an image however you want
+img2 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #alternative way to convert from bgr to rgb
+
 cv2.imshow("colosseo alieno matto", img2)
 cv2.waitKey(0)
 
