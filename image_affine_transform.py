@@ -14,6 +14,7 @@ submatrix abde is for rotaion and scaling
 cf is for translating 
 
 perspective vs affine tranformations (https://towardsdatascience.com/perspective-versus-affine-transformation-25033cef5766)
+about the *matrix* (https://vovkos.github.io/doxyrest-showcase/opencv/sphinx_rtd_theme/page_tutorial_warp_affine.html)
 '''
 #scaling
 h = img.shape[0]
