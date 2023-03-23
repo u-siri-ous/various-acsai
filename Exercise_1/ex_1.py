@@ -50,12 +50,6 @@ src_points = np.array([[0,0],
                        dtype=np.float32)
 
 #destination points
-""" dst_points = np.array([[302, 455], 
-                       [309, 2386], 
-                       [2665, 2057], 
-                       [2678, 742]],
-                       dtype=np.float32) """
-
 dst_points = []
 bg_copy = bg.copy()
 
@@ -66,21 +60,28 @@ def onClick(event, x, y, flags, param):
             cv2.circle(bg_copy, (x,y), 10, (0,0,255), -1) # printing a filled circle where we clicked
             cv2.imshow("coord", bg_copy)
 
-cv2.namedWindow("coord", cv2.WINDOW_FREERATIO)
+cv2.namedWindow("coord", cv2.WINDOW_KEEPRATIO)
 cv2.setMouseCallback("coord", onClick)   # handle mouse event
 
 cv2.imshow("coord", bg_copy)
 cv2.waitKey(0)
 
+shape = (bg.shape[1], bg.shape[0])
+
 # compute homography matrix
 dst_float = np.array(dst_points, dtype=np.float32)
 
 homography = cv2.getPerspectiveTransform(src_points, dst_float)
-out = cv2.warpPerspective(img, homography, dsize=(1000,1000))     #slanted image  
+out = cv2.warpPerspective(img, homography, dsize=shape)     #slanted image 
 
-""" final = cv2.bitwise_and(bg, out)
+#resize image to dimensions of billboard screen
+mandorlo = cv2.resize(out, fx=0.5, fy=0.5, dsize=shape)
 
-cv2.imshow("final", out)
-cv2.waitKey(0) """
+masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create blaclk mask on billboard for bitwise op
 
-print(out.shape, bg.shape)
+final = cv2.bitwise_xor(masked, mandorlo)
+
+cv2.namedWindow("final", cv2.WINDOW_KEEPRATIO)
+
+cv2.imshow("final", final)
+cv2.waitKey(0)

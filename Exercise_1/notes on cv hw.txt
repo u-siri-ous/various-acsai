@@ -1,0 +1,9 @@
+fill the square in dst_points with white (they are grey) done
+cv2.fillConvexPoly(bg, dst_float, (255,255,255))
+
+resize mandorlo to do bitwise and   doesnt work, it needs to be resized to mask dimension
+shape = bg.shape[:2]
+cv2.resize(slanted, shape)
+
+then do bitwise and between the bg and the slanted image
+cv2.bitwise_and(img, bg, mask=)
