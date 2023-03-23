@@ -40,7 +40,7 @@ def onClick(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         if len(dst_points) < 4:
             dst_points.append([x, y])
-            cv2.circle(bg_copy, (x,y), 10, (255,0,0), -1) # printing a filled circle where we clicked
+            cv2.circle(bg_copy, (x,y), 20, (0,0,255), -1) # printing a filled circle where we clicked
             cv2.imshow("coord", bg_copy)
 
 cv2.namedWindow("coord", cv2.WINDOW_KEEPRATIO)
@@ -60,11 +60,10 @@ out = cv2.warpPerspective(img, homography, dsize=shape)     #slanted image
 #resize image to dimensions of billboard screen
 mandorlo = cv2.resize(out, dsize=shape)
 
-masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create blaclk mask on billboard for bitwise xor, serve nera per qualche motivo
+masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create black mask on billboard for bitwise xor, serve nera per qualche motivo
 
 final = cv2.bitwise_xor(masked, mandorlo)
 
 cv2.namedWindow("final", cv2.WINDOW_KEEPRATIO)
-
 cv2.imshow("final", final)
 cv2.waitKey(0)
