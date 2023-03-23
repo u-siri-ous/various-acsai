@@ -1,0 +1,86 @@
+import cv2
+import numpy as np
+import os
+'''
+In this exercise, you will have to use both the homography matrix and some bitwise operators
+in order to place an image of your choice over a billboard image. The latter is provided by
+me, and you can find it in the same folder of this document.
+
+You have to perform two main steps:
+1 - Use the homography to match the image of your choice with the billboard (we have seen
+this in class);
+
+2 - Create a binary mask. In a binary mask, white pixels are the ones that we want in the final
+image, black pixels are the ones that we do not want in the final image (think about the
+example seen in class with white circle and t-rex);
+
+3 - Use the binary mask to place the image you choose on the billboard.
+
+Advice: you can use the function fillConvexPoly to create the white pixels in the mask.
+'''
+#the idea is to pinpoint the corners in which the image "mandorlo" should be in the billboard
+#i can open the billboard and save those points in a numpy array (taking the snippet did in class)
+
+#assert os.path.exists('Exercise_1/billboard.jpg')  #was given a check path integrity error
+img = cv2.imread('Exercise_1/mandorlo.jpg')
+bg = cv2.imread('Exercise_1/billboard.jpg')
+#img_copy = img.copy()
+#src_points = []
+
+""" def onClick(event, x, y, flags, param):
+    if event == cv2.EVENT_LBUTTONDOWN:
+        if len(src_points) < 4:
+            src_points.append([x, y])
+            cv2.circle(img_copy, (x,y), 20, (0,0,255), -1) # printing a filled
+            cv2.imshow('saving corners...', img_copy)
+            print(src_points)
+
+#example of source points (ccw): [[302, 455], [309, 2386], [2665, 2057], [2678, 742]]
+
+cv2.namedWindow('saving corners...', cv2.WINDOW_KEEPRATIO)
+cv2.setMouseCallback('saving corners...', onClick)
+
+cv2.imshow("saving corners...", img_copy)
+cv2.waitKey(0) """
+# mandorlo 479x600
+src_points = np.array([[0,0],
+                       [0,479],
+                       [600,479],
+                       [600,0]], 
+                       dtype=np.float32)
+
+#destination points
+""" dst_points = np.array([[302, 455], 
+                       [309, 2386], 
+                       [2665, 2057], 
+                       [2678, 742]],
+                       dtype=np.float32) """
+
+dst_points = []
+bg_copy = bg.copy()
+
+def onClick(event, x, y, flags, param):
+    if event == cv2.EVENT_LBUTTONDOWN:
+        if len(dst_points) < 4:
+            dst_points.append([x, y])
+            cv2.circle(bg_copy, (x,y), 10, (0,0,255), -1) # printing a filled circle where we clicked
+            cv2.imshow("coord", bg_copy)
+
+cv2.namedWindow("coord", cv2.WINDOW_FREERATIO)
+cv2.setMouseCallback("coord", onClick)   # handle mouse event
+
+cv2.imshow("coord", bg_copy)
+cv2.waitKey(0)
+
+# compute homography matrix
+dst_float = np.array(dst_points, dtype=np.float32)
+
+homography = cv2.getPerspectiveTransform(src_points, dst_float)
+out = cv2.warpPerspective(img, homography, dsize=(1000,1000))     #slanted image  
+
+""" final = cv2.bitwise_and(bg, out)
+
+cv2.imshow("final", out)
+cv2.waitKey(0) """
+
+print(out.shape, bg.shape)
