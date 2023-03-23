@@ -24,24 +24,7 @@ Advice: you can use the function fillConvexPoly to create the white pixels in th
 #assert os.path.exists('Exercise_1/billboard.jpg')  #was given a check path integrity error
 img = cv2.imread('Exercise_1/mandorlo.jpg')
 bg = cv2.imread('Exercise_1/billboard.jpg')
-#img_copy = img.copy()
-#src_points = []
 
-""" def onClick(event, x, y, flags, param):
-    if event == cv2.EVENT_LBUTTONDOWN:
-        if len(src_points) < 4:
-            src_points.append([x, y])
-            cv2.circle(img_copy, (x,y), 20, (0,0,255), -1) # printing a filled
-            cv2.imshow('saving corners...', img_copy)
-            print(src_points)
-
-#example of source points (ccw): [[302, 455], [309, 2386], [2665, 2057], [2678, 742]]
-
-cv2.namedWindow('saving corners...', cv2.WINDOW_KEEPRATIO)
-cv2.setMouseCallback('saving corners...', onClick)
-
-cv2.imshow("saving corners...", img_copy)
-cv2.waitKey(0) """
 # mandorlo 479x600
 src_points = np.array([[0,0],
                        [0,479],
@@ -57,7 +40,7 @@ def onClick(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         if len(dst_points) < 4:
             dst_points.append([x, y])
-            cv2.circle(bg_copy, (x,y), 10, (0,0,255), -1) # printing a filled circle where we clicked
+            cv2.circle(bg_copy, (x,y), 10, (255,0,0), -1) # printing a filled circle where we clicked
             cv2.imshow("coord", bg_copy)
 
 cv2.namedWindow("coord", cv2.WINDOW_KEEPRATIO)
@@ -75,9 +58,9 @@ homography = cv2.getPerspectiveTransform(src_points, dst_float)
 out = cv2.warpPerspective(img, homography, dsize=shape)     #slanted image 
 
 #resize image to dimensions of billboard screen
-mandorlo = cv2.resize(out, fx=0.5, fy=0.5, dsize=shape)
+mandorlo = cv2.resize(out, dsize=shape)
 
-masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create blaclk mask on billboard for bitwise op
+masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create blaclk mask on billboard for bitwise xor, serve nera per qualche motivo
 
 final = cv2.bitwise_xor(masked, mandorlo)
 

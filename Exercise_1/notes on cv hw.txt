@@ -5,5 +5,5 @@ resize mandorlo to do bitwise and   doesnt work, it needs to be resized to mask 
 shape = bg.shape[:2]
 cv2.resize(slanted, shape)
 
-then do bitwise and between the bg and the slanted image
+then do bitwise and between the bg and the slanted image    done
 cv2.bitwise_and(img, bg, mask=)
