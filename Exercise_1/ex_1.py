@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import os
+#import os
 '''
 In this exercise, you will have to use both the homography matrix and some bitwise operators
 in order to place an image of your choice over a billboard image. The latter is provided by
@@ -60,10 +60,13 @@ out = cv2.warpPerspective(img, homography, dsize=shape)     #slanted image
 #resize image to dimensions of billboard screen
 mandorlo = cv2.resize(out, dsize=shape)
 
-masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0))       #create black mask on billboard for bitwise xor, serve nera per qualche motivo
-
+#create black mask on billboard for bitwise xor
+masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0)) 
+      
 final = cv2.bitwise_xor(masked, mandorlo)
 
 cv2.namedWindow("final", cv2.WINDOW_KEEPRATIO)
+#cv2.namedWindow("masked", cv2.WINDOW_KEEPRATIO)
 cv2.imshow("final", final)
+#cv2.imshow("masked", masked)
 cv2.waitKey(0)
