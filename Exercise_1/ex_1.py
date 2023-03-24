@@ -33,8 +33,8 @@ src_points = np.array([[0,0],
                        dtype=np.float32)
 
 #destination points
-dst_points = []
 bg_copy = bg.copy()
+dst_points = []
 
 def onClick(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
@@ -47,7 +47,10 @@ cv2.namedWindow("coord", cv2.WINDOW_KEEPRATIO)
 cv2.setMouseCallback("coord", onClick)   # handle mouse event
 
 cv2.imshow("coord", bg_copy)
-cv2.waitKey(0)
+cv2.waitKey(0) 
+
+#destination points_array
+#dst_points = [[308, 451], [332, 2383], [2642, 2057], [2658, 755]]
 
 shape = (bg.shape[1], bg.shape[0])
 
