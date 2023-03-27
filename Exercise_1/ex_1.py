@@ -55,16 +55,14 @@ cv2.waitKey(0)
 shape = (bg.shape[1], bg.shape[0])
 
 # compute homography matrix
-dst_float = np.array(dst_points, dtype=np.float32)
-
-homography = cv2.getPerspectiveTransform(src_points, dst_float)
+homography = cv2.getPerspectiveTransform(src_points, np.float32([dst_points]))
 out = cv2.warpPerspective(img, homography, dsize=shape)     #slanted image 
 
 #resize image to dimensions of billboard screen
 mandorlo = cv2.resize(out, dsize=shape)
 
 #create black mask on billboard for bitwise xor
-masked = cv2.fillConvexPoly(bg, np.int32([dst_float]), (0,0,0)) 
+masked = cv2.fillConvexPoly(bg, np.int32([dst_points]), (0,0,0)) 
       
 final = cv2.bitwise_xor(masked, mandorlo)
 
