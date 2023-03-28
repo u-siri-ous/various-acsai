@@ -28,10 +28,10 @@ dst_points = []
 
 cv2.namedWindow("Base Img", cv2.WINDOW_KEEPRATIO)
 cv2.setMouseCallback("Base Img", OnClick)
-cv2.namedWindow("Img 2", cv2.WINDOW_KEEPRATIO)
+#cv2.namedWindow("Img 2", cv2.WINDOW_KEEPRATIO)
 
 cv2.imshow("Base Img", base_img)
-cv2.imshow("Img 2", img2)
+#cv2.imshow("Img 2", img2)
 cv2.waitKey(0)
 
 #computing the homography matrix
