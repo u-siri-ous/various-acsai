@@ -16,7 +16,7 @@ gray_img = cv2.cvtColor(resized,cv2.COLOR_BGR2GRAY)
 
 #extract corners and edges from images
 corners = cv2.cornerHarris(gray_img, 2, 11, 0.04)    #harris uses sobel (gradient) to find corners and edges
-#why odd value??
+#why odd value - we need center
 
 #thresholding the corners for getting the better ones
 resized[corners > 0.001 * corners.max()] = [0,255,0] #just to see them better
