@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+
+
 #scale invariant feature transform (SIFT)
 #the surf operator is better but has been removed from opencv-contrib-python, piammale
 
