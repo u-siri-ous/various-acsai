@@ -5,20 +5,82 @@ import numpy as np
 #database in Exercise_2/data
 
 #load images in a list
-images = []
-img1 = cv2.imread('Exercise_2/data/think.jpg')
-images.append(img1)
+image = []
+img = cv2.imread('Exercise_2/data/think.jpg')
+image.append(img)
 
-img2 = cv2.imread('Exercise_2/data/kafka_sulla_spiaggia.jpg')
-images.append(img2)
+img = cv2.imread('Exercise_2/data/kafka_sulla_spiaggia.jpg')
+image.append(img)
 
-img3 = cv2.imread('Exercise_2/data/postverita.jpg')
-images.append(img3)
+img = cv2.imread('Exercise_2/data/postverita.jpg')
+image.append(img)
 
 #define classes for loaded objects
 classes = ['think', 'kafka sulla spiaggia', 'postverita']
 
-#create the descriptor database via a function that takes the images as list and creates the descriptor list
+#create a descriptors database
+def descriptorDB(images):
+	descriptor_list = []
+	orb = cv2.ORB_create(nfeatures=1000)
+
+	# extract the features from each loaded image
+	for image in images:
+		#two variables for two arrays: keypoint array (x,y), descriptor array of the feature
+		kpt, des = orb.detectAndCompute(image,None)
+		descriptor_list.append(des)
+
+	return descriptor_list
+
+# do the match!
+def objClassification(frame, descriptor_list):
+	orb = cv2.ORB_create(nfeatures=1000)
+	ktp, des = orb.detectAndCompute(frame,None)
+
+	#create the instance of the matcher
+	matcher = cv2.BFMatcher()
+	best_matches = []
+
+	#perform the mactehs with the database
+	for descriptor in descriptor_list:
+		matches = matcher.knnMatch(des, descriptor, k=2)
+		good = []
+
+		for m,n in matches:
+			if m.distance < n.distance * 0.8:
+				good.append([m])
+
+		best_matches.append(len(good))
+
+	# classId
+	classId = -1
+
+	if len(best_matches) > 0:
+		max_val = max(best_matches)
+		if max_val > 10:
+			classId = best_matches.index(max_val)
+	return classId
+
+#let's see if it works
+descriptor_list = descriptorDB(image)
+webcam = cv2.VideoCapture(0)
+
+while True:
+
+	#read the frame from the webcam
+	success, frame = webcam.read()
+
+	#get the class id
+	obj_id = objClassification(frame, descriptor_list)
+
+	if obj_id != -1:
+		cv2.putText(frame,classes[obj_id],(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,0,255),3)
+
+	cv2.imshow("Frame", frame)
+	k = cv2.waitKey(30)
+	if k == ord("q"):
+		break
+
+""" #create the descriptor database via a function that takes the images as list and creates the descriptor list
 def descriptorDB(images):
     descriptor_list = []
     orb = cv2.ORB_create(nfeatures=1000)    #using orb as it's faster than akaze and sift
@@ -48,7 +110,7 @@ def objClass(frame, desc_list):
         good_match = []     #save good matches and perform ratio test (see panorama)
 
         for m,n in matches:
-            if m.distance < n.distance * 0.4:
+            if m.distance < n.distance * 0.8:
                 good_match.append([m])
 
         #creating a list that contains the number of matches, as i need the highest number of matches to classify the object
@@ -67,7 +129,7 @@ def objClass(frame, desc_list):
     return classId
 
 #try mamma mia
-descriptor_list = descriptorDB(images)
+descriptor_list = descriptorDB(image)
 webcam = cv2.VideoCapture(0)
 
 while True:
@@ -85,4 +147,4 @@ while True:
 
     k = cv2.waitKey(30)
     if k == ord("q"):  
-        break
+        break """
