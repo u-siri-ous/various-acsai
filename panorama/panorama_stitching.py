@@ -19,7 +19,7 @@ matches = matcher.knnMatch(des1, des2, k=2) #match the points through knn, k is 
 # ratio test: the prob that a match is correct is determined by computing the ratio of the distance from the closest neighborhood 
 #             with the distance of the second closest neighborhood
 good_matches = []
-for n,m in matches:
+for m,n in matches:
     if m.distance < 0.03*n.distance:
         good_matches.append(m)
 
@@ -37,7 +37,6 @@ if len(good_matches) >= 4:
     dst_img[0:img2.shape[0], 0:img2.shape[1]] = img2.copy()
 
     cv2.namedWindow("panorama", cv2.WINDOW_KEEPRATIO)
+    #black pixels happen because of homography (the size described is wrong)
     cv2.imshow("panorama", dst_img)
     cv2.waitKey(0)
-
-#non funziona mannaggina mannaggetta
