@@ -1,0 +1,22 @@
+everything ml, cv, nlp and dl relates is eligible for project (pitch in idea before, just in case)
+
+deadlines:
+- at least 1 week before exam call - project and report submission
+- no need to submit presentation
+- create repo/drive for videos/additional media and material
+- report can be created with whatever we want, but submission is encouraged in pdf format
+- submission is not by email, but via the posted google from
+
+a person will be nominated leader, they will have contact with the prof
+
+groups are decided by us, 2 to 4 people
+
+questions, if any, during the exam will concern the project
+
+all the group will have the same grade, and all the member of the group must take the exam together
+
+report: 5 to 7 pages
+- introduction (abstract)
+- metodology
+- experiments
+- conclusions

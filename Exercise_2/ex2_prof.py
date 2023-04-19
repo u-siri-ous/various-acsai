@@ -18,7 +18,7 @@ image.append(img)
 #define classes for loaded objects
 classes = ['think', 'kafka sulla spiaggia', 'postverita']
 
-#create a descriptors database
+'''#create a descriptors database
 def descriptorDB(images):
 	descriptor_list = []
 	orb = cv2.ORB_create(nfeatures=1000)
@@ -78,9 +78,9 @@ while True:
 	cv2.imshow("Frame", frame)
 	k = cv2.waitKey(30)
 	if k == ord("q"):
-		break
+		break'''
 
-""" #create the descriptor database via a function that takes the images as list and creates the descriptor list
+#create the descriptor database via a function that takes the images as list and creates the descriptor list
 def descriptorDB(images):
     descriptor_list = []
     orb = cv2.ORB_create(nfeatures=1000)    #using orb as it's faster than akaze and sift
@@ -106,7 +106,7 @@ def objClass(frame, desc_list):
 
     #compare and compute matches with data
     for desc in desc_list:
-        matches = matcher.knnMatch(des_currentframe, k=2)
+        matches = matcher.knnMatch(des_currentframe, desc, k=2)
         good_match = []     #save good matches and perform ratio test (see panorama)
 
         for m,n in matches:
@@ -141,10 +141,10 @@ while True:
 
     #print name of class of found object
     if objId != -1:
-        cv2.putText(frame, classes[objId], (50,50), cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,255), 3)
+        cv2.putText(frame, classes[objId], (50,50), cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,255), 3)
 
     cv2.imshow("matches??", frame)
 
     k = cv2.waitKey(30)
     if k == ord("q"):  
-        break """
+        break
