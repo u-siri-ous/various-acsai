@@ -58,10 +58,27 @@ By assigning a consistent orientation to each keypoint based on local image prop
 
 An orientation histogram is formed from the gradient orientations of sample points within a region around the keypoint, with 36 bins covering the 360 degree range of orientations
  
-Each sample added to the histogram is weighted by its gradient magnitude and by a Gaussian-weighted circular window with a σ that is 1.5 times that of the scale of the keypoint; the highest peak and any other peak above its 80% are used to create a keypoint in that orientation
+Each sample added to the histogram is weighted by its gradient magnitude and by a Gaussian-weighted circular window with a $\sigma$ that is 1.5 times that of the scale of the keypoint; the highest peak and any other peak above its 80% are used to create a keypoint in that orientation
 
 ### 4) Keypoint Descriptor Generation
 
-The descriptor is a vector achieved from the aforementioned histogram
+A 16x16 neighbourhood around the keypoint is taken:
+* It is divided into 16 sub-blocks of 4x4 size. For each sub-block, 8 bin orientation histogram is created
+* Each entry into a bin is multiplied by a weight of 1 − d for each dimension, where d is the distance of the sample from the central value of the bin as measured in units of the histogram bin spacing
+* A total of 128 bin values are available, it is represented as a vector to form keypoint descriptor
 
+<img src="https://user-images.githubusercontent.com/45935623/233605123-a36d02ac-4ff9-4f4b-af15-84238bf6ae80.png">
+> Computation of keypoint descriptor, using the histogram described in the previous paragraph
 
+The feature vector is then adapted to be invariant to **brightness and illumination changes**
+
+> For brightness, we use the fact that the gradient does *not* change if it's multiplied by a constant, namely, adding brightness to pixels
+
+> For contrast, we normalize the vector to unit length, the multiplicative constant of the gradient will be canceled by vector normalization
+
+### 5) Keypoint Matching
+
+This is done by identifying the nearest neighbor in the database of keypoints, using Euclidean distance or analysis on the second-nearest neighbor if the second-closest match is too near to the first
+
+In the latter case, ratio of closest-distance to second-closest distance is taken:
+* If it is greater than 0.8, they are rejected, eliminating around 90% of false matches while discards only 5% correct matches
