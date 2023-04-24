@@ -68,6 +68,7 @@ A 16x16 neighbourhood around the keypoint is taken:
 * A total of 128 bin values are available, it is represented as a vector to form keypoint descriptor
 
 <img src="https://user-images.githubusercontent.com/45935623/233605123-a36d02ac-4ff9-4f4b-af15-84238bf6ae80.png">
+
 > Computation of keypoint descriptor, using the histogram described in the previous paragraph
 
 The feature vector is then adapted to be invariant to **brightness and illumination changes**
@@ -82,3 +83,5 @@ This is done by identifying the nearest neighbor in the database of keypoints, u
 
 In the latter case, ratio of closest-distance to second-closest distance is taken:
 * If it is greater than 0.8, they are rejected, eliminating around 90% of false matches while discards only 5% correct matches
+
+To visualize the keypoints found by SIFT, execute the *sift_feature_extraction.py* snippet (under *opencv_files*)
