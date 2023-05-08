@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 
-iris = sns.load_dataset("iris") #loading the "iris" flower dataset
+iris = sns.load_dataset("iris") #loading the "iris" flower dataset, it is a table of unsplitted labels and data
 sns.set()
 
 #tables are set up with pandas
@@ -35,14 +35,14 @@ y_iris = iris["species"]
 #assuming the sample follows a gaussian distribution, it maximises the correct assignation of the class
 
 
-#split the dataset into training set(to train model) and test set(to check if it's trained well)
+#split the dataset into training set X(to train model) and test set y(to check if it's trained well)
 #takes as an input all the labels, shuffles the dataset and splits it
 Xtrain, Xtest, ytrain, ytest = train_test_split(X_iris, y_iris,train_size=0.7) 
 
-#instantiate the model
+#instantiate the model - Gaussian Naive Bayes
 model = GaussianNB()
 
-#train the model
+#train the model (X = data for training)
 model.fit(Xtrain,ytrain)
 
 #check if models are correctly classified: do the prediction 
