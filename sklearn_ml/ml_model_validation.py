@@ -2,6 +2,8 @@ from sklearn.datasets import load_iris
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import LeaveOneOut
 
 # load dataset
 iris = load_iris()
@@ -42,4 +44,10 @@ accuracy2 = accuracy_score(y1, y2_pred)     # è una merda, però vabbè (proble
 # step 5: decide how we wanna get accuracy (here, we use the mean)
 accuracy_mean = (accuracy1+accuracy2)/2
 
-print(accuracy_mean)
+# rapid way to compute a score by cross-validation, without doing the steps
+#accuracy_cv = cross_val_score(model, X, y, cv=10)   # returns a matrix with cv cross-validations
+
+accuracy_cv = cross_val_score(model, X, y, cv=LeaveOneOut())    # Provides train/test indices to split data in train/test sets
+                                                                # Each sample is used once as a test set (singleton) while the remaining samples form the training set
+
+print(accuracy_cv)
