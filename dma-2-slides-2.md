@@ -1,4 +1,4 @@
-## [The Entity Relationship Model (ER)](https://www.javatpoint.com/dbms-er-model-concept), we 
+## [The Entity Relationship Model (ER)](https://www.javatpoint.com/dbms-er-model-concept)
 
 This model is used to identify the data elements and a relationship for a specified system via an entity-relationship diagram:
 
@@ -37,6 +37,6 @@ The number of times an entity of an entity set participates in a relationship se
 
 Identifiers (or keys) consist of one or more attributes which identify uniquely instances of an entity
 
-- If formed by one or more attributes, er talk about **internal identifier**
+- If formed by one or more attributes, of the entity, we talk about **internal identifier**
 - If we go out of the scope of the entity, we talk about **external identifiers**
 
