@@ -40,3 +40,11 @@ Identifiers (or keys) consist of one or more attributes which identify uniquely 
 - If formed by one or more attributes, of the entity, we talk about **internal identifier**
 - If we go out of the scope of the entity, we talk about **external identifiers**
 
+### Generalizations
+
+These are logical links between a *parent* entity, which is more general, and a *child* entity, with the following properties:
+
+- Every instance of a child entity is also an instance of the parent entity, and has at most **one** parent
+- Every property of the parent entity (attribute, identifier, relationship or other generalization) is also a property of a child entity &rarr; *inheritance*
+- A generalization is *total* if every instance of the parent entity is also an instance of one of its children, otherwise it is *partial*
+- A generalization is *exclusive* if every instance of the parent entity is **at most** an instance of one of the children, otherwise it is *overlapping*
