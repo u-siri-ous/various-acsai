@@ -1,0 +1,5 @@
+dpll build interpretation for new partial assignments
+
+exercise solution (DPLL):
+
+this is satisfiable
