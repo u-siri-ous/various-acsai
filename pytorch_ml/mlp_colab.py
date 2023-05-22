@@ -57,14 +57,14 @@ class OurMLP(nn.Module):
         super().__init__()
         # method 1 - using Sequential
         self.mlp = nn.Sequential(
-            nn.Linear(28*28, 20),  # input layer, we can specify input and output size
+            nn.Linear(28*28, 50),  # input layer, we can specify input and output size
+            nn.Sigmoid(),          # we can specify different activation function in between different hidden layers
+            nn.Linear(50, 50),     # pay attention, as output of previous hidden layers should match the input of the next one
             nn.Sigmoid(),
-            nn.Linear(20, 50),     # pay attention, as output of previous hidden layers should match the input of the next one
-            nn.Sigmoid(),
-            nn.Linear(50, 10)        # the last output should match the number of classes of the model
+            nn.Linear(50, 10)      # the last output should match the number of classes of the model
         )
         self.flatten = nn.Flatten()     # convert to single array data
-    # specify how data passes through model
+    # specify how data passes through model, and how data are connected from input to output
     def forward(self, x):
         x = self.flatten(x)           # flatten the tensor
         logits = self.mlp(x)          # pass the tensor through the neural network
@@ -83,10 +83,10 @@ print(f'predicted class: {y}') """
 
 ####### train the model yayyyyyy #######
 
-# define hyperparameters (the model cannot learn them) - the holy three
-epochs = 3                                             # how many times should our model analyze the dataset
+# define hyperparameters (the model cannot learn them) - the holy three - play with these
+epochs = 6                                             # how many times should our model analyze the dataset
 batch_size = 64                                        # number of samples that we get from the dataset each time (lower if crash)
-learning_rate = 0.001                                  # amount of change allowed on weights in backpropagation (changeable in various epochs in certain techniques)
+learning_rate = 0.0001                                 # amount of change allowed on weights in backpropagation (changeable in various epochs in certain techniques)
 
 # we have to define the training loop (automatically done in sklearn)
 # we aim for variability in each epoch, so choosing to increment epochs vs batch_size depends on the dataset
@@ -97,4 +97,32 @@ loss_fn = nn.CrossEntropyLoss()     # uses negative log likelihood
 # define the optimizer - the mathematical approach used to compute the gradient
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)   # stochastic gradient descent, model.parameters() are the weights
 
-# train the model....?
+# train the model....? define the training loop
+def train_loop(dataloader, model, loss_fn, optimizer):    #get samples from dataset, model, loss fn, optimizer
+    # get batch from dataset (X=data, y=label)
+    for batch, (X,y), in enumerate(dataloader):
+        # move data on GPU (tensor device inconsistency)
+        X_gpu = X.to(device)
+        size = len(dataloader)      # sample in datasets
+        # compute prediction and loss
+        pred = model(X_gpu)
+        y_tensor = torch.tensor([y])       # AS LIST SENNO SCOPPIA
+        y_tensor_gpu = y_tensor.to(device)
+        loss = loss_fn(pred, y_tensor_gpu)     # difference between true and predicted
+
+        # backward pass (backpropagation)
+        loss.backward()             # backpropagate error
+        optimizer.step()            # compute derivation
+        optimizer.zero_grad()       # clean gradient
+
+        # print loss during training (verbose)
+        if batch % 500 == 0:        # every 500 iterations
+            loss, current = loss.item(), (batch+1)*len(X)       # loss number
+            print(f'loss: {loss} [{current}/{size}]')
+
+# daje forte co sto training
+for t in range(epochs):
+    print(f'epoch: {t}')
+    train_loop(training_data, model, loss_fn, optimizer)
+
+print('daje lupetti')
