@@ -1,20 +1,10 @@
+from typing import Any
 import torch
 from torch import nn
 from torch.utils.data import Dataset
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 import matplotlib.pyplot as plt
-
-# print(torch.cuda.is_available()) # cannot use GPU acceleration, daje
-
-# create a tensor from a list
-data = [
-    [1,2],
-    [3,4]
-]
-
-pyt_data = torch.tensor(data) #or
-#pyt_data = torch.from_numpy(data)
 
 # import train and testing data
 training_data = datasets.FashionMNIST(root='data', train=True, download=True, transform=ToTensor()) 
@@ -34,54 +24,35 @@ labels_map = {
     9: 'ankle boot'
 }
 
-""" # visualize the model
-figure = plt.figure(figsize=(8, 8))
-cols, rows = 3, 3
-for i in range(1, cols*rows + 1):
-    sample_idx = torch.randint(len(training_data), size=(1,)).item()
-    img, label = training_data[sample_idx]
-    figure.add_subplot(rows, cols, i)   # filling cells of the matrix
-    plt.title(labels_map[label])    # putting its label as title
-    plt.axis('off')
-    plt.imshow(img.squeeze(), cmap='gray')      # squeeze() deletes cardinality 1 dimensions 
-
-plt.show()
- """
-
 # create the model / neural network
 device = ('cuda' if torch.cuda.is_available() else 'cpu')
 
-# create a model class, which inherits from nn
-class OurMLP(nn.Module):
+# define our CNN
+class OurCNN(nn.Module):
     def __init__(self):
         super().__init__()
-        # method 1 - using Sequential
-        self.mlp = nn.Sequential(
-            nn.Linear(28*28, 50),  # input layer, we can specify input and output size
-            nn.Sigmoid(),          # we can specify different activation function in between different hidden layers
-            nn.Linear(50, 50),     # pay attention, as output of previous hidden layers should match the input of the next one
-            nn.Sigmoid(),
-            nn.Linear(50, 10)      # the last output should match the number of classes of the model
+        self.cnn = nn.Sequential(
+            # convolutional layer
+            nn.Conv2d(1, 5, kernel_size=3),  # input channels == number of channels of input image, we do not care about the size of the image
+            nn.ReLU(),
+            nn.Conv2d(5, 10, kernel_size=3), # MLP technique: input == output
+            nn.ReLU(),
         )
-        self.flatten = nn.Flatten()     # convert to single array data
-    # specify how data passes through model, and how data are connected from input to output
+        self.mlp = nn.Sequential(
+            # multilayer perceptron layer for classification
+            # nn.Flatten(),    # can be done here on in forward(self, x)
+            nn.Linear(24*24, 10),   # use pytorch to get correct value CLIFFHANGER
+            nn.ReLU(),
+            nn.Linear(10, 10)
+        )
+
     def forward(self, x):
-        x = self.flatten(x)           # flatten the tensor
-        logits = self.mlp(x)          # pass the tensor through the neural network
-        return logits
-
-# model initialization
-model = OurMLP().to(device)   # instance the model and move it to the device
-
-""" # maronn - ci proviamo
-X = torch.rand(1,28,28)     # creating a single 28x28 grayscale image
-predictions = model(X)
-probability = nn.Softmax(dim=1)(predictions)    # normalize to 0-1 probability
-y = probability.argmax(1)       # take most likely label
-
-print(f'predicted class: {y}') """
-
-####### train the model yayyyyyy #######
+        x = self.cnn(x)
+        x = torch.flatten(x, 1)     # with dimension 1 (array)
+        x = self.mlp(x)
+        return x
+    
+model = OurCNN().to(device)
 
 # define hyperparameters (the model cannot learn them) - the holy three - play with these
 epochs = 3                                             # how many times should our model analyze the dataset
@@ -117,9 +88,28 @@ def train_loop(dataloader, model, loss_fn, optimizer):    #get samples from data
             loss, current = loss.item(), (batch+1)*len(X)       # loss number
             print(f'loss: {loss} [{current}/{size}]')
 
-# daje forte co sto training
+# test the model
+def test_loop(dataloader, model, loss_fn):      # no optimizer cuz we don't need gradient to compute weights
+    size = len(dataloader)
+    num_batches = len(dataloader)   
+    test_loss, correct = 0, 0
+    # disable weight update - assuming optimal weights for testing (freezing)
+    with torch.no_grad():
+        for X, y in dataloader:
+            pred = model(X)
+            y_tensor = torch.tensor([y])
+            test_loss += loss_fn(pred, y_tensor).item()    # compute loss and add it to total loss
+            correct += (pred.argmax(1)).type(torch.float).sum().item()  # get all maximum values for the whole batch, then sum them and get the number
+            
+            # print accuracy and avg. loss, as we have accuracy only for the current batch
+            test_loss = test_loss/num_batches
+            correct = correct/size
+            print(f'accuracy (*100) = {correct*100}, avg. loss = {test_loss}')
+
+# daje forte co sto training e sto testing
 for t in range(epochs):
     print(f'epoch: {t}')
     train_loop(training_data, model, loss_fn, optimizer)
+    test_loop(test_data, model, loss_fn)
 
 print('daje lupetti')
