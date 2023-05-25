@@ -1,13 +1,13 @@
-## [The Entity Relationship Model (ER)](https://www.javatpoint.com/dbms-er-model-concept)
+### [The Entity Relationship Model (ER)](https://www.javatpoint.com/dbms-er-model-concept)
 
 This model is used to identify the data elements and a relationship for a specified system via an entity-relationship diagram:
 
 ### Entity type and set
 
-- **Entities** &rarr; An entity is a "thing", and object, person or place
+**Entities** $\rightarrow$ An entity is a "thing", and object, person or place
   - Strong entities have key values and does not depend on other entitites and are uniquely identified
   - Weak entities are the ones that can have an undefined key attribute and are identified by strong entities
-- **Attributes** &rarr; Attributes are properties that define the entity type (e.g. for the entity dog, the attribute breed)
+**Attributes** $\rightarrow$ Attributes are properties that define the entity type (e.g. for the entity dog, the attribute breed)
   - The key attribute uniquely identies each entity in the entity set
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/20230428115454/Introduction-to-ER-Model-2.webp)
@@ -29,9 +29,9 @@ The number of times an entity of an entity set participates in a relationship se
 
 ### Participation constraint
 
-- **Total Participation** &rarr; Each entity in the entity set must participate in the relationship. Total participation is shown by a double line in the ER diagram
+- **Total Participation** $\rightarrow$ Each entity in the entity set must participate in the relationship. Total participation is shown by a double line in the ER diagram
 
-- **Partial Participation** &rarr; The entity in the entity set may or may NOT participate in the relationship 
+- **Partial Participation** $\rightarrow$ The entity in the entity set may or may NOT participate in the relationship 
 
 ### Identifiers 
 
@@ -45,6 +45,6 @@ Identifiers (or keys) consist of one or more attributes which identify uniquely 
 These are logical links between a *parent* entity, which is more general, and a *child* entity, with the following properties:
 
 - Every instance of a child entity is also an instance of the parent entity, and has at most **one** parent
-- Every property of the parent entity (attribute, identifier, relationship or other generalization) is also a property of a child entity &rarr; *inheritance*
+- Every property of the parent entity (attribute, identifier, relationship or other generalization) is also a property of a child entity $\rightarrow$ *inheritance*
 - A generalization is *total* if every instance of the parent entity is also an instance of one of its children, otherwise it is *partial*
 - A generalization is *exclusive* if every instance of the parent entity is **at most** an instance of one of the children, otherwise it is *overlapping*
