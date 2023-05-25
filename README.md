@@ -1,5 +1,4 @@
-# various-acsai
-tuttecose
+## LEGGIMI
 
 sto migrando tutti gli appunti da docx a md (mi sono svegliata presto) così si possono aprire col sito di github o con vscode
 
