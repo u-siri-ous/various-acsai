@@ -11,8 +11,13 @@
             "id": "0a5f6b4ed934b1ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ai/01 agents.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -82,13 +87,13 @@
               "type": "backlink",
               "state": {
                 "file": "ai/01 agents.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -125,12 +130,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cea989a59377422a",
+  "active": "dc92d57abaed9f52",
   "lastOpenFiles": [
     "ml/pictures",
     "ml/New folder",
