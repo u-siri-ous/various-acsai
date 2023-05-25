@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "33c0d31e10fa2379",
+    "id": "7e29a00d0d1724c8",
     "type": "split",
     "children": [
       {
-        "id": "05f597de54774627",
+        "id": "2e2fd282a49a2421",
         "type": "tabs",
         "children": [
           {
-            "id": "0a5f6b4ed934b1ea",
+            "id": "a58e1b4d9c37f3de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/01 agents.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "225a3f8469399497",
+    "id": "0c12b54b4c58eba7",
     "type": "split",
     "children": [
       {
-        "id": "3c1efdfc801a6a8c",
+        "id": "1cce8430d41456a1",
         "type": "tabs",
         "children": [
           {
-            "id": "cea989a59377422a",
+            "id": "0ab4d4fb364bd3c6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +39,7 @@
             }
           },
           {
-            "id": "3d0202035d2beccd",
+            "id": "b212df67f65eb8a6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +54,7 @@
             }
           },
           {
-            "id": "bdc3af306c3f5ed9",
+            "id": "185b09248a199ee3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,32 +68,32 @@
     "width": 300
   },
   "right": {
-    "id": "82f49b1f6039516e",
+    "id": "22b7596d1a6f56c6",
     "type": "split",
     "children": [
       {
-        "id": "fbfbea479e34f36d",
+        "id": "c1da1520cfdaa67a",
         "type": "tabs",
         "children": [
           {
-            "id": "7dd9ce9a3d6d8b1a",
+            "id": "ab2a5ba7a7be0400",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "ai/01 agents.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c765895e366920e1",
+            "id": "7777ecad6fe5a232",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +105,7 @@
             }
           },
           {
-            "id": "757be2ca61c1ae5d",
+            "id": "5b575ea2c699a4db",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +116,7 @@
             }
           },
           {
-            "id": "dc92d57abaed9f52",
+            "id": "897b7613572726f8",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -130,12 +125,12 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,16 +142,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc92d57abaed9f52",
+  "active": "0ab4d4fb364bd3c6",
   "lastOpenFiles": [
-    "ml/pictures",
-    "ml/New folder",
+    "ai/02 agents.md",
+    "ai/03 search problems - blind search.md",
+    "ai/01 agents.md",
+    "ml/docxs/ML - intro and learning paradigms.docx",
     "ml/docxs/ML - linear algebra for ML.docx",
     "ml/docxs/ML - K-means, K-means++.docx",
-    "ml/docxs/ML - intro and learning paradigms.docx",
     "ml/docxs/ML - Gaussian PDF & MLE.docx",
     "ml/docxs/ML - eigendecomposition PCA SVD.docx",
     "ml/docxs/ML - 3DMM & dimensionality.docx",
-    "ml/docxs"
+    "ml/docxs",
+    "ml",
+    "pictures/3.png",
+    "pictures/3 1.png",
+    "pictures/2.png",
+    "pictures/2 4.png",
+    "pictures/2 3.png",
+    "pictures/2 2.png",
+    "pictures/2 1.png",
+    "pictures/1.png",
+    "pictures/1 5.png",
+    "pictures/1 4.png",
+    "pictures",
+    "ai/notes 19 05.txt",
+    "ai/10 propositional logic 2.md",
+    "ai/09 propositional logic.md",
+    "ai/07 CSP - backtracking.md",
+    "ai/06 CSP - consistency.md",
+    "ai/05 CSP - definitions and modelling.md",
+    "ai/04 search problems - informed search and heuristics.md",
+    "README.md",
+    "The ER model, part 2.md",
+    "The ER model, part 1.md",
+    "Il panico.md"
   ]
 }

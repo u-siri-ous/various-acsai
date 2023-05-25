@@ -24,7 +24,7 @@ These two allow the definition of the **Model-based Agent** to exist
 
 ## Goal-based Agent (GBA)
 
-![](pictures/3.png))
+![](3.png))
 
 The notion of GBA comes from the fact that *it’s often NOT enough to rely on the current state,* therefore introducing the notion of **goal**
 
