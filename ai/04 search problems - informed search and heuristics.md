@@ -1,6 +1,6 @@
-﻿# AI – Heuristic and informed search – 04
+# AI – Heuristic and informed search – 04
 
-## Heuristic &rarr; h(n)
+## Heuristic $\rightarrow$ h(n)
 
 A heuristic is a function h(n) is a guess to produce a feasible solution in a reasonable time span
 
@@ -35,7 +35,7 @@ It can lead to dead ends and/or be suboptimal, and will need backtracking if we 
 
 -----
 
-## A\* algorithm &rarr; Optimal for positive costs
+## A\* algorithm $\rightarrow$ Optimal for positive costs
 
 A\* algo comes from the fact that heuristic is often misleading, and operates by having the **evaluation function** (aka fitness number) to minimize:
 
@@ -60,8 +60,7 @@ h(n) **never** overestimates the cost of reaching the goal, so it’s not higher
 ### Consistency
 
 h(n) is **always** less than or equal to the estimated distance from any neighbour vertex to the goal, plus the cost to reach that neighbour
-
-![](1.png)
+![](1%203.png)
 
 **A consistent heuristic is always admissible, while the converse is not true**
 
@@ -73,11 +72,11 @@ c(N,P) is aka c(n, a, n’), AX is Axiom, H is hypothesis, P is proposition, TH 
 
 Proof : **Consistency** ⇒ **Admissibility**
 
-H1:	c(n,a,n’) > 0 &rarr; All costs are non-negative
+H1:	c(n,a,n’) > 0 $\rightarrow$ All costs are non-negative
 
-H2:	h(n) <= c(n,a,n’) + h(n’) &rarr; Triangle inequality
+H2:	h(n) <= c(n,a,n’) + h(n’) $\rightarrow$ Triangle inequality
 
-**TH:	h(n) <= h\*(n) &rarr; Never overestimate (admissible)**
+**TH:	h(n) <= h\*(n) $\rightarrow$; Never overestimate (admissible)**
 
 - Where h\*(n) is the optimal heuristic, the exact cost to get to the goal through the optimal path
 
@@ -87,13 +86,13 @@ Let W\*(n) be the optimal path from n to n\_goal (goal state); trivially,
 
 ### Base for induction:
 
-**h(n0) = h(n\_goal) = 0** &rarr; as I’m already there, qed for the base case
+**h(n0) = h(n\_goal) = 0** $\rightarrow$as I’m already there, qed for the base case
 
 Taking the definition of h\*(n): 
 
 - **h\*(n1) = c(n1,a1,n0) + h\*(n0) = c(n1,a1,n0)** and, trivially:
 
-- **h(n1) <= c(n1,a1,n0) +h(n0) <= c(n1,a1,n0)** &rarr; as h\*(n0) = h(n0) = 0; 
+- **h(n1) <= c(n1,a1,n0) +h(n0) <= c(n1,a1,n0)** $\rightarrow$ as h\*(n0) = h(n0) = 0; 
 
 - **h\*(n2) = c(n2,a2,n1) +h\*(n1)** and, trivially:
 
@@ -118,11 +117,11 @@ AX1:	g(n’) = c(n,a,n’) + g(n)		Path cost increases
 
 AX2:	f(n) = g(n) + h(n)			
 
-**L1: 	f(n’) >= f(n) &rarr; for successor n’, provided consistency**
+**L1: 	f(n’) >= f(n) $\rightarrow$ for successor n’, provided consistency**
 
 AX2 → P1: 	
 - f(n’) = g(n’) + h(n’)
-= c(n,a,n’) + g(n) + h(n’) &rarr; substituted using AX1
+= c(n,a,n’) + g(n) + h(n’) $\rightarrow$ substituted using AX1
 
 H2 (previous proof) → P2:	
 
@@ -130,7 +129,7 @@ H2 (previous proof) → P2:
 
 P1∧P2 → P3:	
 
-- f(n’) >= g(n) + h(n)	&rarr; substituted h(n’), some terms cancel out
+- f(n’) >= g(n) + h(n)	$\rightarrow$ substituted h(n’), some terms cancel out
 
 Using AX2:		
 

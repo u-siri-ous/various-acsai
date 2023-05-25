@@ -1,4 +1,4 @@
-﻿# Logic-based agents/Introduction to propositional logic**
+# Logic-based agents/Introduction to propositional logic**
 
 ## Knowledge-based Agents
 
@@ -9,8 +9,8 @@ A KB is a set of **sentences**, each expressed in a **knowledge representation l
 Each time the agent is called, it performs three steps:
 
 1. **TELL** the KB what it perceives
-1. **ASK** the KB what action should be performed
-1. **TELL** the KB what action was chosen and executes it
+2. **ASK** the KB what action should be performed
+3. **TELL** the KB what action was chosen and executes it
 
 -------------------
 
@@ -19,7 +19,7 @@ Each time the agent is called, it performs three steps:
 A logic consists of:
 
 1. Syntax
-1. Semantics
-1. Deductive system
+2. Semantics
+3. Deductive system
 
 Propositional logic (PL) deals with **propositions** (aka sentences or statements)

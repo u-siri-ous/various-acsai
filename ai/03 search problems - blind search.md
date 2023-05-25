@@ -1,4 +1,4 @@
-﻿# AIML 1 - Search problems and uninformed search algos
+# AIML 1 - Search problems and uninformed search algos
 
 ## The problem solving process 
 
@@ -11,24 +11,24 @@ We will assume a fully observable, deterministic, known environment and an *open
 
 Some definitions:
 
-- **State space S** &rarr; set of every state possible (S)
-- **Initial state** &rarr; the starting state
-- **Goal states** &rarr; could be multiple, aim of search, subset of S
+- **State space S** $\rightarrow$ set of every state possible (S)
+- **Initial state** $\rightarrow$ the starting state
+- **Goal states** $\rightarrow$ could be multiple, aim of search, subset of S
     - F : S → B 	B is a Boolean (is goal or no)
 
-- **Actions A**	&rarr; applicable actions to elements of S
+- **Actions A**	$\rightarrow$ applicable actions to elements of S
 
     - F : S → 2ᴬ	2ᴬ is a power set (the set of all possible subsets of S)
 
     - F(s) returns the set of actions that can be executed in *s*
 
-- **Transition model** &rarr; description of what each action does
+- **Transition model** $\rightarrow$ description of what each action does
 
     - F : S X A ↛  S    F(s,a) returns the state that results from doing an action *a* in a state *s*
 
-- **Action-cost fct** &rarr; evaluates model performance (assuming cost > 0)
-- **Path** &rarr; sequence of actions
-- **Solution** &rarr; a path from the initial state to one of the goal states
+- **Action-cost fct** $\rightarrow$ evaluates model performance (assuming cost > 0)
+- **Path** $\rightarrow$ sequence of actions
+- **Solution** $\rightarrow$ a path from the initial state to one of the goal states
 - **Performance measure (seen in Agents)**
 
 ------------------
@@ -54,8 +54,8 @@ The basic **differences** are:
 It’s easier to look for **cycles** than to remember where exactly we have been (a path instead of all of them)
 
 ### Blind search (uninformed search)
-
-![](1.png)The uninformed search algorithm does not have any domain knowledge such as closeness, location of the goal state, behaving in a brute-force way, opposed to **heuristics in informed search**
+![](1%202.png)
+The uninformed search algorithm does not have any domain knowledge such as closeness, location of the goal state, behaving in a brute-force way, opposed to **heuristics in informed search**
 
 -----------------
 
@@ -103,8 +103,6 @@ Bidirectional search, unlike DFS and BFS, runs:
 Replacing each search graph with two smaller subgraphs, and terminates when they **intersect**
 
 It is complete if BFS is used for both subgraphs
-
-![](2.png)
-
+![](2%202.png)
 The branching factor is the **out-degree**, the number of children at each node
 

@@ -1,6 +1,5 @@
-﻿# AI – CSP and backtracking
-
-![image](1.png)
+# AI – CSP and backtracking
+![image](1%205.png)))
 
 Sometimes constraint propagation is not enough and we have to actively search for a solution to the CSP
 
@@ -33,8 +32,7 @@ Backtracking simply *goes back* to the previous variable and tries a different v
 
 However, this is inconclusive in some cases, like the one below:
 
-
-![image](2.png)
+![image](2%204.png)))
 
 Restarting from T doesn’t make any sense, and we don’t have any legal value left for SA
 

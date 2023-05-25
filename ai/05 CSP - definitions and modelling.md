@@ -1,8 +1,7 @@
-﻿# AI – CSP, definitions and modelling
+# AI – CSP, definitions and modelling
 
 CSP algos take advantage of the structure of states, with the aim of identifying the value/variable combinations that **violate** the constraints
-
-![](1.png)
+![](1%204.png)))
 
 We can therefore define:
 
@@ -55,8 +54,7 @@ Given:
   - C = {SA≠WA, SA ≠NT, SA ≠Q, SA ≠NSW, SA ≠V, WA ≠NT, NT ≠Q, Q ≠NSW, NSW ≠V}
 
 Find a solution for the CSP
-
-![](2.png)
+![](2%203.png)))
 
 We should use a **constraint graph** to solve the problem
 
@@ -71,6 +69,5 @@ Constraints can be:
 - **Binary →** two variables involved
 - **Ternary →** three variables involved
 - **Global →** arbitrary arity 
-
-![](3.png)**
+![](3%201.png)))**
 
