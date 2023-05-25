@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d46004dc680e9bb9",
+        "id": "05f597de54774627",
         "type": "tabs",
         "children": [
           {
-            "id": "88ec597dda5feb9b",
+            "id": "0a5f6b4ed934b1ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/01 agents.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -146,7 +142,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88ec597dda5feb9b",
+  "active": "cea989a59377422a",
   "lastOpenFiles": [
     "ml/pictures",
     "ml/New folder",
