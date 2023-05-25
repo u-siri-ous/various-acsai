@@ -1,0 +1,22 @@
+listdir
+
+os.path.isdir
+
+os.path.isfile
+
+os.path.getsize
+
+os.path.splitext('/path/to/somefile.ext')
+
+os.path.basename(directory)
+
+os.path.join(path,element_name)
+
+With open(file_name) as f:
+	file = json.load(f)
+
+With open(file_name, 'w') as f:
+	 json.dump(name_variable,f)
+
+
+

@@ -1,0 +1,5 @@
+see the stress of the words
+
+Representing matrices in python
+
+Using a bidimensional int list (array of arrays in c++)

@@ -1,0 +1,38 @@
+﻿The program for the 6th homework works like this:
+
+FUNCTION Buildings:
+
+This function creates the blueprint for a "correct" list for all the    values from a txt file, in this order:
+
+1. width 
+2. height
+3. intensity of R color channel 
+4. intensity of G color channel
+5. intensity of B color channel
+The last three stored in a tuple.
+This function is essential for the followings, which exploit this data order
+
+FUNCTION MinWidth:
+This function finds the minimum width for the photo in which the building are drawn, using the widths of the buildings and the spacing
+
+FUNCTION MakeMapRow:
+This functions finds all the starting points for every shape in the picture, along with the specific spacing needed between the various buildings
+Here, the "single building" case is accounted for, computing different starting coordinates for it
+
+FUNCTION ReadFile:
+This function takes the data file, opens it and calls the first function to return the correct version
+FUNCTION MakeMapMatrix:
+This function finds the middle of each row to align every building
+This is done by finding the tallest building first in order to take its halved height as a row center
+
+FUNCTION DrawRect:
+This function, taking the image and shape details, draws said shapes pixel by pixel
+
+FUNCTION MakeMapImage:
+This function creates the background after minimal dimensions are found
+It then calls DrawRect to draw every shape and returns the edited image
+
+FUNCTION ex:
+Given that fact that we have so many functions, the ex is pretty simple
+Dimensions of the image and starting points of the shapes are found, the image is then drawn and saved
+Finally, dimensions are returned

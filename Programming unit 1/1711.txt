@@ -1,0 +1,65 @@
+def is_a_matrix(mat):
+    if mat:
+        return all(len(a)==len(mat[0]) for a in mat) and len(mat[0])==len(mat)
+    else:
+        return False
+
+def check_dimension(mat1 ,mat2):
+    if is_a_matrix(mat1) and is_a_matrix(mat2):
+        if len(mat1[0])==len(mat2[0]):
+            return True
+    else:
+        return False
+
+def summat(mat1,mat2):
+    if check_dimension(mat1,mat2):
+        return [[a+b for (a,b) in zip(mat1[i],mat2[i])] for i in range(len(mat1))]
+just sum:
+def summat(mat1,mat2):
+    if check_dimension(mat1,mat2):
+        return [[a+b for (a,b) in zip(mat1[i],mat2[i])] for i in range(len(mat1))]
+else:
+        return "invalid"
+
+def sum_line(A,B,i):
+    ln=[]
+    for line in range(len(A[0])):
+        s=0
+        for col in range(len(B)):
+            s+=A[i][col]*B[col][line]
+        ln.append(s)
+    return ln
+
+def prod_matrices(A,B):
+    if check(A) and check(B) and len(A[0])==len(B):
+        C=[]
+        for i in range(len(A)):
+            C.append(sum_line(A, B,i))
+        return C
+    return False
+
+def product(mat1,mat2):
+    return [[sum(a*b for a,b in zip(mat1[i], (mat2[k][j] for k in range(len(mat2))) )  ) for j in range(len(mat1[0]))]  for i in range(len(mat2))] if check_dimension(mat1,mat2) else "invalid"
+
+from is_it_a_matrix import is_it_a_matrix
+
+def product(A, B, i, j):
+    s = 0
+    for k in range(len(A[i])):
+        s += A[i][k] * B[k][j]
+    return s
+
+def prod_matrices(A, B):
+    if not (is_it_a_matrix(A) and is_it_a_matrix(B) and \
+        len(A[0]) == len(B)):
+        return None
+    P = [[0]*len(B[0]) for _ in range(len(A))]
+    for i in range(len(A)):
+        for j in range(len(B[0])):
+            P[i][j] = product(A,B,i,j)
+    return P
+
+
+
+
+

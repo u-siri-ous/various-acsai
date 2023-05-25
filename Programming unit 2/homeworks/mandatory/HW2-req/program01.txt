@@ -1,0 +1,10 @@
+The program based on "who screams louder" works in this way:
+
+1) It starts by removing spaces and tabs on a copy of the sequences
+2) It substitutes every player character with equivalent UNICODE values
+3) Then it makes all players challenge once:
+	In the match, difference between values is calculated
+	Points are assigned according to the rules
+	In case of a tie, the challengers' values sum is computed (if not done already) and compared 
+	In case of a further tie, it follows the lexicographic order rules
+4) It returns the ranking of players at the end

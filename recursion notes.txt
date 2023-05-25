@@ -1,0 +1,663 @@
+---Definition---
+
+recursion, divide et impera:
+1) define simple possible input and stopping condition
+2) visualize various examples
+3) find correspondance between simple and harder cases
+4) generalize the pattern
+5) combine the things and write code
+
+for example, in a queue like system:
+
+def getpos(person : list) -> int:
+	if person.next == None:
+		return 1
+	return 1 + getpos(person[1:])
+
+so you can know which number you are based on the number of the people in front of you
+
+recursion is basically a method that calls itself, based on one or multiple base cases, 
+which stop the recurring step to avoid stack overflow. This occurs if the maximum depth
+of recursion is met, and stack runs out.
+
+recursive programs are usually shorter and more elegant, but they take a hot minute to
+get down. 
+
+---Call Stack---
+
+basically, when each function is called, it enters a list of calls "call stack", ordered 
+by call
+
+---Recurring with strings---
+
+1) a program to recursively reverse a given list
+
+def reversestring(string : str) -> str:
+	#what is the base case?	1) one letter and the empty string (they remain the same when reversed)
+	if string == "":
+		return ""
+	#what is the smallest step I can make? shrink the problem space, and add the first character after
+	return reversestring(string[1:]) + string[0]
+
+#example string = 'hello'
+
+order of calls:
+	reversestring("ello") + "h"	output = "olleh"
+	reversestring("llo") + "e"
+	reversestring("lo") + "l"
+	reversestring("o") + "l"
+	reversestring("") + "o"
+
+2) finding palindrome strings
+
+we basically have to see if start and end are equal, recursively
+
+def palindrome(string):
+	if len(string) == 0 or len(string) == 1: #single character and space are palindrome
+		return True
+	if string[0] == string[-1]:
+		return palindrome(string[1:-1]) #shrink the string to examine
+
+#example string = 'anna'
+
+order of calls:
+	palindrome('anna')	output = True, returns None if the word is not a palindrome
+	palindrome('nn')
+	palindrome('')
+	
+---Recurring with numbers---
+
+1) dec to bin converter, which, as we know, is a recursive operation since we have to 
+   apply the same operation over and over until we get to 0
+
+def dec2bin(n):
+    if n < 0:
+        return 'Must be a positive integer'
+    elif n == 0:
+        return '0'
+    else:
+        return dec2bin(n//2) + str(n%2) #analyzing halved number and adding the remainder as a string
+
+#example n = 2
+
+order of calls:
+	dec2bin(2) -> dec2bin(2//2) + '0'	output = '010'
+	dec2bin(1) -> dec2bin(1//2) + '1'
+	dec2bin(0) -> '0' #in second if
+
+2) sum of numbers
+
+def sumnum(number):
+	if number <= 1:
+		return number
+	return number + sumnum(number - 1)
+
+#example number = 3
+
+order of calls:
+	sumnum(3) -> 3 + sumnum(2)	output = 6
+	sumnum(2) -> 2 + sumnum(1)
+	sumnum(1) -> 1 #first if
+
+---Binary Search algorithm---
+
+Binary search compares the target value to the middle element of the array. 
+
+If they are not equal, the half in which the target cannot lie is eliminated and the 
+search continues on the remaining half, again taking the middle element to compare to 
+the target value, and repeating this until the target value is found.
+
+The part to eliminate depends solely on the target value.
+ 
+If the search ends with the remaining half being empty, the target is not in the array.
+ 
+
+def binarySearch(arr, l, r, x):
+  
+    # Check base case
+    if r >= l:
+  
+        mid = (l + r) // 2
+  
+        # If element is present at the middle itself
+        if arr[mid] == x:
+            return mid
+  
+        # If element is smaller than mid, then it can only be present in left subarray
+        elif arr[mid] > x:
+            return binarySearch(arr, l, mid-1, x)
+  
+        # Else the element can only be present in right subarray
+        else:
+            return binarySearch(arr, mid+1, r, x)
+  
+    else:
+        # Element is not present in the array
+        return -1
+
+---Fibonacci, not optimized---
+
+A program to compute the fibonacci sequence up to number n (done over and over again)
+
+def fib(n):
+	if n == 0 or n == 1:
+		return n
+	else:
+		return fib(n-1) + fib(n-2)
+
+---Merge Sort algorithm---
+
+basically, given a list of not sorted values, we split the list in two sides to work on
+individually, and recur this operation until we have a single list with a single element
+then, we "merge and sort", this means we take each one element list and sort it and re-
+make it a 2 element list, confronting the elements from smaller to larger
+
+this has to be done for each side of the list
+
+at the end, we have to merge the two sublists(left and right), via comparing each element
+of the two sublists, in a way you always re-merge the smallest value to pass on the
+comparison test
+
+It divides the input array into two halves, calls itself for the two halves, 
+and then merges the two sorted halves. The merge() function is used for merging 
+two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] 
+and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. 
+
+def mergesort(lst, start, end): #doesn't work :c, badly translated from java
+	if start < end:
+		mid = (start + end) // 2 #finding the midpoint to split the list in two
+		mergesort(lst, start, mid) #left side
+		mergesort(lst, mid + 1, end)#right side
+		merge(lst, start, mid, end) #create a new func to merge the parts
+
+def merge(lst, start, mid, end):
+	temp = [0] * (end-start+1)
+	j = mid+1
+	k = 0 
+	while (start <= mid and j <= end):
+		if lst[start] <= lst[j]:
+			temp[k+1] = lst[start+1]
+			#start += 1
+			#k += 1
+		else:
+			temp[k+1] = lst[j+1]
+			#k += 1
+			#j += 1
+	while(start <= mid):
+		temp[k] = lst[start]
+		k+=1
+		start+=1
+	while(j <= end):
+		temp[k] = lst[j]
+		k += 1
+		j += 1
+	for i in range(start, end):
+		lst[i] = temp[i - start]
+
+code 2: from geeksforgeeks
+
+# Python program for implementation of MergeSort
+def mergeSort(arr):
+    if len(arr) > 1:
+  
+         # Finding the mid of the array
+        mid = len(arr)//2
+  
+        # Dividing the array elements
+        L = arr[:mid]
+  
+        # into 2 halves
+        R = arr[mid:]
+  
+        # Sorting the first half
+        mergeSort(L)
+  
+        # Sorting the second half
+        mergeSort(R)
+  
+        i = j = k = 0
+  
+        # Copy data to temp arrays L[] and R[]
+        while i < len(L) and j < len(R):
+            if L[i] < R[j]:
+                arr[k] = L[i]
+                i += 1
+            else:
+                arr[k] = R[j]
+                j += 1
+            k += 1
+  
+        # Checking if any element was left
+        while i < len(L):
+            arr[k] = L[i]
+            i += 1
+            k += 1
+  
+        while j < len(R):
+            arr[k] = R[j]
+            j += 1
+            k += 1
+  
+# Code to print the list
+  
+  
+def printList(arr):
+    for i in range(len(arr)):
+        print(arr[i], end=" ")
+    print()
+
+if __name__ == '__main__':
+    arr = [12, 11, 13, 5, 6, 7]
+    print("Given array is", end="\n")
+    printList(arr)
+    mergeSort(arr)
+    print("Sorted array is: ", end="\n")
+    printList(arr)
+
+---Linked lists----
+
+A linked list is a sequence of data elements, which are connected together via links. 
+Each data element contains a connection to another data element in form of a pointer. 
+Python does not have linked lists in its standard library, they are created with the Node class.
+We create a Node object and create another class to use this node object. 
+We pass the appropriate values through the node object to point the to the next data elements.
+
+class Node:
+   def __init__(self, dataval=None):
+      self.dataval = dataval
+      self.nextval = None
+
+class SLinkedList:
+   def __init__(self):
+      self.headval = None
+
+list1 = SLinkedList()
+list1.headval = Node("Mon")
+e2 = Node("Tue")
+e3 = Node("Wed")
+# Link first Node to second node
+list1.headval.nextval = e2
+
+# Link second Node to third node
+e2.nextval = e3
+
+THE REVERSAL IN THE VIDEO DOESN'T "NEED" RECURSION IN PYTHON
+POINTERS DON'T NATIVELY EXIST IN PYTHON, we have to adapt code to pointer like objects
+
+A Node is a data structure that stores a value that can be of any data type and has a pointer 
+to another node.
+
+def reverse (item, tail = None):
+    next = item.next
+    item.next = tail
+    if next is None:
+        return item
+    else:
+        return reverse(next, item)
+
+Using such a simple linked list implementation:
+
+class LinkedList:
+    def __init__ (self, value, next = None):
+        self.value = value
+        self.next = next #pointer like structure to refer to next value
+    def __repr__ (self):
+        return 'LinkedList({}, {})'.format(self.value, repr(self.next))
+
+---Merging Linked lists---
+
+This basically is a sort of two linked lists, value by value
+it's kinda like a merge sort algo for normal lists, just with "pointers"
+
+""" Python program to merge two
+sorted linked lists """
+ 
+ 
+# Linked List Node
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+ 
+ 
+# Create & Handle List operations
+class LinkedList:
+    def __init__(self):
+        self.head = None
+ 
+    # Method to display the list
+    def printList(self):
+        temp = self.head
+        while temp:
+            print(temp.data, end=" ")
+            temp = temp.next
+ 
+    # Method to add element to list
+    def addToList(self, newData):
+        newNode = Node(newData)
+        if self.head is None:
+            self.head = newNode
+            return
+ 
+        last = self.head
+        while last.next:
+            last = last.next
+ 
+        last.next = newNode
+ 
+# Function to merge the lists
+# Takes two lists which are sorted
+# joins them to get a single sorted list
+def mergeLists(headA, headB):
+ 
+    # A dummy node to store the result
+    dummyNode = Node(0)
+ 
+    # Tail stores the last node
+    tail = dummyNode
+    while True:
+ 
+        # If any of the list gets completely empty
+        # directly join all the elements of the other list
+        if headA is None:
+            tail.next = headB
+            break
+        if headB is None:
+            tail.next = headA
+            break
+ 
+        # Compare the data of the lists and whichever is smaller is
+        # appended to the last of the merged list and the head is changed
+        if headA.data <= headB.data:
+            tail.next = headA
+            headA = headA.next
+        else:
+            tail.next = headB
+            headB = headB.next
+ 
+        # Advance the tail
+        tail = tail.next
+ 
+    # Returns the head of the merged list
+    return dummyNode.next
+ 
+ 
+# Create 2 lists
+listA = LinkedList()
+listB = LinkedList()
+ 
+# Add elements to the list in sorted order
+listA.addToList(5)
+listA.addToList(10)
+listA.addToList(15)
+ 
+listB.addToList(2)
+listB.addToList(3)
+listB.addToList(20)
+ 
+# Call the merge function
+listA.head = mergeLists(listA.head, listB.head)
+ 
+# Display merged list
+print("Merged Linked List is:")
+listA.printList()
+ 
+""" This code is contributed
+by Debidutta Rath """
+
+---Binary trees---
+
+Node based data structure which gets its name from its shape and how data is organized
+(top-down)
+
+When building a tree, you need to set a left and right and a value, to add children, you
+refer to the previous node's left and right and add values
+
+Trees have depth, which is based off of how many children you have on a specific level
+for example
+
+  2	(root)depth : 0			note: in a binary tree, a node can have at most
+ / \					      2 children
+1   4	(child/leaves)depth : 1
+
+Let's build a python tree, usually done by using classes and objects(or by modules):
+
+class Node:				We've built a tree with a root and no children
+   def __init__(self, data):
+      self.left = None			To add children into a tree, we need to modify
+      self.right = None			the left and right values and data
+      self.data = data
+
+   def PrintTree(self):
+      print(self.data)
+
+   def insert(self, data):		This function inserts values based on comparison
+      if self.data:			if the data called is bigger than the root, 
+         if data < self.data:		it's inserted to the left
+            if self.left is None:
+               self.left = Node(data)
+            else:
+               self.left.insert(data)
+         else data > self.data:
+            if self.right is None:
+               self.right = Node(data)
+            else:
+               self.right.insert(data)
+      else:
+            self.data = data
+
+root = Node(12)		
+root.insert(6)			
+root.insert(14)		      
+root.insert(3)		      
+root.PrintTree()		
+
+---Print all leaf nodes---
+
+We have to print each node which doesn't have children
+This is an example of depth first search algo : Depth First Traversal (or Search) 
+for a graph is similar to Depth First Traversal of a tree. 
+The only catch here is, unlike trees, graphs may contain cycles (a node may be visited 
+twice). To avoid processing a node more than once, use a boolean visited array. 
+
+# leaf nodes from left to right
+ 
+# Binary tree node
+class Node:
+   
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+ 
+# Function to print leaf nodes from left to right
+
+def printLeafNodes(root: Node) -> None:
+ 
+    # If node is null, return
+    if (not root):
+        return
+ 
+    # If node is leaf node, print its data
+
+    if (not root.left and not root.right):
+        print(root.data, end = " ")
+        return
+ 
+    # If left child exists, check for leaf recursively
+
+    if root.left:
+        printLeafNodes(root.left)
+ 
+    # If right child exists, check for leaf recursively
+
+    if root.right:
+        printLeafNodes(root.right)
+ 
+# Driver Code
+if __name__ == "__main__":
+ 
+    # Let us create binary tree shown in
+    # above diagram
+    root = Node(1)
+    root.left = Node(2)
+    root.right = Node(3)
+    root.left.left = Node(4)
+    root.right.left = Node(5)
+    root.right.right = Node(8)
+    root.right.left.left = Node(6)
+    root.right.left.right = Node(7)
+    root.right.right.left = Node(9)
+    root.right.right.right = Node(10)
+ 
+    # print leaf nodes of the given tree
+    printLeafNodes(root)
+
+    #output : 4 6 7 9 10
+ 
+---FOCUS: DFS algorithm---
+
+Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data
+structures. 
+The algorithm starts at the root node (selecting some arbitrary node as the root node 
+in the case of a graph) and explores as far as possible along each branch before 
+backtracking.
+
+remember that graphs are different from trees
+
+The only purpose of this algorithm is to visit all the vertex of the graph avoiding 
+cycles.
+
+The DFS algorithm follows as:
+
+-We will start by putting any one of the graph's vertex on top of the stack.
+-After that take the top item of the stack and add it to the visited list of the vertex.
+-Next, create a list of that adjacent node of the vertex. Add the ones which aren't in
+ the visited list of vertexes to the top of the stack.
+-Lastly, keep repeating steps 2 and 3 until the stack is empty.
+
+# Using a Python dictionary to act as an adjacency list so NOT a tree
+graph = {
+  '5' : ['3','7'],
+  '3' : ['2', '4'],
+  '7' : ['8'],
+  '2' : [],
+  '4' : ['8'],
+  '8' : []
+}
+
+visited = set() # Set to keep track of visited nodes of graph.
+
+def dfs(visited, graph, node):  #function for dfs 
+    if node not in visited:
+        print(node)
+        visited.add(node)
+        for neighbour in graph[node]:
+            dfs(visited, graph, neighbour)
+
+# Driver Code
+print("Following is the Depth-First Search")
+dfs(visited, graph, '5')
+
+The output of the above code is as follow:
+
+Following is the Depth-First Search
+5 3 2 4 8 7
+
+---Memoization and caching---
+
+In computing, memoization or memoisation is an optimization technique used primarily 
+to speed up computer programs by storing the results of expensive function calls and 
+returning the cached result when the same inputs occur again.
+
+A memoized function "remembers" the results corresponding to some set of specific inputs.
+Subsequent calls with remembered inputs return the remembered result rather than 
+recalculating it, thus eliminating the primary cost of a call with given parameters 
+from all but the first call made to the function with those parameters. 
+
+In python, it's usually done with decorators
+
+function vs memoized function (pseudocode)
+
+1) 
+function factorial (n is a non-negative integer)
+    if n is 0 then
+        return 1 [by the convention that 0! = 1]
+    else
+        return factorial(n – 1) times n [recursively invoke factorial 
+                                        with the parameter 1 less than n]
+    end if
+end function
+
+2) 
+function factorial (n is a non-negative integer)
+    if n is 0 then
+        return 1 [by the convention that 0! = 1]
+    else if n is in lookup-table then
+        return lookup-table-value-for-n
+    else
+        let x = factorial(n – 1) times n [recursively invoke factorial
+                                         with the parameter 1 less than n]
+        store x in lookup-table in the nth slot [remember the result of n! for later]
+        return x
+    end if
+end function
+
+We basically create a table to append already calculated values and take those from it
+
+Memoization effectively refers to remembering ("memoization" → "memorandum" → to be remembered) results of method calls based on the method inputs and then returning the remembered result rather than computing the result again. You can think of it as a cache for method results. For further details, see page 387 for the definition in Introduction To Algorithms (3e), Cormen et al.
+
+A simple example for computing factorials using memoization in Python would be something like this:
+
+factorial_memo = {}
+def factorial(k):
+    if k < 2: return 1
+    if k not in factorial_memo:
+        factorial_memo[k] = k * factorial(k-1)
+    return factorial_memo[k]
+
+You can get more complicated and encapsulate the memoization process into a class:
+
+class Memoize:
+    def __init__(self, f):
+        self.f = f
+        self.memo = {}
+    def __call__(self, *args):
+        if not args in self.memo:
+            self.memo[args] = self.f(*args)
+        #Warning: You may wish to do a deepcopy here if returning objects
+        return self.memo[args]
+
+Then:
+
+def factorial(k):
+    if k < 2: return 1
+    return k * factorial(k - 1)
+
+factorial = Memoize(factorial)
+
+functools.cache decorator:
+Python 3.9 released a new function functools.cache. 
+It caches in memory the result of a functional called with a particular set of arguments
+, which is memoization. It's easy to use:
+
+import functools
+
+@functools.cache
+def fib(num):
+    if num < 2:
+        return num
+    else:
+        return fib(num-1) + fib(num-2)
+
+This function without the decorator is very slow, try fib(36) and you will have to wait 
+about ten seconds.
+
+Adding the cache decorator ensures that if the function has been called recently for a 
+particular value, it will not recompute that value, but use a cached previous result. 
+In this case, it leads to a tremendous speed improvement, while the code is not 
+cluttered with the details of caching.
+
+
+
+

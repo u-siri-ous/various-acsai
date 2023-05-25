@@ -1,0 +1,10 @@
+{
+    "id": 15,
+    "description": "Given two images with different dimensions, create a third image following a simple rule and save it in a new file and  return the number of black pixels present in both images",
+    "text": "Design a function ex15(fimm1,fimm2,fimm3) such that:\n    - it receives as arguments three filenames of .PNG files. The\n      files 'fimm1' and 'fimm2' store two images WITH DIFFERENT\n      DIMENSIONS\n    - it creates a third image and saves it in a .PNG file with name\n      'fimm3'\n    - it returns the number of black pixels in the created image.\n    The third image is obtained from the first two. Its width is the\n    maximum width between the widths of fimm1 and fimm2 and its height\n    is the maximum height between the heights of fimm1 and fimm2.\n    Each pixel [y][x] of the third image will be:\n    - of black color (0,0,0) if a pixel [y][x] exists in both or none\n      of the first two images\n    - of the same color of the pixel in the only image where such a\n      pixel exists.\n    \n    To load and save the image in PNG files, use the load and save\n    functions of the images.py library.",
+    "algorithm": "I load the 2 images and I take the maximum sizes \n I initialize a counter variable at 0 \n for each pixel in the new image \n\t check if the pixel is inside both images \n\t\t I insert a black pixel and I update the counter if it is not inside any image \n\t\t insert a black pixel and update the counter \n\t otherwise insert a pixel equal to the pixel inside one of the two images \n\t update the counter if the pixel is black \n save the image \n return the value of the counter",
+    "tags": ["Images", "Files"],
+    "effort": 6,
+    "clues": [],
+    "from": "recupero-7-11-18"
+}

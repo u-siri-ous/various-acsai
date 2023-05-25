@@ -1,0 +1,330 @@
+﻿HW2 required - game: “who screams louder”
+
+
+function delete_spaces(list of strings):
+        iterate the list and delete all spaces(“ ”) and tabs(“\t”)
+        return new list
+
+
+function challenge(string1, string2, k):
+        1-loop through the index of the characters of the strings of the same length
+        2-with each iteration compare the characters of the two strings at position index and assign points by checking the bigger one and if the difference between the higher value and the lower value is higher than k, the point is assigned to the lower value
+        4-if they have different scores return True if the first string has a higher score, else return False
+        5-if they happen to have the same score, check the string with the lower sum of values and return True if the first string sum is lower, return False if the second string sum is lower
+        6-if they happen to have the same sum of values check the string that has the lower character value by order iterating with a for loop, return True when the first string has a character with lower value, return False when the second string has a character with lower value
+        
+function tournament(dictionary):
+        1-gets as an input a dictionary and returns the list of keys sorted
+        by decreasing value, if values(kv[1]) are equal it sorts them by key(kv(0)) in increasing
+        order 
+	2-use a for loop to append in a list every key in the sorted dict by the two criteria and return the list
+
+
+
+
+function ex(list of strings, constant k):
+        1-delete the spaces by using delete_spaces(list of strings)
+        2-create a dictionary with keys from 0 to the length of the list of strings and set as value(wins) 0 for every key
+        3-in a for loop iterate the list of strings and challenge() every string with every other string that come after and assign a point to the winner by updating the value of the corresponding index of the string in the dictionary previously created
+        4- sort the leaderboard with tournament(dictionary) and assign it to a list
+        5-return the list
+
+I firstly decided to define a function able to remove the spaces from the single strings in my list and recalled
+it in the main function.
+In the main function i created two lists for both the wins and the ranking full of zeros and filled them later on 
+with points.
+The algorithm takes into account :a for loop to create the actual games between players, another loop to use indexes of each character 
+and compare them by assigning a point to each player according to the parameters given. 
+The actual points(the wins) are then given according to number of points each player receives and stored into 
+the wins list.
+If the points are the same i compare the sum of the values of one sequence to another and assign the wins 
+according to it. If also the sum of them is the same i consider the lexicographic order.
+The last thing i do is to make the ranking and to do that i simply take the wins list and find the index of 
+the player with most wins to put it in first position in my ranking list, then i simply eliminate it and put 
+all the others.
+
+def player_sum(player):
+    
+    pl_value = 0
+    
+    for i in player:
+        pl_value += i
+        
+    return pl_value
+
+def match_ord(match):
+    
+    l = []
+    
+    for i in match:
+        l1 = []
+        for j in i:
+            l1.append(ord(j))
+        l.append(l1)
+    
+    return l
+
+def ex(matches, k):
+    
+    match = matches.copy()
+    match = [x.replace(' ', '').replace('\t', '') for x in match] #removing spaces and tabs
+    
+    match = match_ord(match)
+    
+    len_match = len(match)
+    
+    pointsA = 0
+    pointsB = 0
+
+    playsum = [-1] * len_match
+    total_points = [0] * len_match
+    
+    for i in range(len_match-1):        
+        for j in range(i+1, len_match):
+            pointsA, pointsB = 0,0
+            for c in range(len(match[i])):
+                sub = abs(match[i][c] - match[j][c])
+                
+                if sub == 0:
+                    pass
+                
+                elif sub <= k:
+                    if match[i][c] > match[j][c]:
+                        pointsA += 1
+                    else:
+                        pointsB += 1
+                        
+                else:
+                    if match[i][c] > match[j][c]:
+                        pointsB += 1
+                    else:
+                        pointsA += 1
+                    
+            if pointsA > pointsB:
+                total_points[i]+= 1
+                
+            elif pointsB > pointsA:
+                total_points[j]+= 1
+                
+            elif  pointsA == pointsB:
+                
+                if playsum[i] == -1:
+                    playsum[i] = player_sum(match[i])
+                if playsum[j] == -1:
+                    playsum[j] = player_sum(match[j])
+                
+                if playsum[i] < playsum[j]:
+                    total_points[i]+= 1
+                    
+                elif playsum[i] > playsum[j]:
+                    total_points[j]+= 1
+                    
+                elif playsum[i] == playsum[j]:
+                    if match[i] < match[j]:
+                        total_points[i] += 1
+                    else:
+                        total_points[j] += 1
+                        
+    return sorted(range(len_match), key = lambda index : total_points[index], reverse = True)
+
+if __name__ == "__main__":
+    pass
+
+#codice del prof
+
+def winner(a, b, A, B):
+    a = sum([a for a in A])
+    b = sum([a for a in B])
+    if a == b:
+        return A < B
+    return a<b
+
+
+def single_set(a, b, k):
+    if abs(a-b)<=k:
+        return a>b
+    return b>a
+
+
+def count_tie(A, B):
+    return sum(a==b for a, b in zip(A, B))
+
+def single_match(A, B, k):
+    a = sum([single_set(a, b, k) for a, b in zip(A, B)])
+    b = len(A) - a - count_tie(A, B)
+    if a == b:
+        return winner (a, b, A, B)
+    return a > b
+
+
+def play_tournament(m, k):
+    points = [(0, 0)]*len(m)
+    for i in range(len(m)-1):
+        for j in range(i+1, len(m)):
+            if single_match(m[i], m[j], k):
+                w, l = i, j
+            else:
+                w, l = j, i
+            points[w] = w, points[w][1]+1
+            points[l] = l, points[l][1]
+    return points
+
+
+def ex(matches, k):
+    # Inserisci qui il tuo codice
+    m = list(map(lambda x: x.translate({ord(' '):"",ord('\t'):""}), matches))
+    m = [[ord(c) for c in match] for match in m]
+    print(m)
+    points = play_tournament(m, k)
+    print (points)
+    points.sort(key = lambda x: (-x[1] ,x[0]))
+    print (points)
+    return [x[0] for x in points]
+
+def ex(matches, k):
+    scrb = [0] * len(matches)
+    l_ords = list(map(list, map(lambda x: map(ord, x), map(lambda x:list(x.replace("\t", "").replace(" ", "")), matches))))
+    l_sums = list(map(sum, l_ords))
+    for x, y in [(x, y) for x in range(len(matches)-1) for y in range(x + 1, len(matches))]:
+        pt_x = 0
+        pt_y = 0
+        for a, b in zip(l_ords[x], l_ords[y]):
+            d = a-b
+            if d > k or -k <= d < 0:
+                pt_y += 1
+            elif d == 0:
+                pass
+            else:
+                pt_x += 1
+        if pt_x < pt_y or pt_x == pt_y and ((l_sums[x] > l_sums[y]) + (l_sums[x] == l_sums[y]) * (l_ords[x] > l_ords[y])):
+            scrb[y] += 1
+        else:
+            scrb[x] += 1
+    return sorted(range(len(matches)), key=lambda i: scrb[i], reverse=True)
+
+def space_tabs_filter(char: str) -> bool:
+    '''
+    
+
+    Parameters
+    ----------
+    char : str
+        Takes in input the considered letter.
+
+    Returns
+    -------
+    bool
+        Returns a boolean if it is a space or a tab.
+
+    '''
+    return False if (char == " " or char == "\t") else True
+
+
+def clean_list(lista: list) -> tuple:
+    '''
+    
+
+    Parameters
+    ----------
+    lista : list
+        Takes in input a list of iterables.
+
+    Returns
+    -------
+    tuple
+        Return a tuple of tuples with those iterables filtered from spaces and tabs and letters converted in their ord() value.
+
+    '''
+    return tuple(tuple(ord(x) for x in filter(space_tabs_filter, word)) for word in lista)
+                             
+
+
+def tie_case(pA: tuple, pB: tuple) -> list:
+    '''
+    
+
+    Parameters
+    ----------
+    pA : tuple
+        Player number one.
+    pB : tuple
+        Player number two.
+
+    Returns
+    -------
+    list
+        Return list of respective points of the players.
+
+    '''
+    sumA=sum(pA)
+    sumB=sum(pB)
+    if sumA > sumB:
+        return [0, 1]
+    elif sumA < sumB:
+        return [1, 0]
+    else:
+        if pB > pA:
+            return [1, 0]
+        else:
+            return [0, 1]
+
+
+def match(playerA: tuple, playerB: tuple, parameter: int) -> list:
+    '''
+    
+
+    Parameters
+    ----------
+    playerA : tuple
+        Player number one.
+    playerB : tuple
+        Player number two.
+    parameter : int
+        Parameter limit for the match.
+
+    Returns
+    -------
+    list
+        Respective point of the two players.
+
+    '''
+    points = [0, 0]
+    for i in range(len(playerA)):
+        difference = abs(playerA[i]-playerB[i])
+        if difference == 0:
+            pass
+        elif difference > parameter:
+            if playerA[i] > playerB[i]:
+                points[1] += 1
+            else:
+                points[0] += 1
+        elif difference <= parameter:
+            if playerA[i] > playerB[i]:
+                points[0] += 1
+            else:
+                points[1] += 1
+    if points[0] > points[1]:
+        return [1, 0]
+    elif points[1] > points[0]:
+        return [0, 1]
+    else:
+        return tie_case(playerA, playerB)
+
+
+def ex(matches, k):
+    # Main function
+    players = clean_list(matches)
+    punt = [[0, x] for x in range(len(players))]
+    done = [[False for x in players] for x in players]
+    for indexA in range(len(players)):
+        for indexB in range(len(players)):
+            # check letter by letter
+            if indexA != indexB and not(done[indexA][indexB] == True or done[indexB][indexA] == True):
+                results = match(players[indexA], players[indexB], k)
+                punt[indexA][0] += results[0]
+                punt[indexB][0] += results[1]
+                done[indexA][indexB] = True
+                done[indexB][indexA] = True
+
+    return [x[1] for x in sorted(punt,key=lambda t: (t[0], -t[1]), reverse=True)]
+

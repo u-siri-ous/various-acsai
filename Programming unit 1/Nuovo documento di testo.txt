@@ -1,0 +1,102 @@
+intricacy: 4 efficiency: 500/600ms
+
+function PoemSync():
+	1)gets as input the inputfile, outputfile and tau value
+	2)assigns to a 2d array the value returned in readfile(inputfile)
+	3)assigns to a variable the matrix filled with zeros where needed by calling
+		the function list_to_matrix(2d array)
+	4)get sync value by giving the matrix to the function synchronize()
+
+function readfile():
+	1)gets the inputfile and opens it
+	2)checks every character of the line if it is.alpha(), else it discards it.
+		if the special character is " " or "-" or "'" it replaces with a space
+	3)for every word it applies the 2 functions of the pronouncing library:
+		phones_for_word and stresses. if the word is not recognized it adds
+		(the lenght of the word/2) zeros
+	4) append to a blank 2d array the list of 0,1,2 replacing 2s with 0s
+	5)returns the filled 2d array with every line of zeros and ones 
+
+function list_to_matrix:
+	1)gets the 2d array with lists of different lenght and adds zeros 
+		to match to max length of the 2d array tranforming it to a matrix
+	2)it uses the map function to convert the list of strings in list of ints
+	
+function write_file():
+	1)gets the matrix as input
+	2)transform lists into strings to write in the output file the
+		sequences of zeros and ones
+		
+function syncronize():
+	1) for every pair of lists in the matrix(nested for loop) it calculates the sync value 
+		with the formula given in the exercise
+	2) returns the average sync rounded to 6 decimal digits
+
+I must say, your logic is ON POINT! You described it in a similar way I described mine, so I can't complain much
+I really like the implementation of isAlpha(), and your reasoning seems really clear as well
+
+The first thing I did with my code was to separate the problem into four distinct parts(functions)
+The first function took an input (inputfilename) then returned a list, which contained a string for every line of the poem input.
+This was done using ____.readlines() command
+After having a list created the next function in PoemSync called for the list to be converted into 0s and 1s according to the pronouncing library.
+The first was to create a new list using a list with [[], [], [],...) for the number of lines (not empty in the poem). Then for each item in the original list of strings, I replaced each special character with nothing and the ‘-’ & “ ‘ “ with spaces. Then I split every single list into multiple lists with the string.split() command. After that, the pronouncing functions were used to create the 1s and 0s necessary for the function by appending to made an empty list of lists
+	After having my codified poem in list format -> ex. [[0,1,1],[0,1],[1,0,1]]
+	
+Using the max function I was able to find the length of the longest or longest list. I used a while loop that appended each list with a 0 until the list was the equal length to the longest. 
+
+With this the matrix is created. -> 
+ex. 
+[
+[0,1,1],
+[0,1,0],
+[1,0,1]
+]
+
+The third function was to create the matrix into a chosen file name (outputfilename).
+This was done by transforming each list in the matrix into a string [0,1,0,1] -> “0101”.
+Then using a for element in matrix loop to write on a file I opened with the given name.
+
+The last part was to calculate the sync of the poem.
+I did this by creating a function that took two inputs: the list & the given tau
+This was done by a triple nested loop one find the A the other to find B. In each, I had a formula that found their amount of 1s and their within tau 1s. After calculating It would return the final score of the function. Which would finish the code.
+
+- The 1st function ("def NonBlankLines") in case of blank lines
+between the verses of the input poesy/poem will remove them,
+in order to obtain a text without blank lines between the verses.
+
+- The 2nd function ("PoemSync") is the MAIN function and its jobs
+are to open a file and check for special characters. In case of
+any special character, the function will replace it with a space 
+character, and then its last job is to split the input text in a
+list of lists for each verse.
+
+- The 3rd function ("PhoneticTranscription") associates to each 
+word its phonetic transcription by using the imported phones_for_word function 
+and in case of unavailable phonetic transcription it takes the 
+length of the original word and after making a division, It takes
+the integer part of the division and replaces the digits with 
+zeros
+
+- The 4th function ("AccentsSpawner") applies the stresses imported
+function and spawns a 0 for no accents or more than 1 accent, and a
+1 for a primary accent of the phonetic transcriptions.
+
+- The 5th function ("ElementsSplitter") replaces every space character
+between the words with a 0 character and also appends a 0 char. at
+the end of every verse.
+
+- The 6th function ("ZerosAdder") adds as many 0's at the end of
+every verse as the longest one, in order to obtain a matrix that
+has the same length for each row.
+
+- The 7th function ("MatrixToString") converts the lists matrix
+to a string matrix.
+
+- The 8th function ("SyncChecker") checks the overall sync of 
+the whole poem.
+
+- The 9th and last function ("PairOfListsSync") checks the sync 
+between pairs of verses. 
+
+
+

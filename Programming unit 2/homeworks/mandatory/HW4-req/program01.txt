@@ -1,0 +1,46 @@
+The logic for the HW4 is made for more modularity and less cyclomatic complexity, so it uses lots of user defined functions, described one by one below:
+
+BLOCK 1: from input file to the output file
+
+FUNCTION 1 :
+-removes punctuation from the whole file, excluding the ' and - character, that are considered spaces
+FUNCTION 2 :
+-converts the text file in separated lists by newlines ('\n')
+FUNCTION 3 :
+-converts said list using the stresses() function, excluding secondary accents and empty lines
+-in this function, words without phonetic translation are also accounted by performing the truncated division of said word and adding 0s accordingly
+FUNCTION 4 :
+-adds 0s at the end of each word and each line (basically, it separates lines with 0s)
+-converts the list in int to be handled in further calculations
+FUNCTION 5 :
+-finally, this function:
+	-opens the input file with encoding utf-8
+	-removes punctuation
+	-makes the list according to the stresses
+	-converts it to a matrix
+	-returns said matrix
+FUNCTION 6 :
+-the output file is created for writing
+-the matrix is written in the file
+
+BLOCK 2: From the working matrix to the final function PoemSync
+
+FUNCTION 1 :
+-this function starts the process of comparing the stresses for every pair of lines (lines being lists in the file list)
+ counting them one by one
+FUNCTION 2 :
+-this function sums all the counted stresses and returns them for every line in every considered couple:
+	-it scrolls through the A list entirely
+	-if a 1 is found, it returns it
+FUNCTION 3 :
+-here, the base for the final calculations are made, accounting for the absence of accents in a line
+ and by summing all the returned 1s from the previous function
+-comparison AB and comparison BA are calculated
+-the sync is computed and returned
+FUNCTION 4:
+-here, the sync and the sync average is computed for every couple and returned
+FUNCTION PoemSync:
+-in this function:
+	-we firstly make the matrix itself from the input file
+	-we write the obtained matrix in the output file
+	-we return the rounded sync average

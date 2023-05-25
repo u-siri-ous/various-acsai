@@ -1,0 +1,11 @@
+File -> a way to store data in a manageable and interactable way
+	a set of bytes permanently recorded somewhere in a memory periferic
+UTF-8 -> encodes every character in 1 byte
+Hexadecimal system -> memory allocation
+search up the difference between binay files and generic files
+
+Variable Types (type(var) exp in python)
+int->
+float->
+boolean/bool->
+string->

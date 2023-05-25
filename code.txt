@@ -1,0 +1,14 @@
+def ex4(s):
+    l = sorted(enumerate(list(s)), reverse=True)
+    lp = []
+    rec(lp, l, [])
+    return lp
+
+def rec(lp, s, fs):
+    if len(s)<1:
+        lp.append(fs)
+        return
+    for x in range(len(s)):
+        rec(lp, s[0:x]+s[min(x+1, len(s)):], fs+[s[x]])
+        
+print(ex4('abc'))
