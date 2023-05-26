@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The ER model, part 2.md",
+                "file": "The ER model, part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The ER model, part 2.md",
+                "file": "The ER model, part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The ER model, part 2.md",
+                "file": "The ER model, part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The ER model, part 2.md"
+                "file": "The ER model, part 1.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "2c0d0c0cbeed275f",
   "lastOpenFiles": [
+    "The ER model, part 2.md",
     "The ER model, part 1.md",
     "pictures/Pasted image 20230526170337.png",
     "pictures/Pasted image 20230526170314.png",
-    "The ER model, part 2.md",
     "pictures/Pasted image 20230525173436.png",
     "pictures/Pasted image 20230525173211.png",
     "Pasted image 20230525172955.png",
