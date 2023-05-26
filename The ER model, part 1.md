@@ -10,13 +10,13 @@ This model is used to identify the data elements and a relationship for a specif
 **Attributes** $\rightarrow$ Attributes are properties that define the entity type (e.g. for the entity dog, the attribute breed)
   - The key attribute uniquely identies each entity in the entity set
 
-![[Pasted image 20230526170314.png]]
+![Pasted image 20230526170314.png](Pasted%20image%2020230526170314.png)
 
 > Symbols used in ER models
 
 ### Relationship type and set
 
-The relatioship represents *how* two variables are associated
+The relationship represents *how* two variables are associated
 
 The number of times an entity of an entity set participates in a relationship set is known as **cardinality**
 
@@ -25,7 +25,7 @@ The number of times an entity of an entity set participates in a relationship se
 - **Many-to-1**
 - **Many-to-Many**
 
-![[Pasted image 20230526170337.png]]
+![Pasted image 20230526170337.png](Pasted%20image%2020230526170337.png)
 > Components of ER models
 
 ### Participation constraint
