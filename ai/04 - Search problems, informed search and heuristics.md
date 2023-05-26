@@ -59,7 +59,7 @@ h(n) **never** overestimates the cost of reaching the goal, so it’s not higher
 
 h(n) is **always** less than or equal to the estimated distance from any neighbour vertex to the goal, plus the cost to reach that neighbour
 
-![1 3](pictures/1%203.png)
+![1 3](../pictures/1%203.png)
 
 **A consistent heuristic is always admissible, while the converse is not true**
 

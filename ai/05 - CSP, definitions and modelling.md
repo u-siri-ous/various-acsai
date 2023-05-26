@@ -1,6 +1,6 @@
 CSP algos take advantage of the structure of states, with the aim of identifying the value/variable combinations that **violate** the constraints
 
-![1 4](pictures/1%204.png)
+![1 4](../pictures/1%204.png)
 
 We can therefore define:
 
@@ -54,7 +54,7 @@ Given:
 
 Find a solution for the CSP
 
-![2 3](pictures/2%203.png)
+![2 3](../pictures/2%203.png)
 
 We should use a **constraint graph** to solve the problem
 
@@ -70,4 +70,4 @@ Constraints can be:
 - **Ternary →** three variables involved
 - **Global →** arbitrary arity 
 
-![3 1](pictures/3%201.png)
+![3 1](../pictures/3%201.png)

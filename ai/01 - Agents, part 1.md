@@ -52,7 +52,7 @@ Moreover, the agent must have a **learning** component, meaning that it’s got 
 - Actuators
 - Sensors
 
-![image](pictures/2.png)
+![image](../pictures/2.png)
 
 ## Focusing on the task environment
 

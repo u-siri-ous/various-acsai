@@ -43,4 +43,4 @@ This is provable by contradiction
 
 -----------
 
-![[pictures/Pasted image 20230526151132.png]]
+![](../pictures/Pasted%20image%2020230526151132.png)

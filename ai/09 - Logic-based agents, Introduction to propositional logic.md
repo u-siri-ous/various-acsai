@@ -37,7 +37,7 @@ Formally,
 
 Where M(X) is the set of all models of X
 
-![[pictures/Pasted image 20230526103308.png]]
+![](../pictures/Pasted%20image%2020230526103308.png)
 
 In this example, **we can say that KB entails $\alpha$<sub>1</sub> $\rightarrow$ in every model in which KB is true, α<sub>1</sub> is also true
 
@@ -52,7 +52,7 @@ An inference algorithm:
 * is called **sound or truth-preserving** if it derives only entailed sentences
 * is **complete** if it can derive any sentence that is entailed
 
-![[pictures/Pasted image 20230526104025.png]]
+![](../pictures/Pasted%20image%2020230526104025.png)
 
 -------------
 
@@ -62,7 +62,7 @@ Propositional logic (PL) deals with **propositions** (aka sentences or statement
 
 ### Syntax
 
-![[pictures/Pasted image 20230526105706.png]]
+![](../pictures/Pasted%20image%2020230526105706.png)
 
 Operators have an order: 
 1. ¬
@@ -86,16 +86,16 @@ Atomic sentences are easy:
 
 For complex sentences, we follow this **truth table**:
 
-![[pictures/Pasted image 20230526111622.png]]
+![](../pictures/Pasted%20image%2020230526111622.png)
 
 Other logic gates may be used as well
 
 #### Interpretation and Valuation
 
-![[pictures/Pasted image 20230526112406.png]]
+![](../pictures/Pasted%20image%2020230526112406.png)
 
-![[pictures/Pasted image 20230526112633.png]]
+![](../pictures/Pasted%20image%2020230526112633.png)
 
 #### Example of applied PL
 
-![[pictures/Pasted image 20230526112848.png]]
+![](../pictures/Pasted%20image%2020230526112848.png)
