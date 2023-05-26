@@ -10,7 +10,8 @@ This model is used to identify the data elements and a relationship for a specif
 **Attributes** $\rightarrow$ Attributes are properties that define the entity type (e.g. for the entity dog, the attribute breed)
   - The key attribute uniquely identies each entity in the entity set
 
-![image](https://media.geeksforgeeks.org/wp-content/uploads/20230428115454/Introduction-to-ER-Model-2.webp)
+![[Pasted image 20230526170314.png]]
+
 > Symbols used in ER models
 
 ### Relationship type and set
@@ -24,7 +25,7 @@ The number of times an entity of an entity set participates in a relationship se
 - **Many-to-1**
 - **Many-to-Many**
 
-![image](https://media.geeksforgeeks.org/wp-content/uploads/20230428090323/Introduction-to-ER-Model-1.webp)
+![[Pasted image 20230526170337.png]]
 > Components of ER models
 
 ### Participation constraint

@@ -11,8 +11,12 @@
             "id": "2c0d0c0cbeed275f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "The ER model, part 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22b7596d1a6f56c6",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "The ER model, part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "The ER model, part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "The ER model, part 1.md"
+              }
             }
           }
         ]
@@ -141,6 +148,8 @@
   },
   "active": "2c0d0c0cbeed275f",
   "lastOpenFiles": [
+    "pictures/Pasted image 20230526170337.png",
+    "pictures/Pasted image 20230526170314.png",
     "The ER model, part 2.md",
     "pictures/Pasted image 20230525173436.png",
     "pictures/Pasted image 20230525173211.png",
