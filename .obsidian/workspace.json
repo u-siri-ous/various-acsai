@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "63239160564d3a54",
+        "id": "ca40f54944430713",
         "type": "tabs",
         "children": [
           {
-            "id": "a04e193fc4067213",
+            "id": "2c0d0c0cbeed275f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Entailment",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22b7596d1a6f56c6",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md"
+              }
             }
           }
         ]
@@ -139,20 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a04e193fc4067213",
+  "active": "2c0d0c0cbeed275f",
   "lastOpenFiles": [
-    "ai/11 - Inference in PL.md",
     "ai/09 - Logic-based agents, Introduction to propositional logic.md",
-    "ai/10 - Satisfiability, tautology and contradiction.md",
-    "pictures/Pasted image 20230526151132.png",
-    "pictures/Pasted image 20230526151015.png",
     "ai/07 - CSP, backtracking and inference.md",
-    "entailment.md",
-    "interpretation.md",
     "ai/06 - CSP, consistency.md",
     "ai/05 - CSP, definitions and modelling.md",
     "ai/04 - Search problems, informed search and heuristics.md",
     "ai/03 - Search problems, blind search.md",
+    "ai/02 - Agents, part 2.md",
+    "pictures/3.png",
+    "ai/01 - Agents, part 1.md",
+    "pictures/Pasted image 20230526151132.png",
+    "pictures/Pasted image 20230526151015.png",
     "pictures/Pasted image 20230526112848.png",
     "pictures/Pasted image 20230526112633.png",
     "pictures/Pasted image 20230526112406.png",
@@ -160,22 +166,21 @@
     "pictures/Pasted image 20230526105706.png",
     "pictures/Pasted image 20230526104025.png",
     "pictures/Pasted image 20230526103308.png",
-    "README.md",
-    "ai/02 - Agents, part 2.md",
-    "ai/01 - Agents, part 1.md",
-    "ai/[] Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, Global Edition (2021, Pearson).pdf",
-    "ml/docxs/ML - intro and learning paradigms.docx",
+    "pictures",
     "ml/docxs/ML - linear algebra for ML.docx",
+    "ml/docxs/ML - intro and learning paradigms.docx",
     "ml/docxs/ML - K-means, K-means++.docx",
     "ml/docxs/ML - Gaussian PDF & MLE.docx",
     "ml/docxs/ML - eigendecomposition PCA SVD.docx",
     "ml/docxs/ML - 3DMM & dimensionality.docx",
     "ml/docxs",
     "ml",
-    "pictures/3.png",
-    "pictures",
-    "The ER model, part 2.md",
+    "ai/notes 19 05.txt",
     "The ER model, part 1.md",
+    "ai/11 - Inference in PL.md",
+    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "README.md",
+    "The ER model, part 2.md",
     "Il panico.md"
   ]
 }

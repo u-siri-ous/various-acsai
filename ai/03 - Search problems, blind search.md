@@ -52,7 +52,9 @@ The basic **differences** are:
 It’s easier to look for **cycles** than to remember where exactly we have been (a path instead of all of them)
 
 ### Blind search (uninformed search)
-![](1%202.png)
+
+![1 2](pictures/1%202.png)
+
 The uninformed search algorithm does not have any domain knowledge such as closeness, location of the goal state, behaving in a brute-force way, opposed to **heuristics in informed search**
 
 -----------------
@@ -101,6 +103,8 @@ Bidirectional search, unlike DFS and BFS, runs:
 Replacing each search graph with two smaller subgraphs, and terminates when they **intersect**
 
 It is complete if BFS is used for both subgraphs
-![](2%202.png)
+
+![2 2](pictures/2%202.png)
+
 The branching factor is the **out-degree**, the number of children at each node
 
