@@ -1,5 +1,3 @@
-# Agents, part 1
-
 ## The elementary definition
 
 The agent can be defined as an entity in a program which has **non-trivial decision making** skills using **computational resources**

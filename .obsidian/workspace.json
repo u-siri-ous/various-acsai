@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2e2fd282a49a2421",
+        "id": "8d5955db26e1d17a",
         "type": "tabs",
         "children": [
           {
-            "id": "a58e1b4d9c37f3de",
+            "id": "82fbe2676f4e470a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22b7596d1a6f56c6",
@@ -81,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/01 agents.md",
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/01 agents.md",
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/01 agents.md"
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md"
               }
             }
           }
@@ -142,11 +147,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ab4d4fb364bd3c6",
+  "active": "82fbe2676f4e470a",
   "lastOpenFiles": [
-    "ai/02 agents.md",
-    "ai/03 search problems - blind search.md",
-    "ai/01 agents.md",
+    "ai/09 - Logic-based agents, Introduction to propositional logic.md",
+    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "pictures/Pasted image 20230526112848.png",
+    "pictures/Pasted image 20230526112633.png",
+    "pictures/Pasted image 20230526112406.png",
+    "pictures/Pasted image 20230526111622.png",
+    "pictures/Pasted image 20230526105706.png",
+    "pictures/Pasted image 20230526104025.png",
+    "pictures/Pasted image 20230526103308.png",
+    "README.md",
+    "ai/07 - CSP, backtracking and inference.md",
+    "ai/06 - CSP, consistency.md",
+    "ai/05 - CSP, definitions and modelling.md",
+    "ai/04 - Search problems, informed search and heuristics.md",
+    "ai/03 - Search problems, blind search.md",
+    "ai/02 - Agents, part 2.md",
+    "ai/01 - Agents, part 1.md",
+    "ai/[] Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, Global Edition (2021, Pearson).pdf",
     "ml/docxs/ML - intro and learning paradigms.docx",
     "ml/docxs/ML - linear algebra for ML.docx",
     "ml/docxs/ML - K-means, K-means++.docx",
@@ -158,22 +178,7 @@
     "pictures/3.png",
     "pictures/3 1.png",
     "pictures/2.png",
-    "pictures/2 4.png",
-    "pictures/2 3.png",
-    "pictures/2 2.png",
-    "pictures/2 1.png",
-    "pictures/1.png",
-    "pictures/1 5.png",
-    "pictures/1 4.png",
     "pictures",
-    "ai/notes 19 05.txt",
-    "ai/10 propositional logic 2.md",
-    "ai/09 propositional logic.md",
-    "ai/07 CSP - backtracking.md",
-    "ai/06 CSP - consistency.md",
-    "ai/05 CSP - definitions and modelling.md",
-    "ai/04 search problems - informed search and heuristics.md",
-    "README.md",
     "The ER model, part 2.md",
     "The ER model, part 1.md",
     "Il panico.md"

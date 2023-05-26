@@ -1,5 +1,4 @@
-# AI – CSP and backtracking
-![image](1%205.png)))
+![image](1%205.png)
 
 Sometimes constraint propagation is not enough and we have to actively search for a solution to the CSP
 

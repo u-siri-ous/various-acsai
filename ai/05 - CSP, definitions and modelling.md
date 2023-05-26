@@ -1,5 +1,3 @@
-# AI – CSP, definitions and modelling
-
 CSP algos take advantage of the structure of states, with the aim of identifying the value/variable combinations that **violate** the constraints
 ![](1%204.png)))
 

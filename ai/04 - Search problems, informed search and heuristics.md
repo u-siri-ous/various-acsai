@@ -1,5 +1,3 @@
-# AI – Heuristic and informed search – 04
-
 ## Heuristic $\rightarrow$ h(n)
 
 A heuristic is a function h(n) is a guess to produce a feasible solution in a reasonable time span

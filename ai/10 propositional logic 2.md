@@ -1,2 +1,0 @@
-# Satisfiability, tautology and contradiction
-

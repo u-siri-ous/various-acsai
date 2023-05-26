@@ -1,5 +1,3 @@
-# AIML 1 - Search problems and uninformed search algos
-
 ## The problem solving process 
 
 - Goal formulation → limit actions

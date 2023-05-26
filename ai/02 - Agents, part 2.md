@@ -1,5 +1,3 @@
-# Agents, part 2
-
 ## Table-driven Agent
 
 This is deemed practically infeasible
