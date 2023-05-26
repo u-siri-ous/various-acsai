@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "file": "ai/01 - Agents, part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "file": "ai/01 - Agents, part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "file": "ai/01 - Agents, part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md"
+                "file": "ai/01 - Agents, part 1.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "2c0d0c0cbeed275f",
   "lastOpenFiles": [
+    "ai/10 - Satisfiability, tautology and contradiction.md",
     "ai/09 - Logic-based agents, Introduction to propositional logic.md",
     "ai/07 - CSP, backtracking and inference.md",
     "ai/06 - CSP, consistency.md",
@@ -178,7 +179,6 @@
     "ai/notes 19 05.txt",
     "The ER model, part 1.md",
     "ai/11 - Inference in PL.md",
-    "ai/10 - Satisfiability, tautology and contradiction.md",
     "README.md",
     "The ER model, part 2.md",
     "Il panico.md"

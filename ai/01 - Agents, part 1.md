@@ -8,7 +8,7 @@ This can be visualized in multiple ways,
 
 The agent is a function that, given a universe of percepts/stimuli, and the universe of actions that can be done on that precise percept:
 
-![image](pictures/1.png)
+![image](../pictures/1.png)
 
 f partially maps a **set** of percepts to an action
 
