@@ -1,4 +1,9 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "pictures"
+  "attachmentFolderPath": "pictures",
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "iff it",
+    "iff"
+  ]
 }

@@ -26,7 +26,7 @@ The semantics define the **truth** in the possible world
 
 If a statement is true in a model, we say that the model *satisfies* the statement
 
-##### Entailment (⊨)
+#### Entailment (⊨) - Logical consequence
 
 *A sentence follows logically from another sentence* $\rightarrow$ **α ⊨ β**
 
@@ -44,7 +44,7 @@ Conversely, **we can't say that KB entails $\alpha$<sub>2</sub> $\rightarrow$ in
 
 **Entailment** is like the needle being in the haystack; **inference** is like finding it
 
-##### Soundness and completeness - the basics
+#### Soundness and completeness - the basics
 
 An inference algorithm:
 

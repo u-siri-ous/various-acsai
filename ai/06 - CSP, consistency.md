@@ -1,4 +1,3 @@
-# AI – Inference in CSPs 
 http://www.it.uu.se/research/group/astra/CTcourse03/Slides/Consistency.pdf
 
 The key characteristic of CSPs is that they can *choose* the new variable assignment/successor to do a specific **constraint propagation**, voiding all non-legal variable assignments as we go on

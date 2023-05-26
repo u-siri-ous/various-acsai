@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8d5955db26e1d17a",
+        "id": "63239160564d3a54",
         "type": "tabs",
         "children": [
           {
-            "id": "82fbe2676f4e470a",
+            "id": "a04e193fc4067213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Entailment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +139,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82fbe2676f4e470a",
+  "active": "a04e193fc4067213",
   "lastOpenFiles": [
+    "ai/11 - Inference in PL.md",
     "ai/09 - Logic-based agents, Introduction to propositional logic.md",
     "ai/10 - Satisfiability, tautology and contradiction.md",
+    "pictures/Pasted image 20230526151132.png",
+    "pictures/Pasted image 20230526151015.png",
+    "ai/07 - CSP, backtracking and inference.md",
+    "entailment.md",
+    "interpretation.md",
+    "ai/06 - CSP, consistency.md",
+    "ai/05 - CSP, definitions and modelling.md",
+    "ai/04 - Search problems, informed search and heuristics.md",
+    "ai/03 - Search problems, blind search.md",
     "pictures/Pasted image 20230526112848.png",
     "pictures/Pasted image 20230526112633.png",
     "pictures/Pasted image 20230526112406.png",
@@ -159,11 +161,6 @@
     "pictures/Pasted image 20230526104025.png",
     "pictures/Pasted image 20230526103308.png",
     "README.md",
-    "ai/07 - CSP, backtracking and inference.md",
-    "ai/06 - CSP, consistency.md",
-    "ai/05 - CSP, definitions and modelling.md",
-    "ai/04 - Search problems, informed search and heuristics.md",
-    "ai/03 - Search problems, blind search.md",
     "ai/02 - Agents, part 2.md",
     "ai/01 - Agents, part 1.md",
     "ai/[] Stuart J. Russell, Peter Norvig - Artificial Intelligence_ A Modern Approach, Global Edition (2021, Pearson).pdf",
@@ -176,8 +173,6 @@
     "ml/docxs",
     "ml",
     "pictures/3.png",
-    "pictures/3 1.png",
-    "pictures/2.png",
     "pictures",
     "The ER model, part 2.md",
     "The ER model, part 1.md",
