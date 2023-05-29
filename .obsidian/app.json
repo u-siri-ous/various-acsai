@@ -10,5 +10,7 @@
     "ponens",
     "s pone"
   ],
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current",
+  "useMarkdownLinks": true
 }

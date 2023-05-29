@@ -7,7 +7,7 @@ Moreover:
 
 <center><b>α ≡ β iff α ⊨ β and β ⊨ α</b></center>
 
-![](../pictures/Pasted%20image%2020230529151041.png)
+![Pasted image 20230529151041](../pictures/Pasted%20image%2020230529151041.png)
 
 ----------
 
@@ -45,4 +45,4 @@ This is provable by contradiction
 
 -----------
 
-![](../pictures/Pasted%20image%2020230526151132.png)
+![Pasted image 20230526151132](../pictures/Pasted%20image%2020230526151132.png)

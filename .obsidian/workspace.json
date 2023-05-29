@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "22aa3cbb93d509b4",
+            "id": "24e3af0fb15bc825",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -161,11 +161,12 @@
   },
   "active": "3d26617c849855dc",
   "lastOpenFiles": [
+    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "ai/11 - Inference in PL.md",
+    "ai/12 - Propositional resolution.md",
     "pictures/Pasted image 20230529152527.png",
     "pictures/Pasted image 20230529152439.png",
     "pictures/Pasted image 20230529152315.png",
-    "ai/10 - Satisfiability, tautology and contradiction.md",
-    "ai/11 - Inference in PL.md",
     "pictures/Pasted image 20230529151424.png",
     "pictures/Pasted image 20230529151331.png",
     "pictures/Pasted image 20230529151226.png",
@@ -182,7 +183,6 @@
     "ai/01 - Agents, part 1.md",
     "pictures/3.png",
     "pictures/Pasted image 20230526151132.png",
-    "pictures/Pasted image 20230526151015.png",
     "pictures",
     "ml/docxs/ML - linear algebra for ML.docx",
     "ml/docxs/ML - intro and learning paradigms.docx",
