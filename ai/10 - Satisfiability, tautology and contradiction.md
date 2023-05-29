@@ -1,15 +1,17 @@
-#### Equivalence
+### Equivalence
 
-Two sentences α and β are logically equivalent if they are true in the same set of models. We write this as:
+Two sentences α and β are logically equivalent if they are **true in the same set of models**. We write this as:
 <center><b>α ≡ β</b></center>
 
 Moreover:
 
 <center><b>α ≡ β iff α ⊨ β and β ⊨ α</b></center>
 
+![](../pictures/Pasted%20image%2020230529151041.png)
+
 ----------
 
-#### Tautology - Validity
+### Tautology - Validity
 
 A formula is a tautology if it always evaluates to *True*, in such case, the formula is **valid**. We write:
 
@@ -21,7 +23,7 @@ From our definition of [entailment](obsidian://open?vault=various-acsai&file=ai%
 
 ------------------
 
-#### Contradiction
+### Contradiction
 
 A formula is a contradiction if it always evaluates to *False*, i.e. it's *unsatisfiable*. We write:
 
@@ -29,7 +31,7 @@ A formula is a contradiction if it always evaluates to *False*, i.e. it's *unsat
 
 ------------
 
-#### Satisfiability
+### Satisfiability
 
 A propositional formula is **satisfiable** iff it is satisfied by some interpretation, i.e. it's true in some model
 

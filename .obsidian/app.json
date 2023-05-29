@@ -4,6 +4,11 @@
   "promptDelete": false,
   "spellcheckDictionary": [
     "iff it",
-    "iff"
-  ]
+    "iff",
+    "Monotonicity",
+    "modus",
+    "ponens",
+    "s pone"
+  ],
+  "newLinkFormat": "absolute"
 }
