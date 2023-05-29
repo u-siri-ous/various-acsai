@@ -42,3 +42,20 @@ e.g., <font color="#00b050"><font color="#2DC26B">&#172 p<sub>2,1</sub> </font><
 	* we have removed <font color="#00b050">p<sub>2,1</sub></font> as it was affirmed and negated
 2. <font color="#ff0000">resolvent</font> = $\neg$ p<sub>2,1</sub> $\vee$ p<sub>1,2</sub> $\vee$ p<sub>2,1</sub> 
 	* we have removed <font color="#ff0000">b<sub>1,1</sub></font> as it was affirmed and negated
+-------------
+
+### Soundness and completeness
+
+A deductive system:
+
+* is called **sound or truth-preserving** if it derives only entailed sentences
+	* This is by design
+* is **complete** if it can derive every correct entailment
+
+#### Completeness of Propositional resolution
+
+(insert proof)
+
+The completeness theorem for resolution in propositional logic is called the **ground resolution theorem** (refutation): 
+
+<center>If a set of clauses is unsatisfiable, then the the set of all clauses derivable by repeated application of the resolution rule of those clauses contains the empty clause</center>

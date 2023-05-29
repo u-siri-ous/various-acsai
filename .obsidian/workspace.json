@@ -4,47 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ca40f54944430713",
+        "id": "3931e1258b78b947",
         "type": "tabs",
         "children": [
           {
-            "id": "24e3af0fb15bc825",
+            "id": "3fe3f4354610bb9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "file": "ai/12,13 - Propositional resolution, definitions, soundness and completeness.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3d26617c849855dc",
+            "id": "0aeb53f935f7d719",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/11 - Inference in PL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36fbbe9de9bd2ad7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/12 - Propositional resolution.md",
+                "file": "ai/14 - Forward chaining.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 293.5,
     "collapsed": true
   },
   "right": {
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/12 - Propositional resolution.md",
+                "file": "ai/14 - Forward chaining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/12 - Propositional resolution.md",
+                "file": "ai/14 - Forward chaining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/12 - Propositional resolution.md"
+                "file": "ai/14 - Forward chaining.md"
               }
             }
           }
@@ -172,27 +160,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36fbbe9de9bd2ad7",
+  "active": "0aeb53f935f7d719",
   "lastOpenFiles": [
+    "ai/12,13 - Propositional resolution, definitions, soundness and completeness.md",
+    "ai/14 - Forward chaining.md",
+    "ai/13 - Propositional resolution, soundness and completeness.md",
+    "ai/09 - Logic-based agents, Introduction to propositional logic.md",
+    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "ai/07 - CSP, backtracking and inference.md",
+    "ai/06 - CSP, consistency.md",
+    "ai/11 - Inference in PL.md",
     "pictures/Pasted image 20230529171448.png",
     "pictures/Pasted image 20230529171355.png",
     "pictures/Pasted image 20230529170625.png",
     "pictures/Pasted image 20230529164635.png",
     "pictures/Pasted image 20230529163744.png",
-    "ai/11 - Inference in PL.md",
-    "ai/10 - Satisfiability, tautology and contradiction.md",
-    "ai/12 - Propositional resolution.md",
     "pictures/Pasted image 20230529152527.png",
     "pictures/Pasted image 20230529152439.png",
     "pictures/Pasted image 20230529152315.png",
     "pictures/Pasted image 20230529151424.png",
     "pictures/Pasted image 20230529151331.png",
-    "pictures/Pasted image 20230529151226.png",
     "ai/04 - Search problems, informed search and heuristics.md",
-    "ai/09 - Logic-based agents, Introduction to propositional logic.md",
     "pictures/Pasted%20image%2020230526104025.png.md",
-    "ai/07 - CSP, backtracking and inference.md",
-    "ai/06 - CSP, consistency.md",
     "ai/05 - CSP, definitions and modelling.md",
     "ai/03 - Search problems, blind search.md",
     "ai/02 - Agents, part 2.md",

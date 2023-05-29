@@ -45,7 +45,7 @@ Conversely, **we can't say that KB entails $\alpha$<sub>2</sub> $\rightarrow$ in
 
 **Entailment** is like the needle being in the haystack; **inference** is like finding it
 
-#### Soundness and completeness - the basics
+#### Soundness and completeness
 
 An inference algorithm:
 
