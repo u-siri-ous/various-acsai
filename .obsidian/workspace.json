@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "24e3af0fb15bc825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3d26617c849855dc",
             "type": "leaf",
             "state": {
@@ -20,18 +32,19 @@
             }
           },
           {
-            "id": "24e3af0fb15bc825",
+            "id": "36fbbe9de9bd2ad7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/10 - Satisfiability, tautology and contradiction.md",
+                "file": "ai/12 - Propositional resolution.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/11 - Inference in PL.md",
+                "file": "ai/12 - Propositional resolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/11 - Inference in PL.md",
+                "file": "ai/12 - Propositional resolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/11 - Inference in PL.md"
+                "file": "ai/12 - Propositional resolution.md"
               }
             }
           }
@@ -159,10 +172,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d26617c849855dc",
+  "active": "36fbbe9de9bd2ad7",
   "lastOpenFiles": [
-    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "pictures/Pasted image 20230529171448.png",
+    "pictures/Pasted image 20230529171355.png",
+    "pictures/Pasted image 20230529170625.png",
+    "pictures/Pasted image 20230529164635.png",
+    "pictures/Pasted image 20230529163744.png",
     "ai/11 - Inference in PL.md",
+    "ai/10 - Satisfiability, tautology and contradiction.md",
     "ai/12 - Propositional resolution.md",
     "pictures/Pasted image 20230529152527.png",
     "pictures/Pasted image 20230529152439.png",
@@ -170,19 +188,15 @@
     "pictures/Pasted image 20230529151424.png",
     "pictures/Pasted image 20230529151331.png",
     "pictures/Pasted image 20230529151226.png",
-    "pictures/Pasted image 20230529151041.png",
     "ai/04 - Search problems, informed search and heuristics.md",
     "ai/09 - Logic-based agents, Introduction to propositional logic.md",
     "pictures/Pasted%20image%2020230526104025.png.md",
-    "pictures/3 1.png",
     "ai/07 - CSP, backtracking and inference.md",
     "ai/06 - CSP, consistency.md",
     "ai/05 - CSP, definitions and modelling.md",
     "ai/03 - Search problems, blind search.md",
     "ai/02 - Agents, part 2.md",
     "ai/01 - Agents, part 1.md",
-    "pictures/3.png",
-    "pictures/Pasted image 20230526151132.png",
     "pictures",
     "ml/docxs/ML - linear algebra for ML.docx",
     "ml/docxs/ML - intro and learning paradigms.docx",
