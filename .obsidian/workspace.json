@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ca40f54944430713",
+        "id": "204e2a3691ab2ed5",
         "type": "tabs",
         "children": [
           {
-            "id": "2c0d0c0cbeed275f",
+            "id": "09dc27c045ed7641",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "The ER model, part 2.md",
-                "mode": "source",
-                "source": false
+                "file": "slides/DMAU_L04_Relational_Model.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The ER model, part 2.md",
+                "file": "Relational model, part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The ER model, part 2.md",
+                "file": "Relational model, part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The ER model, part 2.md"
+                "file": "Relational model, part 1.md"
               }
             }
           }
@@ -147,16 +145,79 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c0d0c0cbeed275f",
+  "floating": {
+    "id": "694f1313a29475a3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9e97474e71eaf46b",
+        "type": "window",
+        "children": [
+          {
+            "id": "8e5686019a278e30",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "30ccb1d8c1d63b7c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "The ER model, part 2.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "74da99e1424b42c1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Relational model, part 1.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 800,
+        "y": 0,
+        "width": 800,
+        "height": 860,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "74da99e1424b42c1",
   "lastOpenFiles": [
-    "The ER model, part 1.md",
+    "slides/DMAU_L04_Relational_Model.pdf",
+    "Relational model, part 1.md",
+    "pictures/Pasted image 20230530175836.png",
+    "pictures/Pasted image 20230530165518.png",
     "The ER model, part 2.md",
+    "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
+    "pictures/Pasted image 20230530164951.png",
+    "slides/DMAU_L03_ER_Modelling_Exercise.pdf",
+    "slides/DMAU_L02_ER_Model.pdf",
+    "slides/DMAU_01_Intro.pdf",
+    "slides/DMAU_L06_SQL_DDL.pdf",
+    "slides/DMAU_L05_Restructuiring_ER.pdf",
+    "slides/__MACOSX/DMA 2",
+    "slides/__MACOSX",
+    "slides/DMA 2/DMAU_L05_Restructuiring_ER.pdf",
+    "The ER model, part 1.md",
     "pictures/Pasted image 20230526170337.png",
     "pictures/Pasted image 20230526170314.png",
     "pictures/Pasted image 20230525173436.png",
     "pictures/Pasted image 20230525173211.png",
     "Pasted image 20230525172955.png",
-    "pictures",
     "pictures/Pasted image 20230525172925.png",
     "Il panico.md"
   ]
