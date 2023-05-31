@@ -7,6 +7,7 @@
 
 # LSTM - Long-Short Term Memory
 # ability to learn from temporal data
+# use this or GRU - Gated Recurrent Unit to work with text
 
 # inside a single lstm node there are three smaller nodes:
 # input gate
