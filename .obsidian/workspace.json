@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "204e2a3691ab2ed5",
+        "id": "9e11366cf059d6aa",
         "type": "tabs",
         "children": [
           {
-            "id": "09dc27c045ed7641",
+            "id": "3f3979bbc7d4f573",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ai/15 - DPLL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "485528097f604513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/16 - Tableaux.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22b7596d1a6f56c6",
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ai/16 - Tableaux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ai/16 - Tableaux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ai/16 - Tableaux.md"
+              }
             }
           }
         ]
@@ -138,8 +160,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09dc27c045ed7641",
+  "active": "485528097f604513",
   "lastOpenFiles": [
+    "pictures/Pasted image 20230601140616.png",
+    "ai/15 - DPLL.md",
+    "ai/16 - Tableaux.md",
+    "pictures/Pasted image 20230601130351.png",
+    "pictures/Pasted image 20230531201031.png",
+    "pictures/Pasted image 20230531201002.png",
+    "pictures/Pasted image 20230531200950.png",
     "The ER model, part 2.md",
     "Relational model, part 1.md",
     "README.md",
@@ -160,9 +189,6 @@
     "pictures/Pasted image 20230526170337.png",
     "pictures/Pasted image 20230526170314.png",
     "pictures/Pasted image 20230525173436.png",
-    "pictures/Pasted image 20230525173211.png",
-    "Pasted image 20230525172955.png",
-    "pictures/Pasted image 20230525172925.png",
     "Il panico.md"
   ]
 }
