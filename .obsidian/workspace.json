@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9e11366cf059d6aa",
+        "id": "38edf68de633a511",
         "type": "tabs",
         "children": [
           {
-            "id": "3f3979bbc7d4f573",
+            "id": "898a91bfc96be1b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/15 - DPLL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "485528097f604513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/16 - Tableaux.md",
+                "file": "ai/18 - Reasoning and inference in FOL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/16 - Tableaux.md",
+                "file": "ai/18 - Reasoning and inference in FOL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/16 - Tableaux.md",
+                "file": "ai/18 - Reasoning and inference in FOL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/16 - Tableaux.md"
+                "file": "ai/18 - Reasoning and inference in FOL.md"
               }
             }
           }
@@ -160,23 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "485528097f604513",
+  "active": "898a91bfc96be1b1",
   "lastOpenFiles": [
-    "pictures/Pasted image 20230601140616.png",
-    "ai/15 - DPLL.md",
+    "pictures/Pasted image 20230604112235.png",
+    "pictures/Pasted image 20230604112140.png",
+    "pictures/skolem.png",
+    "ai/18 - Reasoning and inference in FOL.md",
+    "pictures/Pasted image 20230604105801.png",
+    "ai/17 - First order logic, introduction.md",
+    "pictures/Pasted image 20230604105607.png",
     "ai/16 - Tableaux.md",
-    "pictures/Pasted image 20230601130351.png",
-    "pictures/Pasted image 20230531201031.png",
-    "pictures/Pasted image 20230531201002.png",
-    "pictures/Pasted image 20230531200950.png",
+    "ai/11 - Inference in PL.md",
+    "pictures/Pasted image 20230604095833.png",
+    "pictures/Pasted image 20230604095544.png",
+    "pictures/Pasted image 20230604095405.png",
+    "pictures/Pasted image 20230604094245.png",
+    "pictures/Pasted image 20230604093942.png",
+    "pictures/Pasted image 20230604093048.png",
+    "ai/15 - DPLL.md",
     "The ER model, part 2.md",
     "Relational model, part 1.md",
     "README.md",
     "slides/DMAU_L04_Relational_Model.pdf",
-    "pictures/Pasted image 20230530175836.png",
-    "pictures/Pasted image 20230530165518.png",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
-    "pictures/Pasted image 20230530164951.png",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf",
     "slides/DMAU_L02_ER_Model.pdf",
     "slides/DMAU_01_Intro.pdf",
@@ -186,9 +179,6 @@
     "slides/__MACOSX",
     "slides/DMA 2/DMAU_L05_Restructuiring_ER.pdf",
     "The ER model, part 1.md",
-    "pictures/Pasted image 20230526170337.png",
-    "pictures/Pasted image 20230526170314.png",
-    "pictures/Pasted image 20230525173436.png",
     "Il panico.md"
   ]
 }
