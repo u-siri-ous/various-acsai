@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "898a91bfc96be1b1",
+            "id": "0bb9f0bf448e5a23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/18 - Reasoning and inference in FOL.md",
+                "file": "ai/06 - CSP, consistency.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "horn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22b7596d1a6f56c6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/18 - Reasoning and inference in FOL.md",
+                "file": "ai/06 - CSP, consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/18 - Reasoning and inference in FOL.md",
+                "file": "ai/06 - CSP, consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/18 - Reasoning and inference in FOL.md"
+                "file": "ai/06 - CSP, consistency.md"
               }
             }
           }
@@ -147,24 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "898a91bfc96be1b1",
+  "active": "0bb9f0bf448e5a23",
   "lastOpenFiles": [
+    "ai/05 - CSP, definitions and modelling.md",
+    "ai/17 - First order logic, introduction.md",
+    "ai/16 - Tableaux.md",
+    "ai/18 - Reasoning and inference in FOL.md",
+    "ai/19 - First order Resolution.md",
+    "ai/14 - Forward and backward chaining.md",
+    "ai/15 - DPLL.md",
+    "ai/12,13 - Propositional resolution, definitions, soundness and completeness.md",
+    "ai/06 - CSP, consistency.md",
+    "ai/09 - Logic-based agents, Introduction to propositional logic.md",
+    "ai/10 - Satisfiability, tautology and contradiction.md",
+    "ai/11 - Inference in PL.md",
+    "ai/07 - CSP, backtracking and inference.md",
+    "ai/04 - Search problems, informed search and heuristics.md",
+    "ai/02 - Agents, part 2.md",
+    "ai/01 - Agents, part 1.md",
+    "pictures/Pasted image 20230605154535.png",
+    "pictures/Pasted image 20230605153852.png",
+    "pictures/Pasted image 20230605153333.png",
+    "ai/Propositional resolution, definition and properties.md",
+    "pictures/Pasted image 20230605151942.png",
+    "pictures/Pasted image 20230605151432.png",
     "pictures/Pasted image 20230604112235.png",
     "pictures/Pasted image 20230604112140.png",
     "pictures/skolem.png",
-    "ai/18 - Reasoning and inference in FOL.md",
     "pictures/Pasted image 20230604105801.png",
-    "ai/17 - First order logic, introduction.md",
     "pictures/Pasted image 20230604105607.png",
-    "ai/16 - Tableaux.md",
-    "ai/11 - Inference in PL.md",
-    "pictures/Pasted image 20230604095833.png",
-    "pictures/Pasted image 20230604095544.png",
-    "pictures/Pasted image 20230604095405.png",
-    "pictures/Pasted image 20230604094245.png",
-    "pictures/Pasted image 20230604093942.png",
-    "pictures/Pasted image 20230604093048.png",
-    "ai/15 - DPLL.md",
     "The ER model, part 2.md",
     "Relational model, part 1.md",
     "README.md",

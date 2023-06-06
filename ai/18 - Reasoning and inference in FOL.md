@@ -52,4 +52,28 @@ The same as PL, having a **quantifier-free formula**
 
 ![Pasted image 20230604112235](../pictures/Pasted%20image%2020230604112235.png)
 
-page 15 slides 18
+#### General approach to PCNF
+
+1. Eliminate → and ↔ 
+2. Push negations in front of atomic formulae
+3. Pull quantifiers out
+4. Transform in CNF using distributivity of ∨ and ∧
+
+##### Example
+
+![Pasted image 20230605151942](../pictures/Pasted%20image%2020230605151942.png)
+
+------------
+
+### Clausal form
+
+The universal closure of a formula φ(x<sub>1</sub>, ... , x<sub>n</sub>) with free variables x<sub>1</sub>, ... , x<sub>n</sub> is the sentence: 
+<center><b>∀x<sub>1</sub> ... ∀x<sub>n</sub> (φ (x<sub>1</sub>, ... , x<sub>n</sub>))</b></center>
+Process:
+
+1. Get to PCNF
+2. Skolemize all $\exists$
+3. Remove all $\forall$
+4. Write the formula as a **set of clauses**
+5. Rename vars s.t. **no two clauses in clausal form share common variables**
+

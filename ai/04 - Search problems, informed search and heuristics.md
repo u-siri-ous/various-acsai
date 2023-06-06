@@ -23,7 +23,7 @@ BFS\* fails on weighted graphs, as it will choose **distance** over **cost of ed
 
 ### Greedy best-first search
 
-Greedy BFS\* will always expand to the most promising node (i.e. nearest), as said before, the example in the slides uses **straight line distance** (which is, trivially, **less** than the actual distance)** as heuristic for the example, and it certainly finds a solution, just not the best
+Greedy BFS\* will always expand to the most promising node (i.e. nearest), as said before, the example in the slides uses **straight line distance** (which is, trivially, **less** than the actual distance) as heuristic for the example, and it certainly finds a solution, just not the best
 
 The usage of backtracking is considered, but Greedy BFS\* focuses on exploring the most promising path **without considering alternative paths**
 

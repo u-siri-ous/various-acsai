@@ -85,10 +85,6 @@ Finally, given a structure, a variable assignment and formulae, the **evaluation
 ##### Summary on evaluation
 ![Pasted image 20230604095833](../pictures/Pasted%20image%2020230604095833.png)
 
-
-
-
-
 A formula is:
 
 * **ground** if it does not contain any variable

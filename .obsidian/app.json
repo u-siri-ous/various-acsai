@@ -21,7 +21,11 @@
     "Skolemization",
     "Propositionalization",
     "skolemization",
-    "Prenex"
+    "Prenex",
+    "xn",
+    "x<sub>n",
+    "x<sub>n",
+    "g<sub>n"
   ],
   "newLinkFormat": "absolute",
   "newFileLocation": "current",
