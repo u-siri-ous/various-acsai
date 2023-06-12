@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "204e2a3691ab2ed5",
+        "id": "d5953bb5c558b262",
         "type": "tabs",
         "children": [
           {
-            "id": "09dc27c045ed7641",
+            "id": "b34917f90f5e1bbb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "slides/DMAU_L04_Relational_Model.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -84,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Relational model, part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Relational model, part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Relational model, part 1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,65 +139,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "694f1313a29475a3",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9e97474e71eaf46b",
-        "type": "window",
-        "children": [
-          {
-            "id": "8e5686019a278e30",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "30ccb1d8c1d63b7c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "The ER model, part 2.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "74da99e1424b42c1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Relational model, part 1.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 800,
-        "y": 0,
-        "width": 800,
-        "height": 860,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "74da99e1424b42c1",
+  "active": "b34917f90f5e1bbb",
   "lastOpenFiles": [
-    "slides/DMAU_L04_Relational_Model.pdf",
-    "Relational model, part 1.md",
-    "pictures/Pasted image 20230530175836.png",
-    "pictures/Pasted image 20230530165518.png",
+    "SQL, Nested Queries.md",
+    "pictures/Pasted image 20230612105751.png",
+    "SQL, introduction, DDL and DML.md",
+    "pictures/Pasted image 20230612101127.png",
+    "pictures/Pasted image 20230610142333.png",
+    "Logical Design.md",
+    "pictures/Pasted image 20230610141840.png",
+    "pictures/Pasted image 20230610141825.png",
+    "pictures/Pasted image 20230610141802.png",
+    "pictures/Pasted image 20230610141753.png",
+    "pictures/Pasted image 20230610141041.png",
+    "pictures/Pasted image 20230610141024.png",
+    "The ER model, part 1.md",
     "The ER model, part 2.md",
+    "pictures/Pasted image 20230608193205.png",
+    "Relational model, part 1.md",
+    "slides/DMAU_L04_Relational_Model.pdf",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
-    "pictures/Pasted image 20230530164951.png",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf",
     "slides/DMAU_L02_ER_Model.pdf",
     "slides/DMAU_01_Intro.pdf",
@@ -212,13 +167,6 @@
     "slides/__MACOSX/DMA 2",
     "slides/__MACOSX",
     "slides/DMA 2/DMAU_L05_Restructuiring_ER.pdf",
-    "The ER model, part 1.md",
-    "pictures/Pasted image 20230526170337.png",
-    "pictures/Pasted image 20230526170314.png",
-    "pictures/Pasted image 20230525173436.png",
-    "pictures/Pasted image 20230525173211.png",
-    "Pasted image 20230525172955.png",
-    "pictures/Pasted image 20230525172925.png",
     "Il panico.md"
   ]
 }

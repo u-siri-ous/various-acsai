@@ -14,6 +14,8 @@ This model is used to identify the data elements and a relationship for a specif
 
 > Symbols used in ER models
 
+![Pasted image 20230608192040](pictures/Pasted%20image%2020230608192040.png)
+
 ### Relationship type and set
 
 The relationship represents *how* two variables are associated

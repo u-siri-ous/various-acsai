@@ -36,3 +36,9 @@ A key is a set of attributes which uniquely identify the records of a relation
 Links between different relations are expressed by common values in replicated attributes
 
 * **Foreign key** $\rightarrow$ links information between different tables through common values and forces them to appear as primary key values in referenced relation
+
+An update or delete operation on a relation can cause inconsistencies, so, in that case:
+
+* Do not allow the operation 
+* Cascade elimination 
+* Insert NULL Values
