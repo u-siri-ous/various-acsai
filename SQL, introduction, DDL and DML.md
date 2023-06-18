@@ -65,3 +65,15 @@ ON table JoinCondition
 
 ![](pictures/Pasted%20image%2020230612101127.png)
 
+---------
+
+### Order of execution of commands
+
+1. FROM / JOIN
+2. WHERE
+3. GROUP BY
+4. HAVING
+5. SELECT
+6. DISTINCT
+7. ORDER BY
+8. LIMIT / OFFSET
