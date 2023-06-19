@@ -28,7 +28,7 @@ The decision was to let the company have at least one way to contact the custome
 ### Reservation
 
 1. **reservation_number**: INTEGER, uniquely stores the reservation number for a customer
-2. date_reservation: DATE, date in which the reservation was requested
+2. date_reservation: DATE, date in which the reservation was requested. The decision was to limit dates from year 2020 to year 2023.
 3. <u>customer_id</u>: INTEGER, foreign key $\rightarrow$ CUSTOMER.user_id
 4. type_reservation: VARCHAR(50), the type of reservation requested, between:
 	* Standard
