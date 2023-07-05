@@ -4,35 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "d5953bb5c558b262",
+        "id": "eaa7e4250d05f451",
         "type": "tabs",
         "children": [
           {
-            "id": "b34917f90f5e1bbb",
+            "id": "cd43ef50e86caf3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The ER model, part 1.md",
+                "file": "Logical Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "043084a0e1f69c80",
+            "id": "b0b5929537795536",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project paper.md",
+                "file": "Relational model, part 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e008b4eabeb5a11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL, introduction, DDL and DML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72f7409cab41ebac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL, Nested Queries.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project paper.md",
+                "file": "SQL, Nested Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project paper.md",
+                "file": "SQL, Nested Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project paper.md"
+                "file": "SQL, Nested Queries.md"
               }
             }
           }
@@ -160,14 +184,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "043084a0e1f69c80",
+  "active": "72f7409cab41ebac",
   "lastOpenFiles": [
-    "pictures/Pasted image 20230618142114.png",
-    "The ER model, part 1.md",
-    "Project paper.md",
-    "SQL, Nested Queries.md",
     "SQL, introduction, DDL and DML.md",
+    "SQL, Nested Queries.md",
     "Logical Design.md",
+    "Relational model, part 1.md",
+    "The ER model, part 2.md",
+    "The ER model, part 1.md",
+    "slides/DMAU_01_Intro.pdf",
+    "Project paper.md",
+    "pictures/Pasted image 20230618142114.png",
     "pictures/Pasted image 20230612105751.png",
     "pictures/Pasted image 20230612101127.png",
     "pictures/Pasted image 20230610142333.png",
@@ -177,14 +204,10 @@
     "pictures/Pasted image 20230610141753.png",
     "pictures/Pasted image 20230610141041.png",
     "pictures/Pasted image 20230610141024.png",
-    "The ER model, part 2.md",
-    "pictures/Pasted image 20230608193205.png",
-    "Relational model, part 1.md",
     "slides/DMAU_L04_Relational_Model.pdf",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf",
     "slides/DMAU_L02_ER_Model.pdf",
-    "slides/DMAU_01_Intro.pdf",
     "slides/DMAU_L06_SQL_DDL.pdf",
     "slides/DMAU_L05_Restructuiring_ER.pdf",
     "slides/__MACOSX/DMA 2",

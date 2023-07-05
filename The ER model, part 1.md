@@ -5,10 +5,10 @@ This model is used to identify the data elements and a relationship for a specif
 ### Entity type and set
 
 **Entities** $\rightarrow$ An entity is a "thing", and object, person or place
-  - Strong entities have key values and does not depend on other entitites and are uniquely identified
+  - Strong entities have key values and does not depend on other entities and are uniquely identified
   - Weak entities are the ones that can have an undefined key attribute and are identified by strong entities
 **Attributes** $\rightarrow$ Attributes are properties that define the entity type (e.g. for the entity dog, the attribute breed)
-  - The key attribute uniquely identies each entity in the entity set
+  - The key attribute uniquely identifies each entity in the entity set
 
 ![Pasted image 20230526170314.png](pictures/Pasted%20image%2020230526170314.png)
 
