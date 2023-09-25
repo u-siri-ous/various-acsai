@@ -9,6 +9,8 @@ le materie sono nei branch:
 - aiml (ci stanno 2 sotto cartelle, ai e ml)
 - ai-lab
 - python (archiviato, c'è una [repo a parte](https://github.com/u-siri-ous/the-python-database); usare git checkout -b python archive/python per riutilizzarlo)
+- focs
+- deep-learning
 
 istruzioni: (linea di comando git bash)
 - clonare la repo (git clone https://github.com/u-siri-ous/various-acsai.git) nella cartella che volete (usando cd)
