@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 1 -.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 1 -.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 1 -.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 1 -.md"
+                "file": "1 - Intro, Basics, Info.md"
               }
             }
           }
@@ -157,6 +157,6 @@
   },
   "active": "1af1111950edb1d0",
   "lastOpenFiles": [
-    "Lecture 1 -.md"
+    "1 - Intro, Basics, Info.md"
   ]
 }
