@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87fa3a8e8a7b36ae",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1af1111950edb1d0",
+            "id": "99af83c8ddaaa698",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Intro, Basics, Info.md",
+                "file": "2 - Perceptron and sentiment analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b77e06e1dd0ebe26",
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Intro, Basics, Info.md",
+                "file": "2 - Perceptron and sentiment analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Intro, Basics, Info.md",
+                "file": "2 - Perceptron and sentiment analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Intro, Basics, Info.md"
+                "file": "2 - Perceptron and sentiment analysis.md"
               }
             }
           }
@@ -155,8 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1af1111950edb1d0",
+  "active": "99af83c8ddaaa698",
   "lastOpenFiles": [
-    "1 - Intro, Basics, Info.md"
+    "pictures/Pasted image 20231002214754.png",
+    "pictures/Pasted image 20231002182451.png",
+    "pictures/Pasted image 20231002182015.png",
+    "pictures/Pasted image 20231002180845.png",
+    "pictures/Pasted image 20231002175934.png",
+    "1 - Intro, Basics, Info.md",
+    "2 - Perceptron and sentiment analysis.md",
+    "pictures"
   ]
 }
