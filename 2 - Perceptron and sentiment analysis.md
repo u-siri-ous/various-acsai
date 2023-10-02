@@ -85,7 +85,7 @@ In general:
 * **Negative zone**: the area on the plane for which <b>ax<sub>1</sub> + bx<sub>2</sub> + c 
 </b>< 0
 
-![[Pasted image 20231002214754.png]]
+![Pasted image 20231002214754](Pasted%20image%2020231002214754.png)
 
 <u><b>Q:</b></u> How to evaluate the <u>accuracy</u> of the model
 
@@ -94,8 +94,13 @@ In general:
 ## Activation functions - The step function
 
 The function that returns a 1 if the output is nonnegative and a 0 if the output is negative. 
-In other words, if the input is x, then: <center><b>step(x) = 1 if x ≥ 0</b>, and</center>
-$$\text{step(x) if} x \lt 0$$
+In other words, if the input is x, then:
+$$ \text{step}(x) =
+\begin{cases}
+ 1 & \text{if } x \geq 0 \\
+ 0 & \text{if } x \lt 0
+\end{cases}
+$$
 This is used to **encode** the positive and the negative part of the plane (or happy and sad etc...), it turns the score into a **prediction**.
 
 Generally, the prediction can be thought as:
