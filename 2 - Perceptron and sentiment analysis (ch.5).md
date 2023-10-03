@@ -118,4 +118,3 @@ of course, the plane has as many dimensions are there are variables/words.
 p 140 grokking ml
 
 
-
