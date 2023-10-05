@@ -96,3 +96,6 @@ This involves the notion of **early stopping**, for efficiency purposes, and the
 
 
 
+
+
+perceptron trick

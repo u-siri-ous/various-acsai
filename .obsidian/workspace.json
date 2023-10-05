@@ -1,64 +1,39 @@
 {
   "main": {
-    "id": "3cb2b92196aca8b5",
+    "id": "c67c8af561dbb4bd",
     "type": "split",
     "children": [
       {
-        "id": "223b40d438a19d4f",
+        "id": "5dfd89aa5cacebad",
         "type": "tabs",
         "children": [
           {
-            "id": "99af83c8ddaaa698",
+            "id": "4c6c5d8e4c4bd069",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Improving perceptron, finding weights (ch.5).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c84cbb4ff4c86bc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Logistic regression classifier (ch.6).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c02eb599bca4771b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Exercises.md",
+                "file": "4 - The Logistic regression algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f64f07e7bdffd0f3",
+    "id": "1e698e6de2a82f7e",
     "type": "split",
     "children": [
       {
-        "id": "19c5e2e9daf0ee85",
+        "id": "eb29d2a5b0855375",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa28a83a3668572",
+            "id": "0102699cf21b2299",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +43,7 @@
             }
           },
           {
-            "id": "72f1398790f6f570",
+            "id": "51f16f860d66ad9b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +58,7 @@
             }
           },
           {
-            "id": "328f98e7fe773c89",
+            "id": "e72f4b444aadb57f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -98,20 +73,20 @@
     "collapsed": true
   },
   "right": {
-    "id": "b77e06e1dd0ebe26",
+    "id": "2d2aa1f0a46fe5b8",
     "type": "split",
     "children": [
       {
-        "id": "9f14d90b6da1ed37",
+        "id": "6f2f5abecda7a9d3",
         "type": "tabs",
         "children": [
           {
-            "id": "f299a132b4744f47",
+            "id": "f678016585ddb58a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Logistic regression classifier (ch.6).md",
+                "file": "4 - The Logistic regression algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,19 +98,19 @@
             }
           },
           {
-            "id": "be9b7d8f1e828d12",
+            "id": "65d275a7544461d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Logistic regression classifier (ch.6).md",
+                "file": "4 - The Logistic regression algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fc7c7e791844b9a4",
+            "id": "1a7c44bb7c68dd44",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,12 +121,12 @@
             }
           },
           {
-            "id": "78f273a1e26a7d08",
+            "id": "696a9cb5014b725c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Logistic regression classifier (ch.6).md"
+                "file": "4 - The Logistic regression algorithm.md"
               }
             }
           }
@@ -172,23 +147,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c84cbb4ff4c86bc9",
+  "active": "4c6c5d8e4c4bd069",
   "lastOpenFiles": [
-    "3 - Improving perceptron, finding weights (ch.5).md",
+    "pictures/Pasted image 20231005153249.png",
+    "pictures/Pasted image 20231005153121.png",
     "3 - Logistic regression classifier (ch.6).md",
+    "3.md",
+    "4 - The Logistic regression algorithm.md",
+    "pictures/Pasted image 20231005144728.png",
+    "pictures/Pasted image 20231005144539.png",
+    "pictures/Pasted image 20231005143310.png",
+    "pictures/Pasted image 20231005143121.png",
+    "2 - Exercises.md",
     "pictures/Pasted image 20231003162302.png",
     "pictures/Pasted image 20231003162237.png",
-    "2 - Exercises.md",
     "pictures/Pasted image 20231003143527.png",
-    "2 - Perceptron and sentiment analysis (ch.5).md",
     "pictures/Pasted image 20231003141802.png",
     "pictures/Pasted image 20231003141632.png",
-    "pictures/Pasted image 20231002214754.png",
-    "pictures/Pasted image 20231002182451.png",
-    "pictures/Pasted image 20231002182015.png",
-    "pictures/Pasted image 20231002180845.png",
-    "pictures/Pasted image 20231002175934.png",
+    "pictures",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "2 - Perceptron and sentiment analysis (ch.5).md",
     "1 - Intro, Basics, Info.md",
-    "pictures"
+    "test-focs.txt",
+    "Exercise session 1.md",
+    "04 - regular grammars.pdf",
+    "03 - regular expressions.pdf",
+    "02 - nondeterminism.pdf"
   ]
 }

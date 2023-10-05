@@ -4,7 +4,9 @@ For example, going back to the previous lecture, in which we analysed phrases. I
 
 **We need a smoother, real valued way to classify points**
 
-The goal of the logistic classifier is to assign scores as close as possible to the label of the points.
+The goal of the logistic classifier is to assign scores as close as possible to the label of the points
+
+The logistic classifier, in contrast with the perceptron classifier, doesn’t give definite answers
 
 Input:
 * Set of points labelled as happy = 1 and sad = 0
@@ -22,14 +24,14 @@ $$
 \lim_{x\to-\infty} \sigma(x) = 0
 $$
 
-![[Pasted image 20231003162237.png]]
+![Pasted image 20231003162237](Pasted%20image%2020231003162237.png)
 
 It's real valued and continuous, so the error **won't ever** be 0 or one, but a float number.
 
 ---------
 ### Logistic Classifier 1
 
-![[Pasted image 20231003162302.png]]
+![Pasted image 20231003162302](Pasted%20image%2020231003162302.png)
 
 Logistic Classifier 1:
 * Weight of Aack: a = 1 
@@ -77,3 +79,80 @@ $$
 We use log as it has the following property:
 $$log(ab) = log(a) + log(b)$$
 So we use it to transform the product in a sum
+
+--------
+### Logistic Classifier 1 - logloss
+
+
+![Pasted image 20231003162302](Pasted%20image%2020231003162302.png)
+
+Logistic Classifier 1:
+* Weight of Aack: a = 1 
+* Weight of Beep: b = 2 
+* Bias: c = –4
+Prediction (in this specific case): 
+* Sentence 1: ŷ = σ(3 + 2 · 2 – 4) = s(3) = 0.953
+* Sentence 2: ŷ = σ(1 + 2 · 2 – 4) = s(1) = 0.731 
+* Sentence 3: ŷ = σ(0 + 2 · 1 – 4) = s(–2) = 0.119 
+* Sentence 4: ŷ = σ(2 + 2 · 0 – 4) = s(–2) = 0.119
+
+REM: the predictions are interpreted as probabilities
+
+* Point 1: 
+	* Label = 0 (sad) 
+	* Prediction (probability of being happy) = 0.953 
+	* Probability that prediction is correct: 1 – 0.953 = 0.047 
+* Point 2: 
+	* Label = 1 (happy) 
+	* Prediction (probability of being happy) = 0.731 
+	* Probability that prediction is correct: 0.731 
+* Point 3: 
+	* Label = 1 (happy) 
+	* Prediction (probability of being happy) = 0.119 
+	* Probability that prediction is correct: 0.119 
+* Point 4: 
+	* Label = 0 (sad) 
+	* Prediction (probability of being happy) = 0.119 
+	* Probability that prediction is correct: 1 – 0.119 = 0.881
+
+We now need the probability that all four of them are correct; assuming independence we simply multiply the above probabilities and that equals 0.004. This is almost what we want.
+
+Let's calculate logloss on sentences this way:
+$$\text {logloss = -ln(probability prediction is correct) or} 
+$$
+$$\text {-ln(|ŷ-y|) or}$$
+$$\text{-y ln(ŷ) - (1-y) ln(1-ŷ)}$$
+![Pasted image 20231005143121](Pasted%20image%2020231005143121.png)![[Pasted image 20231005143310.png]]
+
+**logloss of the entire dataset is the sum of the logloss at each point**
+
+------
+### Comparing classifiers using logloss
+
+Logistic Classifier 1: (blue)
+* Weight of Aack: a = 1 
+* Weight of Beep: b = 2 
+* Bias: c = –4
+
+Logistic Classifier 2: (violet)
+* Weight of Aack: a = –1 
+* Weight of Beep: b = 1 
+* Bias: c = 0
+
+![[Pasted image 20231005144539.png]]
+
+Classifier 2 looks better, let's check with logloss
+
+![[Pasted image 20231005144728.png]]
+
+* Point 1: y = 0, yˆ = 0.269: l
+	* log loss = ln(1 – 0.269) = 0.313 
+* Point 2: y = 1, yˆ = 0.73: 
+	* log loss = ln(0.721) = 0.313 
+* Point 3: y = 1, yˆ = 0.73: 
+	* log loss = ln(731) = 0.313 
+* Point 4: y = 0, yˆ = 0.119: 
+	* log loss = ln(1 – 0.119) = 0.127 
+
+The total log loss for the dataset is the sum of these four, which is **1.067**
+Notice that this is much smaller than 5.616, confirming that classifier 2 is indeed much better than classifier 1
