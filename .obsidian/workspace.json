@@ -19,8 +19,12 @@
             "id": "4c6c5d8e4c4bd069",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ethz.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2d2aa1f0a46fe5b8",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ethz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ethz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ethz.md"
+              }
             }
           }
         ]
@@ -147,8 +156,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c6c5d8e4c4bd069",
+  "active": "0102699cf21b2299",
   "lastOpenFiles": [
+    "ethz.md",
     "test-focs.txt",
     "Exercise session 1.md",
     "04 - regular grammars.pdf",
