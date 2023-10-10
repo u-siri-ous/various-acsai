@@ -11,8 +11,8 @@ This is similar to the perceptron trick. it has the two cases:
 
 If points are deeper in the correct zone, their probability increases
 
-![[Pasted image 20231005153249.png]]
-![[Pasted image 20231005153121.png]]
+![[pictures/Pasted image 20231005153249.png]]
+![[pictures/Pasted image 20231005153121.png]]
 
 Update should be a multiple of y-ŷ
 Weight of aack should be updated by an amount proportional to #aack

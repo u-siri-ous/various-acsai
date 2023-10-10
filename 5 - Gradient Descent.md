@@ -1,10 +1,10 @@
 Imagine you're lost on a foggy mountain, **how do you get down from the mountain?** 
 **Take small steps in the direction of steepest descent, and repeat**
 
-![[Pasted image 20231010152311.png]]
+![[pictures/Pasted image 20231010152311.png]]
 
 Let f(x<sub>1</sub>,...,x<sub>n</sub>) be a *smooth* function, the **gradient** of f is denoted as $\nabla$f and it's the **vector of partial derivatives**:
-![[Pasted image 20231010152520.png]]
+![[pictures/Pasted image 20231010152520.png]]
 The gradient is aka as the direction of steepest ascent, with its negative being the direction of steepest descent
 
 <b><u>Theorem</u></b>: if f is differentiable on a neighborhood around the point p, then the direction of steepest descent at p is $$-\nabla f(p)$$
@@ -21,7 +21,7 @@ Process:
 	* Calculate the gradient ∇f(p<sub>i</sub>) 
 	* Pick the point p<sub>i+1</sub> = p<sub>i</sub> – *l* ∇f(p<sub>i</sub>) 
 	* End with the point p<sub>n</sub>
-![[Pasted image 20231010153913.png]]
+![[pictures/Pasted image 20231010153913.png]]
 
 ## Training perceptrons via gradient descent
 
@@ -49,11 +49,11 @@ The derivative of the ReLU is the step function
 ----------
 Gradient descent is applied when a,b and c are variables
 
-![[Pasted image 20231010163005.png]]
+![[pictures/Pasted image 20231010163005.png]]
 
 These three together constitute the gradient of PE
 
-![[Pasted image 20231010164429.png]]
+![[pictures/Pasted image 20231010164429.png]]
 
 By gradient descent, we update (a, b, c) by $$(a', b', c') = (a, b, c)\nabla PE (p_1,p_2)l$$
 This is exactly the same update rule for the perceptron trick

@@ -1,76 +1,39 @@
 {
   "main": {
-    "id": "c67c8af561dbb4bd",
+    "id": "1b90dfcc444ba894",
     "type": "split",
     "children": [
       {
-        "id": "86ddf1b3bba65e98",
+        "id": "16a41a53c37f1098",
         "type": "tabs",
         "children": [
           {
-            "id": "cfc89cbb8baeeee0",
+            "id": "97e1b8228103a2b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Improving perceptron, finding weights (ch.5).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "364d79d76d8b6a25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Perceptron and sentiment analysis (ch.5).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c083a64c68dacbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - The Logistic regression algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f622279f9e6c4967",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1e698e6de2a82f7e",
+    "id": "8ecf32af30d5d395",
     "type": "split",
     "children": [
       {
-        "id": "eb29d2a5b0855375",
+        "id": "73a59881a86a9fe2",
         "type": "tabs",
         "children": [
           {
-            "id": "0102699cf21b2299",
+            "id": "bd4cb6bc80b9e0e7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +43,7 @@
             }
           },
           {
-            "id": "51f16f860d66ad9b",
+            "id": "b0f11df858700035",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +58,7 @@
             }
           },
           {
-            "id": "e72f4b444aadb57f",
+            "id": "437b9db2ff9ad314",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -106,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "2d2aa1f0a46fe5b8",
+    "id": "de6defad5dc2bb6f",
     "type": "split",
     "children": [
       {
-        "id": "6f2f5abecda7a9d3",
+        "id": "8399e81d70d6c147",
         "type": "tabs",
         "children": [
           {
-            "id": "f678016585ddb58a",
+            "id": "5aaa359174361d5e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,19 +97,19 @@
             }
           },
           {
-            "id": "65d275a7544461d6",
+            "id": "2a7d2407ba65daa3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "1 - Intro, Basics, Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1a7c44bb7c68dd44",
+            "id": "ed90609be0792441",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -158,12 +120,12 @@
             }
           },
           {
-            "id": "696a9cb5014b725c",
+            "id": "dfd494336ba5338b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Gradient Descent.md"
+                "file": "1 - Intro, Basics, Info.md"
               }
             }
           }
@@ -184,33 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f622279f9e6c4967",
+  "active": "97e1b8228103a2b5",
   "lastOpenFiles": [
-    "pictures/Pasted image 20231010164429.png",
-    "pictures/Pasted image 20231010163005.png",
+    "2 - Exercises.md",
     "2 - Perceptron and sentiment analysis (ch.5).md",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "3 - Logistic regression classifier (ch.6).md",
     "4 - The Logistic regression algorithm.md",
     "5 - Gradient Descent.md",
-    "3 - Logistic regression classifier (ch.6).md",
+    "pictures/Pasted image 20231005153121.png",
+    "pictures/Pasted image 20231003162237.png",
+    "pictures/Pasted image 20231003143527.png",
+    "pictures/Pasted image 20231010164429.png",
+    "pictures/Pasted image 20231010163005.png",
     "pictures/Pasted image 20231010153913.png",
     "pictures/Pasted image 20231010153633.png",
     "pictures/Pasted image 20231010152636.png",
     "pictures/Pasted image 20231010152520.png",
     "pictures/Pasted image 20231010152311.png",
-    "3 - Improving perceptron, finding weights (ch.5).md",
-    "2 - Exercises.md",
-    "1 - Intro, Basics, Info.md",
-    "GRM - The house on mango street.md",
-    "pictures/Pasted image 20231005153249.png",
-    "pictures/Pasted image 20231005153121.png",
-    "3.md",
-    "pictures/Pasted image 20231005144728.png",
-    "pictures/Pasted image 20231005144539.png",
     "pictures",
-    "test-focs.txt",
-    "Exercise session 1.md",
-    "04 - regular grammars.pdf",
-    "03 - regular expressions.pdf",
-    "02 - nondeterminism.pdf"
+    "1 - Intro, Basics, Info.md",
+    "javascript/JS - 1.md",
+    "ethz.md",
+    "javascript",
+    "1 - Intro, course info.md",
+    "1 - Webapps.md",
+    "README.md"
   ]
 }

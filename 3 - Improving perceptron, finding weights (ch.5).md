@@ -6,7 +6,7 @@ Let's take this via a simpler example:
 
 #### EXAMPLE:
 
-![[Pasted image 20231003143527.png]]
+![[pictures/Pasted image 20231003143527.png]]
 
 **Pseudocode for the perceptron trick (geometric)**:
 * Case 1: If the point is correctly classified, leave the line as it is. 
