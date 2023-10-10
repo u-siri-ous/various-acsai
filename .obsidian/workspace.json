@@ -11,24 +11,15 @@
             "id": "97e1b8228103a2b5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e3e388a84b936707",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Intro, course info.md",
+                "file": "javascript/JS - 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Intro, course info.md",
+                "file": "javascript/JS - 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Intro, course info.md",
+                "file": "javascript/JS - 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Intro, course info.md"
+                "file": "javascript/JS - 1.md"
               }
             }
           }
@@ -155,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3e388a84b936707",
+  "active": "97e1b8228103a2b5",
   "lastOpenFiles": [
-    "1 - Webapps.md",
+    "ethz.md",
+    "javascript/JS - 1.md",
+    "javascript",
     "1 - Intro, course info.md",
+    "1 - Webapps.md",
     "README.md"
   ]
 }
