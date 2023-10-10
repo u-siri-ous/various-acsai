@@ -11,15 +11,34 @@
             "id": "71fcb0c60b2710e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Exercise session 1.md",
-                "mode": "source",
-                "source": false
+                "file": "01 - regular languages.pdf"
+              }
+            }
+          },
+          {
+            "id": "db58be2726db7bf6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "02 - nondeterminism.pdf"
+              }
+            }
+          },
+          {
+            "id": "0fa77edad96630a9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 - regular expressions.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2d2aa1f0a46fe5b8",
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exercise session 1.md",
+                "file": "03 - regular expressions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exercise session 1.md",
+                "file": "03 - regular expressions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exercise session 1.md"
+                "file": "03 - regular expressions.pdf"
               }
             }
           }
@@ -146,15 +166,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71fcb0c60b2710e6",
+  "active": "0fa77edad96630a9",
   "lastOpenFiles": [
-    "Exercise session 1.md",
+    "02 - nondeterminism.pdf",
     "03 - regular expressions.pdf",
     "01 - regular languages.pdf",
+    "Exercise session 1.md",
     "Unconfirmed 375549.crdownload",
     "ethz.md",
     "test-focs.txt",
-    "04 - regular grammars.pdf",
-    "02 - nondeterminism.pdf"
+    "04 - regular grammars.pdf"
   ]
 }
