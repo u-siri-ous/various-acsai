@@ -11,11 +11,11 @@ This is similar to the perceptron trick. it has the two cases:
 
 If points are deeper in the correct zone, their probability increases
 
-![[pictures/Pasted image 20231005153249.png]]
-![[pictures/Pasted image 20231005153121.png]]
+![Pasted image 20231005153249](../pictures/Pasted%20image%2020231005153249.png)
+![Pasted image 20231005153121](../pictures/Pasted%20image%2020231005153121.png)
 
-Update should be a multiple of y-ŷ
-Weight of aack should be updated by an amount proportional to #aack
-The same with beep
-Bias is updated by an amount proportional to 1
-Finally, updates should be multiplied by the learning rate number
+* Update should be a multiple of y-ŷ
+* Weight of aack should be updated by an amount proportional to #aack 
+* The same with beep
+* Bias is updated by an amount proportional to 1
+* Finally, updates should be multiplied by the learning rate number

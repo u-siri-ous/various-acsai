@@ -17,9 +17,9 @@ Weights:
 Prediction:
 <b>ŷ = step(-x<sub>aack</sub> +x<sub>beep</sub>)</b>
 
-![Pasted image 20231003141632](pictures/Pasted%20image%2020231003141632.png)
+![Pasted image 20231003141632](../pictures/Pasted%20image%2020231003141632.png)
 
-![Pasted image 20231003141802](pictures/Pasted%20image%2020231003141802.png)
+![Pasted image 20231003141802](../pictures/Pasted%20image%2020231003141802.png)
 
 >NOTE: 
 >Encoding: 1 $\rightarrow$ happy, 0 $\rightarrow$ sad

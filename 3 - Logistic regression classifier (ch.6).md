@@ -24,14 +24,14 @@ $$
 \lim_{x\to-\infty} \sigma(x) = 0
 $$
 
-![Pasted image 20231003162237](pictures/Pasted%20image%2020231003162237.png)
+![Pasted image 20231003162237](../pictures/Pasted%20image%2020231003162237.png)
 
 It's real valued and continuous, so the error **won't ever** be 0 or one, but a float number.
 
 ---------
 ### Logistic Classifier 1
 
-![Pasted image 20231003162302](pictures/Pasted%20image%2020231003162302.png)
+![Pasted image 20231003162302](../pictures/Pasted%20image%2020231003162302.png)
 
 Logistic Classifier 1:
 * Weight of Aack: a = 1 
@@ -88,8 +88,7 @@ So we use it to transform the product in a sum
 --------
 ### Logistic Classifier 1 - logloss
 
-
-![Pasted image 20231003162302](pictures/Pasted%20image%2020231003162302.png)
+![Pasted image 20231003162302](../pictures/Pasted%20image%2020231003162302.png)
 
 Logistic Classifier 1:
 * Weight of Aack: a = 1 
@@ -127,7 +126,7 @@ $$\text {logloss = -ln(probability prediction is correct) or}
 $$
 $$\text {-ln(|ŷ-y|) or}$$
 $$\text{-y ln(ŷ) - (1-y) ln(1-ŷ)}$$
-![Pasted image 20231005143121](pictures/Pasted%20image%2020231005143121.png)![[pictures/Pasted image 20231005143310.png]]
+![Pasted image 20231005143121](../pictures/Pasted%20image%2020231005143121.png)![Pasted image 20231005143310](../pictures/Pasted%20image%2020231005143310.png)
 
 **logloss of the entire dataset is the sum of the logloss at each point**
 
@@ -144,11 +143,11 @@ Logistic Classifier 2: (violet)
 * Weight of Beep: b = 1 
 * Bias: c = 0
 
-![[pictures/Pasted image 20231005144539.png]]
+![Pasted image 20231005144539](../pictures/Pasted%20image%2020231005144539.png)
 
 Classifier 2 looks better, let's check with logloss
 
-![[pictures/Pasted image 20231005144728.png]]
+![Pasted image 20231005144728](../pictures/Pasted%20image%2020231005144728.png)
 
 * Point 1: y = 0, yˆ = 0.269: l
 	* log loss = ln(1 – 0.269) = 0.313 

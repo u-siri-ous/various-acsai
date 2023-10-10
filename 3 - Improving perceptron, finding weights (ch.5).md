@@ -6,7 +6,7 @@ Let's take this via a simpler example:
 
 #### EXAMPLE:
 
-![[pictures/Pasted image 20231003143527.png]]
+![Pasted image 20231003143527](../pictures/Pasted%20image%2020231003143527.png)
 
 **Pseudocode for the perceptron trick (geometric)**:
 * Case 1: If the point is correctly classified, leave the line as it is. 
@@ -93,9 +93,3 @@ If the perceptron misclassifies the point, the output perceptron produces a smal
 **We'll just pick random points for the time being**, we basically do the perceptron trick many times to get the perceptron algorithm. 
 
 This involves the notion of **early stopping**, for efficiency purposes, and the notion of **epochs**, which are the times you apply the perceptron trick
-
-
-
-
-
-perceptron trick

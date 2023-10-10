@@ -13,7 +13,7 @@ The training stage is successful implementing an **error function**, and we aim 
 
 This is applicable to human language to an extent, so we'll use the example of the alien planet in which we have to learn the language.
 
-![Pasted image 20231002175934](pictures/Pasted%20image%2020231002175934.png)
+![Pasted image 20231002175934](../pictures/Pasted%20image%2020231002175934.png)
 
 ## Sentiment analysis classifier - example 1
 
@@ -35,7 +35,7 @@ Beep beep!  | 0 | 2 | Sad
 Aack beep aack! | 2 | 1 | Happy
 Aack beep beep beep! | 1 | 3 | Sad
 
-![Pasted image 20231002180845](pictures/Pasted%20image%2020231002180845.png)
+![Pasted image 20231002180845](../pictures/Pasted%20image%2020231002180845.png)
 
 In this case, the equation of the line is the bisector of the first quadrant, as the alien that says nothing (i.e. says zero words) is considered happy.
 The happy zone is the zone in which the number of appearances of aack is greater than or equal to the number of appearances of beep, and the sad zone is the zone in which the number of appearances of aack is less than that of beep.
@@ -43,7 +43,7 @@ The happy zone is the zone in which the number of appearances of aack is greater
 ----------
 ## Sentiment analysis classifier - example 2
 
-![Pasted image 20231002182015](pictures/Pasted%20image%2020231002182015.png)
+![Pasted image 20231002182015](../pictures/Pasted%20image%2020231002182015.png)
 In this example, the occurences of the words are much more sparse and uneven than before.
 The trick is to always find a pattern, in this case, we can see that **every alien that says 4 or more words is happy and the others are sad**, and **there aren't words that indicate a negative score, per se**.
 
@@ -60,7 +60,7 @@ Now assign:
 		* If the score is 3.5 or more, predict that the sentence is happy. 
 		* If the score is less than 3.5, predict that the sentence is sad.
 
-![Pasted image 20231002182451](pictures/Pasted%20image%2020231002182451.png)
+![Pasted image 20231002182451](../pictures/Pasted%20image%2020231002182451.png)
 
 **Positive zone**: the area on the plane for which x<sub>crack</sub> + x<sub>doink</sub> – 3.5 $\geq$ 0 
 **Negative zone**: the area on the plane for which x<sub>crack</sub> + x<sub>doink</sub> – 3.5 < 0
@@ -85,7 +85,7 @@ In general:
 * **Negative zone**: the area on the plane for which <b>ax<sub>1</sub> + bx<sub>2</sub> + c 
 </b>< 0
 
-![Pasted image 20231002214754](pictures/Pasted%20image%2020231002214754.png)
+![Pasted image 20231002214754](../pictures/Pasted%20image%2020231002214754.png)
 
 <u><b>Q:</b></u> How to evaluate the <u>accuracy</u> of the model
 
