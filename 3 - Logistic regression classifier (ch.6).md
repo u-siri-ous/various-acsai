@@ -73,8 +73,13 @@ Given that ŷ is the probability that a sentence is happy, **1 - ŷ is the proba
 	Then P(prediction correct) = 1 - ŷ
 
 We can say that:
+$$\text
+{P(all predictions are correct) = }
 $$
-P()
+$$
+{
+ln \Pi 
+}
 $$
 We use log as it has the following property:
 $$log(ab) = log(a) + log(b)$$

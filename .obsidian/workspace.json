@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5dfd89aa5cacebad",
+        "id": "86ddf1b3bba65e98",
         "type": "tabs",
         "children": [
           {
-            "id": "4c6c5d8e4c4bd069",
+            "id": "cfc89cbb8baeeee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Improving perceptron, finding weights (ch.5).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "364d79d76d8b6a25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Perceptron and sentiment analysis (ch.5).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c083a64c68dacbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f622279f9e6c4967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 - Gradient Descent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 - The Logistic regression algorithm.md",
+                "file": "5 - Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4 - The Logistic regression algorithm.md",
+                "file": "5 - Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4 - The Logistic regression algorithm.md"
+                "file": "5 - Gradient Descent.md"
               }
             }
           }
@@ -147,27 +184,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c6c5d8e4c4bd069",
+  "active": "f622279f9e6c4967",
   "lastOpenFiles": [
+    "pictures/Pasted image 20231010164429.png",
+    "pictures/Pasted image 20231010163005.png",
+    "2 - Perceptron and sentiment analysis (ch.5).md",
+    "4 - The Logistic regression algorithm.md",
+    "5 - Gradient Descent.md",
+    "3 - Logistic regression classifier (ch.6).md",
+    "pictures/Pasted image 20231010153913.png",
+    "pictures/Pasted image 20231010153633.png",
+    "pictures/Pasted image 20231010152636.png",
+    "pictures/Pasted image 20231010152520.png",
+    "pictures/Pasted image 20231010152311.png",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "2 - Exercises.md",
+    "1 - Intro, Basics, Info.md",
+    "GRM - The house on mango street.md",
     "pictures/Pasted image 20231005153249.png",
     "pictures/Pasted image 20231005153121.png",
-    "3 - Logistic regression classifier (ch.6).md",
     "3.md",
-    "4 - The Logistic regression algorithm.md",
     "pictures/Pasted image 20231005144728.png",
     "pictures/Pasted image 20231005144539.png",
-    "pictures/Pasted image 20231005143310.png",
-    "pictures/Pasted image 20231005143121.png",
-    "2 - Exercises.md",
-    "pictures/Pasted image 20231003162302.png",
-    "pictures/Pasted image 20231003162237.png",
-    "pictures/Pasted image 20231003143527.png",
-    "pictures/Pasted image 20231003141802.png",
-    "pictures/Pasted image 20231003141632.png",
     "pictures",
-    "3 - Improving perceptron, finding weights (ch.5).md",
-    "2 - Perceptron and sentiment analysis (ch.5).md",
-    "1 - Intro, Basics, Info.md",
     "test-focs.txt",
     "Exercise session 1.md",
     "04 - regular grammars.pdf",
