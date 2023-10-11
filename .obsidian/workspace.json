@@ -148,6 +148,7 @@
   },
   "active": "97e1b8228103a2b5",
   "lastOpenFiles": [
+    "README.md",
     "4 - The Logistic regression algorithm.md",
     "3 - Logistic regression classifier (ch.6).md",
     "3 - Improving perceptron, finding weights (ch.5).md",
@@ -170,7 +171,6 @@
     "ethz.md",
     "javascript",
     "1 - Intro, course info.md",
-    "1 - Webapps.md",
-    "README.md"
+    "1 - Webapps.md"
   ]
 }
