@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "3 - Logistic regression classifier (ch.6).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7194b0343eed4865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Neural Networks (ch.10).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "6 - Neural Networks (ch.10).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - Gradient Descent.md",
+                "file": "6 - Neural Networks (ch.10).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Gradient Descent.md"
+                "file": "6 - Neural Networks (ch.10).md"
               }
             }
           }
@@ -146,26 +160,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97e1b8228103a2b5",
+  "active": "7194b0343eed4865",
   "lastOpenFiles": [
+    "pictures/Pasted image 20231012154653.png",
+    "pictures/Pasted image 20231012154547.png",
+    "pictures/Pasted image 20231012154455.png",
+    "3 - Logistic regression classifier (ch.6).md",
+    "6 - Neural Networks (ch.10).md",
+    "5 - Gradient Descent.md",
+    "2 - Perceptron and sentiment analysis (ch.5).md",
+    "pictures/Pasted image 20231012152216.png",
+    "pictures/Pasted image 20231012145420.png",
+    "pictures/Pasted image 20231012144925.png",
+    "pictures/Pasted image 20231012143731.png",
+    "pictures/Pasted image 20231012143625.png",
+    "pictures/Pasted image 20231012143537.png",
+    "pictures/Pasted image 20231012143526.png",
+    "pictures/Pasted image 20231012143510.png",
     "README.md",
     "4 - The Logistic regression algorithm.md",
-    "3 - Logistic regression classifier (ch.6).md",
     "3 - Improving perceptron, finding weights (ch.5).md",
-    "2 - Perceptron and sentiment analysis (ch.5).md",
     "2 - Exercises.md",
     "1 - Intro, Basics, Info.md",
-    "5 - Gradient Descent.md",
-    "pictures/Pasted image 20231005153121.png",
-    "pictures/Pasted image 20231003162237.png",
-    "pictures/Pasted image 20231003143527.png",
-    "pictures/Pasted image 20231010164429.png",
-    "pictures/Pasted image 20231010163005.png",
-    "pictures/Pasted image 20231010153913.png",
-    "pictures/Pasted image 20231010153633.png",
-    "pictures/Pasted image 20231010152636.png",
-    "pictures/Pasted image 20231010152520.png",
-    "pictures/Pasted image 20231010152311.png",
     "pictures",
     "javascript/JS - 1.md",
     "ethz.md",

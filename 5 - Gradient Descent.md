@@ -41,11 +41,6 @@ Suppose:
 
 The derivative of the ReLU is the step function
 
---------
-## Activation functions - ReLU
-
-### todo
-
 ----------
 Gradient descent is applied when a,b and c are variables
 
