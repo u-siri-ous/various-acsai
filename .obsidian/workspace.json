@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "22b3c541ab424945",
+        "id": "b0b31bae79427157",
         "type": "tabs",
         "children": [
           {
-            "id": "e2b514e0297e4012",
+            "id": "984b3b7b6b9ed1a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Artefatti tecnologici, cenni storici.md",
+                "file": "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44dde91ad95a8e7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.5
   },
   "right": {
     "id": "bb226b0b82d077f2",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Artefatti tecnologici, cenni storici.md",
+                "file": "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Artefatti tecnologici, cenni storici.md",
+                "file": "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Artefatti tecnologici, cenni storici.md"
+                "file": "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md"
               }
             }
           }
@@ -146,9 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2b514e0297e4012",
+  "active": "44dde91ad95a8e7a",
   "lastOpenFiles": [
+    "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
+    "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
+    "0 - Definizioni, lessico filosofico, testi vari.md",
+    "2 - Artefatti tecnologici, cenni storici.md",
     "1 - Intro, dettagli, inizio.md",
-    "2 - Artefatti tecnologici, cenni storici.md"
+    "2023-10-12.md"
   ]
 }
