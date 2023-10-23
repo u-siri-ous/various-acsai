@@ -43,7 +43,6 @@ Intelligenza e coscienza sono due cose distinte
 (*Premio Loebner* - Viene premiato il chat bot in grado di ottenere il punteggio migliore in uno scenario da test di Turing. La giuria distingue le risposte del programma dall’essere umano. Problematico rispetto a come viene vinto.) vedi esempio dalle slide
 
 ------------------
-
 ### Searle e la stanza cinese
 
 In contrapposizione al test di Turing si muove la stanza cinese di Searle degli anni '80 
