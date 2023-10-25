@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Neural Networks (ch.10).md",
+                "file": "7 - ANN boundaries and training.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Neural Networks (ch.10).md",
+                "file": "7 - ANN boundaries and training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Neural Networks (ch.10).md",
+                "file": "7 - ANN boundaries and training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Neural Networks (ch.10).md"
+                "file": "7 - ANN boundaries and training.md"
               }
             }
           }
@@ -162,21 +162,23 @@
   },
   "active": "7194b0343eed4865",
   "lastOpenFiles": [
+    "pictures/Pasted image 20231024160914.png",
+    "pictures/Pasted image 20231024160909.png",
+    "pictures/Pasted image 20231024154224.png",
+    "6 - Neural Networks (ch.10).md",
+    "().md",
+    "7 - ANN boundaries and training.md",
+    "pictures/Pasted image 20231024142808.png",
+    "pictures/Pasted image 20231024141706.png",
     "pictures/Pasted image 20231012154653.png",
     "pictures/Pasted image 20231012154547.png",
     "pictures/Pasted image 20231012154455.png",
     "3 - Logistic regression classifier (ch.6).md",
-    "6 - Neural Networks (ch.10).md",
     "5 - Gradient Descent.md",
     "2 - Perceptron and sentiment analysis (ch.5).md",
     "pictures/Pasted image 20231012152216.png",
     "pictures/Pasted image 20231012145420.png",
     "pictures/Pasted image 20231012144925.png",
-    "pictures/Pasted image 20231012143731.png",
-    "pictures/Pasted image 20231012143625.png",
-    "pictures/Pasted image 20231012143537.png",
-    "pictures/Pasted image 20231012143526.png",
-    "pictures/Pasted image 20231012143510.png",
     "README.md",
     "4 - The Logistic regression algorithm.md",
     "3 - Improving perceptron, finding weights (ch.5).md",
