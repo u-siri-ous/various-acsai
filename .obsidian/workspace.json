@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97e1b8228103a2b5",
+            "id": "ac3eb10c339431f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Logistic regression classifier (ch.6).md",
+                "file": "8 - Backpropagation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7194b0343eed4865",
+            "id": "c5d4f48a6958f696",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 - ANN boundaries and training.md",
+                "file": "8 - Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7 - ANN boundaries and training.md",
+                "file": "8 - Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - ANN boundaries and training.md"
+                "file": "8 - Backpropagation.md"
               }
             }
           }
@@ -160,14 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7194b0343eed4865",
+  "active": "ac3eb10c339431f7",
   "lastOpenFiles": [
+    "7 - ANN boundaries and training.md",
+    "8 - Backpropagation.md",
     "pictures/Pasted image 20231024160914.png",
     "pictures/Pasted image 20231024160909.png",
     "pictures/Pasted image 20231024154224.png",
     "6 - Neural Networks (ch.10).md",
     "().md",
-    "7 - ANN boundaries and training.md",
     "pictures/Pasted image 20231024142808.png",
     "pictures/Pasted image 20231024141706.png",
     "pictures/Pasted image 20231012154653.png",
@@ -178,7 +178,6 @@
     "2 - Perceptron and sentiment analysis (ch.5).md",
     "pictures/Pasted image 20231012152216.png",
     "pictures/Pasted image 20231012145420.png",
-    "pictures/Pasted image 20231012144925.png",
     "README.md",
     "4 - The Logistic regression algorithm.md",
     "3 - Improving perceptron, finding weights (ch.5).md",
