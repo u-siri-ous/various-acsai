@@ -5,6 +5,8 @@
 
 >**Epistemiologia** : 
 
+>**Funzionalismo** :
+
 ## Testi di esame
 
 1. Turing, *Macchine calcolatrici e Intelligenza*

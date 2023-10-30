@@ -8,55 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "984b3b7b6b9ed1a0",
+            "id": "2b64e9f10785e678",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44dde91ad95a8e7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ed0ad86848a461e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - Intelligenza, continuo (ch.3 - Ienca).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5665ac0f40037f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - Deep Learning.md",
+                "file": "7 - Problematiche etiche, modello di mente di riferimento.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "dba78d07aee42b0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c00d3b63a391656",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8 - Embedded and Extended.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "bb226b0b82d077f2",
@@ -122,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Deep Learning.md",
+                "file": "8 - Embedded and Extended.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Deep Learning.md",
+                "file": "8 - Embedded and Extended.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Deep Learning.md"
+                "file": "8 - Embedded and Extended.md"
               }
             }
           }
@@ -183,13 +165,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5665ac0f40037f3",
+  "active": "4c00d3b63a391656",
   "lastOpenFiles": [
+    "7 - Problematiche etiche, modello di mente di riferimento.md",
+    "8 - Embedded and Extended.md",
+    "0 - Definizioni, lessico filosofico, testi vari.md",
+    "6 - Deep Learning (ch.4 - Fasoli).md",
     "5 - Intelligenza, continuo (ch.3 - Ienca).md",
     "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
-    "6 - Deep Learning.md",
     "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
-    "0 - Definizioni, lessico filosofico, testi vari.md",
     "2 - Artefatti tecnologici, cenni storici.md",
     "1 - Intro, dettagli, inizio.md",
     "2023-10-12.md"
