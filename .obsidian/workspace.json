@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16a41a53c37f1098",
+        "id": "d1cfde556849ad2f",
         "type": "tabs",
         "children": [
           {
-            "id": "ac3eb10c339431f7",
+            "id": "0271d8cb3b11b07d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 - Backpropagation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5d4f48a6958f696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - ANN boundaries and training.md",
+                "file": "9 - Word2Vec embeddings.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8 - Backpropagation.md",
+                "file": "9 - Word2Vec embeddings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8 - Backpropagation.md",
+                "file": "9 - Word2Vec embeddings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 - Backpropagation.md"
+                "file": "9 - Word2Vec embeddings.md"
               }
             }
           }
@@ -159,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac3eb10c339431f7",
+  "active": "0271d8cb3b11b07d",
   "lastOpenFiles": [
+    "pictures/photo_2023-10-31_16-28-00.jpg",
+    "pictures/photo_2023-10-31_16-27-51.jpg",
+    "9 - Word2Vec embeddings.md",
     "7 - ANN boundaries and training.md",
     "8 - Backpropagation.md",
     "pictures/Pasted image 20231024160914.png",
@@ -177,7 +167,6 @@
     "5 - Gradient Descent.md",
     "2 - Perceptron and sentiment analysis (ch.5).md",
     "pictures/Pasted image 20231012152216.png",
-    "pictures/Pasted image 20231012145420.png",
     "README.md",
     "4 - The Logistic regression algorithm.md",
     "3 - Improving perceptron, finding weights (ch.5).md",
