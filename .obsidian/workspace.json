@@ -4,41 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5dfd89aa5cacebad",
+        "id": "92a98c095f81fbdb",
         "type": "tabs",
         "children": [
           {
-            "id": "71fcb0c60b2710e6",
+            "id": "8b1c87871c6ca67a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "01 - regular languages.pdf"
-              }
-            }
-          },
-          {
-            "id": "db58be2726db7bf6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "02 - nondeterminism.pdf"
-              }
-            }
-          },
-          {
-            "id": "0fa77edad96630a9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "03 - regular expressions.pdf"
+                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - regular expressions.pdf",
+                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - regular expressions.pdf",
+                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - regular expressions.pdf"
+                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md"
               }
             }
           }
@@ -166,8 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fa77edad96630a9",
+  "active": "8b1c87871c6ca67a",
   "lastOpenFiles": [
+    "Pasted image 20231031112736.png",
+    "Pasted image 20231031111838.png",
+    "Pasted image 20231031110754.png",
+    "notes & proofs/18, 24/01 - Every NFA has an equivalent DFA.md",
+    "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
+    "Pasted image 20231031101511.png",
+    "Pasted image 20231031101421.png",
+    "Pasted image 20231031100541.png",
+    "slides/02 - nondeterminism.pdf",
+    "notes & proofs/18, 24",
     "02 - nondeterminism.pdf",
     "03 - regular expressions.pdf",
     "01 - regular languages.pdf",
