@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d83f4c24d375707",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes & proofs/18, 24/03 - From regexp to FSA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
+                "file": "notes & proofs/18, 24/03 - From regexp to FSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
+                "file": "notes & proofs/18, 24/03 - From regexp to FSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md"
+                "file": "notes & proofs/18, 24/03 - From regexp to FSA.md"
               }
             }
           }
@@ -147,16 +160,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b1c87871c6ca67a",
+  "active": "7d83f4c24d375707",
   "lastOpenFiles": [
+    "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
+    "notes & proofs/18, 24/03 - From regexp to FSA.md",
+    "pictures/Pasted image 20231103104115.png",
+    "pictures/Pasted image 20231103100714.png",
+    "slides/03 - regular expressions.pdf",
+    "pictures/Pasted image 20231031112736.png",
+    "pictures/Pasted image 20231031111838.png",
+    "pictures/Pasted image 20231031110754.png",
+    "pictures/Pasted image 20231031101511.png",
+    "pictures/Pasted image 20231031101421.png",
+    "pictures/Pasted image 20231031100541.png",
+    "pictures",
     "Pasted image 20231031112736.png",
     "Pasted image 20231031111838.png",
-    "Pasted image 20231031110754.png",
     "notes & proofs/18, 24/01 - Every NFA has an equivalent DFA.md",
-    "notes & proofs/18, 24/02 - Closure of RL under star, concatenation and union.md",
-    "Pasted image 20231031101511.png",
-    "Pasted image 20231031101421.png",
-    "Pasted image 20231031100541.png",
     "slides/02 - nondeterminism.pdf",
     "notes & proofs/18, 24",
     "02 - nondeterminism.pdf",
