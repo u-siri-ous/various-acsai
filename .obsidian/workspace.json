@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e6074c6163b59f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Universality thm for feedforward NN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - Word2Vec embeddings.md",
+                "file": "10 - Universality thm for feedforward NN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - Word2Vec embeddings.md",
+                "file": "10 - Universality thm for feedforward NN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - Word2Vec embeddings.md"
+                "file": "10 - Universality thm for feedforward NN.md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0271d8cb3b11b07d",
+  "active": "2e6074c6163b59f2",
   "lastOpenFiles": [
+    "9 - Word2Vec embeddings.md",
+    "10 - Universality thm for feedforward NN.md",
     "pictures/photo_2023-10-31_16-28-00.jpg",
     "pictures/photo_2023-10-31_16-27-51.jpg",
-    "9 - Word2Vec embeddings.md",
     "7 - ANN boundaries and training.md",
     "8 - Backpropagation.md",
     "pictures/Pasted image 20231024160914.png",
@@ -166,7 +180,6 @@
     "3 - Logistic regression classifier (ch.6).md",
     "5 - Gradient Descent.md",
     "2 - Perceptron and sentiment analysis (ch.5).md",
-    "pictures/Pasted image 20231012152216.png",
     "README.md",
     "4 - The Logistic regression algorithm.md",
     "3 - Improving perceptron, finding weights (ch.5).md",
