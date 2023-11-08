@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41dcdd96dfaf5dec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Convolutional Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 - Universality thm for feedforward NN.md",
+                "file": "11 - Convolutional Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 - Universality thm for feedforward NN.md",
+                "file": "11 - Convolutional Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 - Universality thm for feedforward NN.md"
+                "file": "11 - Convolutional Neural Networks.md"
               }
             }
           }
@@ -159,10 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e6074c6163b59f2",
+  "active": "41dcdd96dfaf5dec",
   "lastOpenFiles": [
+    "pictures/Pasted image 20231107161126.png",
+    "pictures/Pasted image 20231107160439.png",
+    "pictures/Pasted image 20231107150229.png",
+    "pictures/Pasted image 20231107145639.png",
+    "pictures/Pasted image 20231107145620.png",
     "9 - Word2Vec embeddings.md",
     "10 - Universality thm for feedforward NN.md",
+    "11 - Convolutional Neural Networks.md",
     "pictures/photo_2023-10-31_16-28-00.jpg",
     "pictures/photo_2023-10-31_16-27-51.jpg",
     "7 - ANN boundaries and training.md",
@@ -173,10 +192,6 @@
     "6 - Neural Networks (ch.10).md",
     "().md",
     "pictures/Pasted image 20231024142808.png",
-    "pictures/Pasted image 20231024141706.png",
-    "pictures/Pasted image 20231012154653.png",
-    "pictures/Pasted image 20231012154547.png",
-    "pictures/Pasted image 20231012154455.png",
     "3 - Logistic regression classifier (ch.6).md",
     "5 - Gradient Descent.md",
     "2 - Perceptron and sentiment analysis (ch.5).md",
