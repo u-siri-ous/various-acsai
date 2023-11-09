@@ -5,7 +5,7 @@ Apprendimento:
 * Non supervisionato
 * Per rinforzo
 
-
+(leggi documento postato classroom)
 
 
 
