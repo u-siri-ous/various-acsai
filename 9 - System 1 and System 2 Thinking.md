@@ -98,8 +98,10 @@ Se si presta attenzione a queste due differenti definizioni, vi renderete conto 
 Riconoscendo questa differenza possiamo dire che ci sono alcuni artefatti che sono complementari o anche alcuni usi degli artefatti che sono complementari e altri che invece sono innovativi perchè sono artefatto-dipendente, cioè che l'artefatto è indispensabile per quel compito. 
 Gli artefatti non possono non solo integrarsi o prendere un compito cognitivo possibile, ma anche sostituirlo.
 
-Si piò incorrere nel problema di attribuzione di autorità eccessiva agli artefatti. Anche artefatti di tipo artistico, hanno un po' questa differenza tra complementarietà, sostituzione e innovazione.
+Si può incorrere nel problema di attribuzione di autorità eccessiva agli artefatti. Anche artefatti di tipo artistico hanno un po' questa differenza tra complementarietà, sostituzione e innovazione.
+
 Artefatti diversi possono spingere processi diversi.
+
 In realtà anche la la povertà dell'informazione, poteva spingere i soggetti a un maggior uso di risorse cognitive, poi bisogna capire se davvero se questo tipo di procedimento rappresentava, come dire uno sforzo inutile o permetteva una memorizzazione più profonda, se effettivamente, in questo caso, less is more.
 
 Quindi la tripartizione: 
