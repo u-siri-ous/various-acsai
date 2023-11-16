@@ -43,7 +43,8 @@ Now, $$
 \end{aligned}
 $$
 ### Proof of BP1
-(foto oriana)
+
+![[Pasted image 20231116150509.png]]
 
 ------
 ## The algorithm

@@ -73,12 +73,12 @@ Given that ŷ is the probability that a sentence is happy, **1 - ŷ is the proba
 	Then P(prediction correct) = 1 - ŷ
 
 We can say that:
-$$\text
-{P(all predictions are correct) = }
+$$P\text
+{(all predictions are correct) = }
 $$
 $$
 {
-ln \Pi 
+ln\biggl(\prod_{i=1}^n~P(\text{prediction~i~is~correct})\biggr)  = \sum_{i=1}^nln(P (\text{prediction i is correct}))
 }
 $$
 We use log as it has the following property:

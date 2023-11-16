@@ -8,15 +8,15 @@ For every continuous fcn $f:[0,1]^n \rightarrow (0,1)^m$ and every $\epsilon > 0
 
 Let's do the proof for n=1 and m=1 (i.e. one input and one output), we aim to approximate the curve
 
-(foto oriana)
+![[Pasted image 20231116151005.png]]
 
 $\sigma(wx+b)$ is an approximation of a shifted step fcn, the "jump" occurs at $x = -\frac{b}{w}$ (-b over w)
-#### Bump fcn
+#### Bump and staircase fcn
 
-(foto oriana 2)
+![[Pasted image 20231116151218.png]]
 
+![[Pasted image 20231116151649.png]](NOT a Jordan curve)
 
-
- 
+![[Pasted image 20231116151721.png]]
 
 

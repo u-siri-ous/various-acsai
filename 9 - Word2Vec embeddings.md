@@ -8,7 +8,7 @@ Conversely, *parameters* are learned during training (e.g. weights)
 ### Using Natural Language
 
 171146 words in English, we use a vector of word counts 
-One-Hot Encoding has the disadvantage of the lack of semantic meaning and an high dimensionality
+**One-Hot Encoding has the disadvantage of the lack of semantic meaning and an high dimensionality**
 
 Word2Vec maps each word *x* to a vector $V(x) \in \mathbb{R}^d$ such that:
 1. if *x* and *y* have similar meanings, then $||V(x)-V(y)||$ is small, as *d* is small

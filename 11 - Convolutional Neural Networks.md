@@ -6,11 +6,11 @@ Let's reuse alien planets:
 * Computer = 2x2 pixels
 * Filled squares are seen as 1
 * Empty squares are seen as -1
-Build an image recognizer
+Build an image recognizer 
 
+We can use a signed sum 
 
-
-We can use a signed sum (chiedi foto amatriciana oriana)
+![[Pasted image 20231116151915.png]]
 ## Image classifier 
 
 If sign(sum) is + output /
@@ -24,12 +24,18 @@ Taking another example:
 
 We can see this creates ambiguity (consider / and X)
 
+![[Pasted image 20231116153524.png]]
+
+![[Pasted image 20231116153538.png]]
+
+----------------
+
 CNN's take their name from the convolution operation, in which a smaller matrix (called *kernel* or *filter*) is slid through the whole image and put in hadamard product with that part of the bigger matrix in order to reduce its dimensionality 
 
 ![[Pasted image 20231107145639.png]]
 ![[Pasted image 20231107150229.png]]
 
-We also define a threshold for classification. This may be updated and/or tuned
+We also define a threshold for classification. This may be updated and/or tuned.
 ## Convolution, formally, Stride and Pooling
 
 Given a matrix M, which is an image, and K, which is the kernel and has a dimension smaller than the image (typically 3x3), we define the convolution of M by K as the matrix obtained by taking the Hadamard product of K with every K-sized submatrices of M
@@ -52,3 +58,7 @@ Pooling layers are typically added after a convolutional layer, and it can be co
 ![[Pasted image 20231107161126.png]]
 
 The convolution is a linear map given by a matrix multiplication $$M \in M_{mxn} \mapsto M_{m'xn'}$$ and $$\mathbb{R}^{mn} \mapsto \mathbb{R}^{m'n'}$$so a convolution is a FFNN with shared parameters, some weights are the same and some are always 0
+
+Convolution (*) is a linear operation, so:
+**Given a constant** $c$ :
+$$ c(M)*K = c(M*K) $$$$(M_1+M_2)*K=M_1*K + M_2*K$$ 

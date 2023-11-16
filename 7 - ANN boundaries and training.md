@@ -78,6 +78,3 @@ $$
 ------
 
 Let's dfferentiate at the nodes instead of the arcs; let $$z^l\equiv w^l~a^{l-1}~+~b^l$$and $$z^l_j = \sum_k w^l_{jk}~a^{l-1}_k~+~b^l_j$$We plan to differentiate wrt $z_j^l$ instead of $w^l_{jk}$, we'll see it in lec. 8
-### On notation
-
-copia foto viola

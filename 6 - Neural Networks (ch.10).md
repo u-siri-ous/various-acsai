@@ -64,8 +64,8 @@ tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} = \frac{1 - e^{-2x}}{1 + e^{-2x}}
 $$
 ![[Pasted image 20231012154547.png]]
 
-### SoftMax p  173
+### SoftMax 
 
 $$
 \sigma(z_i) = \frac{e^{z_{i}}}{\sum_{j=1}^K e^{z_{j}}} \ \ \ for\ i=1,2,\dots,K 
-$$
+$$$$\sigma(x_1,...,x_n)_i \in (0,1) \text{ and } \Sigma~\sigma(x_1,...,x_n)_i =1$$as the sum of all probabilities is 1

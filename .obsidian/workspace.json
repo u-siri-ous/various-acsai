@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d1cfde556849ad2f",
+        "id": "edc69eda78ee5553",
         "type": "tabs",
         "children": [
           {
-            "id": "0271d8cb3b11b07d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9 - Word2Vec embeddings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e6074c6163b59f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 - Universality thm for feedforward NN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41dcdd96dfaf5dec",
+            "id": "5f077e16052c01fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -172,34 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41dcdd96dfaf5dec",
+  "active": "5f077e16052c01fb",
   "lastOpenFiles": [
+    "pictures/Pasted image 20231116153538.png",
+    "pictures/Pasted image 20231116153524.png",
+    "13 - RNN, LSTM.pdf",
+    "12 - Recurrent Neural Networks.pdf",
+    "14 - RNN and LSTM.md",
+    "11 - Convolutional Neural Networks.md",
+    "pictures/Pasted image 20231116151915.png",
+    "10 - Universality thm for feedforward NN.md",
+    "pictures/Pasted image 20231116151721.png",
+    "pictures/Pasted image 20231116151649.png",
+    "Unconfirmed 466734.crdownload",
+    "pictures/Pasted image 20231116151218.png",
+    "pictures/Pasted image 20231116151005.png",
+    "9 - Word2Vec embeddings.md",
+    "8 - Backpropagation.md",
+    "pictures/Pasted image 20231116150509.png",
+    "7 - ANN boundaries and training.md",
+    "6 - Neural Networks (ch.10).md",
+    "5 - Gradient Descent.md",
+    "4 - The Logistic regression algorithm.md",
+    "3 - Logistic regression classifier (ch.6).md",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "2 - Perceptron and sentiment analysis (ch.5).md",
+    "2 - Exercises.md",
+    "1 - Intro, Basics, Info.md",
     "pictures/Pasted image 20231107161126.png",
     "pictures/Pasted image 20231107160439.png",
     "pictures/Pasted image 20231107150229.png",
-    "pictures/Pasted image 20231107145639.png",
-    "pictures/Pasted image 20231107145620.png",
-    "9 - Word2Vec embeddings.md",
-    "10 - Universality thm for feedforward NN.md",
-    "11 - Convolutional Neural Networks.md",
-    "pictures/photo_2023-10-31_16-28-00.jpg",
-    "pictures/photo_2023-10-31_16-27-51.jpg",
-    "7 - ANN boundaries and training.md",
-    "8 - Backpropagation.md",
-    "pictures/Pasted image 20231024160914.png",
-    "pictures/Pasted image 20231024160909.png",
-    "pictures/Pasted image 20231024154224.png",
-    "6 - Neural Networks (ch.10).md",
     "().md",
-    "pictures/Pasted image 20231024142808.png",
-    "3 - Logistic regression classifier (ch.6).md",
-    "5 - Gradient Descent.md",
-    "2 - Perceptron and sentiment analysis (ch.5).md",
     "README.md",
-    "4 - The Logistic regression algorithm.md",
-    "3 - Improving perceptron, finding weights (ch.5).md",
-    "2 - Exercises.md",
-    "1 - Intro, Basics, Info.md",
     "pictures",
     "javascript/JS - 1.md",
     "ethz.md",
