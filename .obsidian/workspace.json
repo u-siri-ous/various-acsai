@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a92dcc397362ae5a",
+            "id": "710418ed29608bc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Definizioni, lessico filosofico, testi vari.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8398a23c5aca6c91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
+                "file": "13 - Ipotesi della simulazione, più realtà.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "bb226b0b82d077f2",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
+                "file": "13 - Ipotesi della simulazione, più realtà.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
+                "file": "13 - Ipotesi della simulazione, più realtà.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md"
+                "file": "13 - Ipotesi della simulazione, più realtà.md"
               }
             }
           }
@@ -160,13 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8398a23c5aca6c91",
+  "active": "710418ed29608bc7",
   "lastOpenFiles": [
-    "6 - Deep Learning (ch.4 - Fasoli).md",
     "9 - System 1 and System 2 Thinking.md",
-    "0 - Definizioni, lessico filosofico, testi vari.md",
+    "13 - Ipotesi della simulazione, più realtà.md",
     "S1 - Cenni di storia dell'IA (seminario Numerico).md",
     "8 - Embedded and Extended.md",
+    "6 - Deep Learning (ch.4 - Fasoli).md",
+    "0 - Definizioni, lessico filosofico, testi vari.md",
     "7 - Problematiche etiche, modello di mente di riferimento.md",
     "5 - Intelligenza, continuo (ch.3 - Ienca).md",
     "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
