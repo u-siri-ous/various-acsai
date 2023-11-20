@@ -171,7 +171,7 @@ Una parte importante della dell'intelligenza artificiale riguarda la possibilit�
 
 Una prospettiva che apparentemente sembra un po' svilente rispetto agli esseri umani che si trovano ad avere a che fare con questi sostituti
 
-(leggi dumoscelli e Damiano, vivere con i robot) 
+(leggi dumoscelli e Damiano, vivere con i robot, contrapposizione con Tarkle o come si scrive in quanto ottimistica) 
 
 L'idea della Tarcol è che le tecnologie ci offrono una forma di comunicazione che è surrogata e che permette di gestire meglio la parte emotiva della comunicazione (Alone Together)
 
