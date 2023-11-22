@@ -171,9 +171,9 @@ Una parte importante della dell'intelligenza artificiale riguarda la possibilit�
 
 Una prospettiva che apparentemente sembra un po' svilente rispetto agli esseri umani che si trovano ad avere a che fare con questi sostituti
 
-(leggi dumoscelli e Damiano, vivere con i robot, contrapposizione con Tarkle o come si scrive in quanto ottimistica) 
+(leggi dumoscelli e Damiano, vivere con i robot, contrapposizione con Turkle o come si scrive in quanto ottimistica) 
 
-L'idea della Tarcol è che le tecnologie ci offrono una forma di comunicazione che è surrogata e che permette di gestire meglio la parte emotiva della comunicazione (Alone Together)
+L'idea della Turkle è che le tecnologie ci offrono una forma di comunicazione che è surrogata e che permette di gestire meglio la parte emotiva della comunicazione (Alone Together)
 
 Ci sono altre forme di tecno pessimismo che possiamo riconoscere rispetto agli artefatti cognitivi che passano attraverso l'idea del cognitive diminishment, cioè di una diminuzione cognitiva
 

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "182843c456357547",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Affective computing, uncanny valley.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
+                "file": "10 - Affective computing, uncanny valley.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
+                "file": "10 - Affective computing, uncanny valley.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - System 1 and System 2 Thinking.md"
+                "file": "10 - Affective computing, uncanny valley.md"
               }
             }
           }
@@ -147,10 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "710418ed29608bc7",
+  "active": "182843c456357547",
   "lastOpenFiles": [
-    "13 - Ipotesi della simulazione, più realtà.md",
+    "pics",
+    "pics/Pasted image 20231120152446.jpg",
     "9 - System 1 and System 2 Thinking.md",
+    "10 - Affective computing, uncanny valley.md",
+    "13 - Ipotesi della simulazione, più realtà.md",
     "S1 - Cenni di storia dell'IA (seminario Numerico).md",
     "8 - Embedded and Extended.md",
     "6 - Deep Learning (ch.4 - Fasoli).md",
