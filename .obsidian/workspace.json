@@ -1,31 +1,27 @@
 {
   "main": {
-    "id": "87a4bb69aa5bcf76",
+    "id": "1b90dfcc444ba894",
     "type": "split",
     "children": [
       {
-        "id": "b27f82dc9d62cdc3",
+        "id": "edc69eda78ee5553",
         "type": "tabs",
         "children": [
           {
-            "id": "710418ed29608bc7",
+            "id": "08cbd52b49b5d9f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9 - System 1 and System 2 Thinking.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "182843c456357547",
+            "id": "2eca03b624843457",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Affective computing, uncanny valley.md",
+                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,15 +34,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ca7d6685ff0bbcd6",
+    "id": "8ecf32af30d5d395",
     "type": "split",
     "children": [
       {
-        "id": "ba5c89ce6d75a3ce",
+        "id": "73a59881a86a9fe2",
         "type": "tabs",
         "children": [
           {
-            "id": "497959ef57ad0bcb",
+            "id": "bd4cb6bc80b9e0e7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +52,7 @@
             }
           },
           {
-            "id": "13c9e27b4d292f3f",
+            "id": "b0f11df858700035",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +67,7 @@
             }
           },
           {
-            "id": "862fe412e34511ea",
+            "id": "437b9db2ff9ad314",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,24 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "bb226b0b82d077f2",
+    "id": "de6defad5dc2bb6f",
     "type": "split",
     "children": [
       {
-        "id": "38d19a443b7d3aa0",
+        "id": "8399e81d70d6c147",
         "type": "tabs",
         "children": [
           {
-            "id": "09299ebe2d9ee50a",
+            "id": "5aaa359174361d5e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 - Affective computing, uncanny valley.md",
+                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,19 +106,19 @@
             }
           },
           {
-            "id": "a3112c5b20a95ed5",
+            "id": "2a7d2407ba65daa3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 - Affective computing, uncanny valley.md",
+                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5d75d21e8d0fbd49",
+            "id": "ed90609be0792441",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,12 +129,12 @@
             }
           },
           {
-            "id": "846d85658e9f0726",
+            "id": "dfd494336ba5338b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 - Affective computing, uncanny valley.md"
+                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md"
               }
             }
           }
@@ -160,23 +155,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "182843c456357547",
+  "active": "2eca03b624843457",
   "lastOpenFiles": [
-    "pics",
-    "pics/Pasted image 20231120152446.jpg",
-    "9 - System 1 and System 2 Thinking.md",
-    "10 - Affective computing, uncanny valley.md",
-    "13 - Ipotesi della simulazione, più realtà.md",
-    "S1 - Cenni di storia dell'IA (seminario Numerico).md",
-    "8 - Embedded and Extended.md",
     "6 - Deep Learning (ch.4 - Fasoli).md",
-    "0 - Definizioni, lessico filosofico, testi vari.md",
+    "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+    "10 - Affective computing, uncanny valley.md",
+    "11 - Cenni di storia dell'IA (seminario Numerico).md",
+    "pics/Pasted image 20231120152446.jpg",
+    "pics",
+    "9 - System 1 and System 2 Thinking.md",
+    "8 - Embedded and Extended.md",
     "7 - Problematiche etiche, modello di mente di riferimento.md",
     "5 - Intelligenza, continuo (ch.3 - Ienca).md",
+    "14 - Unsupervised learning, GANs.md",
     "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
     "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
     "2 - Artefatti tecnologici, cenni storici.md",
+    "13 - Ipotesi della simulazione, più realtà.md",
     "1 - Intro, dettagli, inizio.md",
-    "2023-10-12.md"
+    "0 - Definizioni, lessico filosofico, testi vari.md",
+    "pictures/Pasted image 20231123145250.jpg",
+    "pictures/Pasted image 20231123144618.png",
+    "11 - Convolutional Neural Networks.md",
+    "pictures/Pasted image 20231116153538.png",
+    "pictures/Pasted image 20231116153524.png",
+    "13 - RNN, LSTM.pdf",
+    "12 - Recurrent Neural Networks.pdf",
+    "14 - RNN and LSTM.md",
+    "pictures/Pasted image 20231116151915.png",
+    "10 - Universality thm for feedforward NN.md",
+    "pictures/Pasted image 20231116151721.png",
+    "pictures/Pasted image 20231116151649.png",
+    "Unconfirmed 466734.crdownload",
+    "pictures/Pasted image 20231116151218.png",
+    "pictures/Pasted image 20231116151005.png",
+    "9 - Word2Vec embeddings.md",
+    "8 - Backpropagation.md",
+    "7 - ANN boundaries and training.md",
+    "6 - Neural Networks (ch.10).md",
+    "5 - Gradient Descent.md",
+    "4 - The Logistic regression algorithm.md",
+    "3 - Logistic regression classifier (ch.6).md",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "pictures",
+    "javascript"
   ]
 }
