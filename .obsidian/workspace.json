@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08cbd52b49b5d9f8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "2eca03b624843457",
             "type": "leaf",
             "state": {
@@ -26,9 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77c954440c8ee21d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "17 - Benessere digitale (omonimo libro Fasoli).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d9901fda53999d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18 - Manipolazione digitale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+                "file": "18 - Manipolazione digitale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+                "file": "18 - Manipolazione digitale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md"
+                "file": "18 - Manipolazione digitale.md"
               }
             }
           }
@@ -155,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2eca03b624843457",
+  "active": "1d9901fda53999d3",
   "lastOpenFiles": [
-    "6 - Deep Learning (ch.4 - Fasoli).md",
+    "17 - Benessere digitale (omonimo libro Fasoli).md",
+    "18 - Manipolazione digitale.md",
     "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+    "6 - Deep Learning (ch.4 - Fasoli).md",
     "10 - Affective computing, uncanny valley.md",
     "11 - Cenni di storia dell'IA (seminario Numerico).md",
     "pics/Pasted image 20231120152446.jpg",
@@ -195,8 +213,6 @@
     "6 - Neural Networks (ch.10).md",
     "5 - Gradient Descent.md",
     "4 - The Logistic regression algorithm.md",
-    "3 - Logistic regression classifier (ch.6).md",
-    "3 - Improving perceptron, finding weights (ch.5).md",
     "pictures",
     "javascript"
   ]
