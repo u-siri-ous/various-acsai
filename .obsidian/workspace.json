@@ -11,15 +11,38 @@
             "id": "e7adc79be09b80cb",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "17 - Deep Reinforcement Learning 1.pdf"
+              }
+            }
+          },
+          {
+            "id": "7ac85a44eed5e70a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "15 - Restricted Boltzmann Machine (RBMs).md",
+                "file": "18 - Deep Reinforcement Learning 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d46911f133f02f1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19 - DRL & transformers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15 - Restricted Boltzmann Machine (RBMs).md",
+                "file": "19 - DRL & transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "15 - Restricted Boltzmann Machine (RBMs).md",
+                "file": "19 - DRL & transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "15 - Restricted Boltzmann Machine (RBMs).md"
+                "file": "19 - DRL & transformers.md"
               }
             }
           }
@@ -147,15 +169,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7adc79be09b80cb",
+  "active": "d46911f133f02f1b",
   "lastOpenFiles": [
+    "18 - Deep Reinforcement Learning 2.md",
+    "19 - DRL & transformers.md",
+    "DL - Lecture 16_231130_151824.pdf",
+    "17 - Deep Reinforcement Learning 1.pdf",
+    "15 - Restricted Boltzmann Machine (RBMs).md",
+    "Unconfirmed 537049.crdownload",
+    "Unconfirmed 618494.crdownload",
     "pictures/Pasted image 20231128154508.png",
     "pictures/Pasted image 20231128154412.png",
     "pictures/Pasted image 20231128154356.png",
     "pictures/Pasted image 20231128154322.png",
     "pictures/Pasted image 20231128143037.png",
     "14 - Unsupervised learning, GANs.md",
-    "15 - Restricted Boltzmann Machine (RBMs).md",
     "pictures/Pasted image 20231123145250.jpg",
     "pictures/Pasted image 20231123144618.png",
     "11 - Convolutional Neural Networks.md",
@@ -166,7 +194,6 @@
     "14 - RNN and LSTM.md",
     "pictures/Pasted image 20231116151915.png",
     "10 - Universality thm for feedforward NN.md",
-    "pictures/Pasted image 20231116151721.png",
     "Unconfirmed 466734.crdownload",
     "9 - Word2Vec embeddings.md",
     "8 - Backpropagation.md",
