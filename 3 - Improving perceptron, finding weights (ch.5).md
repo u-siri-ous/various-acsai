@@ -82,7 +82,7 @@ Procedure:
 > NOTE: a slicker way to do this would be
 > Procedure: 
 > 	The prediction the perceptron makes at the point is ŷ = step(ax<sub>1</sub> + bx<sub>2</sub> + c). 
-> 	Return the perceptron with the following weights and bias: –
+> 	Return the perceptron with the following weights and bias: 
 > 		a' = a + $\eta$ (y – ŷ) x<sub>1</sub> 
 > 		b' = b + $\eta$ (y – ŷ) x<sub>2</sub>  
 > 		c' = c + $\eta$ (y – ŷ)

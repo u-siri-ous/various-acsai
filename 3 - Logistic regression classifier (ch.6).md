@@ -154,7 +154,7 @@ Classifier 2 looks better, let's check with logloss
 * Point 2: y = 1, yˆ = 0.73: 
 	* log loss = ln(0.721) = 0.313 
 * Point 3: y = 1, yˆ = 0.73: 
-	* log loss = ln(731) = 0.313 
+	* log loss = ln(0.731) = 0.313 
 * Point 4: y = 0, yˆ = 0.119: 
 	* log loss = ln(1 – 0.119) = 0.127 
 

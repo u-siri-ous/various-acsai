@@ -88,7 +88,7 @@ In general:
 ![Pasted image 20231002214754](../pictures/Pasted%20image%2020231002214754.png)
 
 <u><b>Q:</b></u> How to evaluate the <u>accuracy</u> of the model
-
+The error function
 
 ----------
 ## Activation functions - The step function
@@ -112,9 +112,4 @@ where:
 * the last term is the **bias**
 
 of course, the plane has as many dimensions are there are variables/words.
-
-## Sentimental analysis classifier - example 3
-
-p 140 grokking ml
-
 
