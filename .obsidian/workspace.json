@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ml/1 - Intro to learning paradigms.md",
+                "file": "ml/2 - Basics of LA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ml/1 - Intro to learning paradigms.md",
+                "file": "ml/2 - Basics of LA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ml/1 - Intro to learning paradigms.md"
+                "file": "ml/2 - Basics of LA.md"
               }
             }
           }
@@ -159,17 +160,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5638a98d1cfcb867",
+  "active": "a97e13b347361ae6",
   "lastOpenFiles": [
-    "ml/2 - Basics of LA.md",
-    "ml/docxs/~$ - linear algebra for ML.docx",
+    "pictures/Pasted image 20240123122619.png",
+    "pictures/Pasted image 20240123122116.png",
+    "pictures/Pasted image 20240123121834.png",
+    "pictures/Pasted image 20240123121524.png",
+    "pictures/Pasted image 20240123121222.png",
+    "pictures/Pasted image 20240123115657.png",
+    "pictures/Pasted image 20240123112821.png",
+    "pictures/Pasted image 20240123112634.png",
+    "pictures/Pasted image 20240123112330.png",
+    "pictures/Pasted image 20240123112244.png",
+    "pictures/Pasted image 20240123112141.png",
     "ml/1 - Intro to learning paradigms.md",
-    "pictures/Pasted image 20240122162013.png",
-    "pictures/Pasted image 20240122161941.png",
-    "pictures/Pasted image 20240122161900.png",
-    "pictures/Pasted image 20240122161754.png",
-    "pictures/Pasted image 20240122161434.png",
-    "pictures/Pasted image 20240122161242.png",
+    "ml/docxs/~$ - linear algebra for ML.docx",
+    "ml/2 - Basics of LA.md",
     "ml/docxs/~$ - intro and learning paradigms.docx",
     "ai/18 - Reasoning and inference in FOL.md",
     "ai/19 - First order Resolution.md",
@@ -187,11 +193,7 @@
     "ai/04 - Search problems, informed search and heuristics.md",
     "ai/02 - Agents, part 2.md",
     "ai/01 - Agents, part 1.md",
-    "pictures/Pasted image 20230605154535.png",
-    "pictures/Pasted image 20230605153852.png",
-    "pictures/Pasted image 20230605153333.png",
     "ai/Propositional resolution, definition and properties.md",
-    "pictures/Pasted image 20230605151942.png",
     "The ER model, part 2.md",
     "Relational model, part 1.md",
     "README.md",

@@ -40,8 +40,8 @@ One of the most important correlation coefficients is the **_Pearson correlation
 Where:
 
 * Cov(X,Y) is the **covariance**
-* 𝜎𝑋 is the **standard deviation** of X
-* 𝜎Y is the **standard deviation** of Y
+* 𝜎𝑋 is the **standard deviation** of random variable X
+* 𝜎Y is the **standard deviation** of random variable Y
 
 **Remark from Probability:**
 
