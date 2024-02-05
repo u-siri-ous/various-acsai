@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5638a98d1cfcb867",
+            "id": "853f2cc99e6ac737",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml/1 - Intro to learning paradigms.md",
+                "file": "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a97e13b347361ae6",
+            "id": "5b3bcded4229b23a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml/2 - Basics of LA.md",
+                "file": "ml/4 - Principal Component Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ml/2 - Basics of LA.md",
+                "file": "ml/4 - Principal Component Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ml/2 - Basics of LA.md",
+                "file": "ml/4 - Principal Component Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ml/2 - Basics of LA.md"
+                "file": "ml/4 - Principal Component Analysis.md"
               }
             }
           }
@@ -160,22 +160,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a97e13b347361ae6",
+  "active": "5b3bcded4229b23a",
   "lastOpenFiles": [
-    "pictures/Pasted image 20240123122619.png",
-    "pictures/Pasted image 20240123122116.png",
-    "pictures/Pasted image 20240123121834.png",
-    "pictures/Pasted image 20240123121524.png",
-    "pictures/Pasted image 20240123121222.png",
-    "pictures/Pasted image 20240123115657.png",
-    "pictures/Pasted image 20240123112821.png",
-    "pictures/Pasted image 20240123112634.png",
-    "pictures/Pasted image 20240123112330.png",
-    "pictures/Pasted image 20240123112244.png",
-    "pictures/Pasted image 20240123112141.png",
+    "pictures/Pasted image 20240205115020.png",
+    "pictures/Pasted image 20240205103549.png",
+    "ml/docxs/~$ - eigendecomposition PCA SVD.docx",
+    "pictures/Pasted image 20240202155139.png",
+    "pictures/Pasted image 20240202155116.png",
+    "pictures/Pasted image 20240202155036.png",
+    "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
+    "pictures/Pasted image 20240202154819.png",
+    "ml/4 - Principal Component Analysis.md",
+    "pictures/Pasted image 20240202152133.png",
+    "pictures/Pasted image 20240202152120.png",
+    "pictures/Pasted image 20240202151946.png",
+    "pictures/Pasted image 20240202145821.png",
+    "pictures/Pasted image 20240202142659.png",
+    "ml/2 - Basics of LA.md",
     "ml/1 - Intro to learning paradigms.md",
     "ml/docxs/~$ - linear algebra for ML.docx",
-    "ml/2 - Basics of LA.md",
     "ml/docxs/~$ - intro and learning paradigms.docx",
     "ai/18 - Reasoning and inference in FOL.md",
     "ai/19 - First order Resolution.md",
@@ -204,8 +207,6 @@
     "slides/DMAU_01_Intro.pdf",
     "slides/DMAU_L06_SQL_DDL.pdf",
     "slides/DMAU_L05_Restructuiring_ER.pdf",
-    "slides/__MACOSX/DMA 2",
-    "The ER model, part 1.md",
-    "Il panico.md"
+    "The ER model, part 1.md"
   ]
 }
