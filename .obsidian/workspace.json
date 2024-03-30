@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f9eb84f86ce45fda",
+        "id": "3058a1d05000c806",
         "type": "tabs",
         "children": [
           {
-            "id": "853f2cc99e6ac737",
+            "id": "8f1b365f5078663e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b3bcded4229b23a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ml/4 - Principal Component Analysis.md",
+                "file": "ml/5 - Clustering, K-means and Voronoi diagrams.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ml/4 - Principal Component Analysis.md",
+                "file": "ml/5 - Clustering, K-means and Voronoi diagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ml/4 - Principal Component Analysis.md",
+                "file": "ml/5 - Clustering, K-means and Voronoi diagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ml/4 - Principal Component Analysis.md"
+                "file": "ml/5 - Clustering, K-means and Voronoi diagrams.md"
               }
             }
           }
@@ -160,24 +147,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b3bcded4229b23a",
+  "active": "8f1b365f5078663e",
   "lastOpenFiles": [
+    "ml/4 - Principal Component Analysis.md",
+    "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
+    "ml/2 - Basics of LA.md",
+    "ml/1 - Intro to learning paradigms.md",
+    "ml/5 - Clustering, K-means and Voronoi diagrams.md",
+    "ml/docxs/~$ - K-means, K-means++.docx",
+    "pictures/Pasted image 20240209101315.png",
+    "pictures/Pasted image 20240209101228.png",
+    "ml/docxs/~$ - Gaussian PDF & MLE.docx",
+    "ml/docxs/~$ - 3DMM & dimensionality.docx",
+    "pictures/Pasted image 20240205140727.png",
     "pictures/Pasted image 20240205115020.png",
     "pictures/Pasted image 20240205103549.png",
     "ml/docxs/~$ - eigendecomposition PCA SVD.docx",
     "pictures/Pasted image 20240202155139.png",
     "pictures/Pasted image 20240202155116.png",
     "pictures/Pasted image 20240202155036.png",
-    "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
     "pictures/Pasted image 20240202154819.png",
-    "ml/4 - Principal Component Analysis.md",
     "pictures/Pasted image 20240202152133.png",
-    "pictures/Pasted image 20240202152120.png",
-    "pictures/Pasted image 20240202151946.png",
-    "pictures/Pasted image 20240202145821.png",
-    "pictures/Pasted image 20240202142659.png",
-    "ml/2 - Basics of LA.md",
-    "ml/1 - Intro to learning paradigms.md",
     "ml/docxs/~$ - linear algebra for ML.docx",
     "ml/docxs/~$ - intro and learning paradigms.docx",
     "ai/18 - Reasoning and inference in FOL.md",
@@ -203,10 +193,6 @@
     "slides/DMAU_L04_Relational_Model.pdf",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf",
-    "slides/DMAU_L02_ER_Model.pdf",
-    "slides/DMAU_01_Intro.pdf",
-    "slides/DMAU_L06_SQL_DDL.pdf",
-    "slides/DMAU_L05_Restructuiring_ER.pdf",
-    "The ER model, part 1.md"
+    "slides/DMAU_L02_ER_Model.pdf"
   ]
 }

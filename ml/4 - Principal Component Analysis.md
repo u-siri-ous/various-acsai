@@ -32,12 +32,17 @@ Reverse sort eigenvalues and eigenvectors:
 * Higher eigenvalues correspond to greater amounts of shared variance explained
 
 In this way we form the matrix U, which has eigenvectors as columns from biggest to smallest
+### This can be done by classic eigendecomposition or SVD
 ## Fourth step - Projection on lines made by eigenvectors
 
 We can project any data point in the D-dimensional subspace onto the principal subspace (2, more often than not)
 We need to standardize x using mean and std dev of every dimension in D
+## Fifth step - Undo initial standardization
 
+Perform: $$x_i \leftarrow x_i \text{ } \sigma + \mu \text{ } \forall x_i \in X$$
 ![](pictures/Pasted%20image%2020240205115020.png)
 
 ![](pictures/Pasted%20image%2020240205103549.png)
 
+![](pictures/Pasted%20image%2020240205140727.png)
+This image shows all the steps in detail

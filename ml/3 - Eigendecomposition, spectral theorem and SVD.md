@@ -65,3 +65,7 @@ Both eigendecomposition and SVD apply 3 steps:
 	1. U in both methods (matrix with eigenvector columns)
 
 ![](pictures/Pasted%20image%2020240202154819.png)
+
+--------
+## A note on einsum
+

@@ -32,6 +32,8 @@ The inductive bias (also known as learning bias) of a learning algorithm is the 
 
 The correlation coefficient exists to numerically measure the relationship between two variables, i.e. how two variables are _linearly_ related
 
+The correlation coefficient is resistent to linear transformations, as the variance is resistant to them
+
 Informally, two variables are _dependent_ if they are _correlated_ and viceversa
 
 One of the most important correlation coefficients is the **_Pearson correlation coefficient:
@@ -140,6 +142,6 @@ However, **transduction** is reasoning from observed specific training cases to 
 
 The model already encounters both the training and testing, while, under the inductive learning policy, **only** the training data is encountered when training the model
 
-**Deduction** is applied to obtain generalizations from a solved example and its explanation, obtaining general knowledge from general knowledge
+**Deduction** is applied to obtain generalizations from a solved example and its explanation, obtaining general knowledge from specific knowledge
 
 **Deduction is truth-preserving** as new knowledge cannot compromise old knowledge
