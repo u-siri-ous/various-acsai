@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "edc69eda78ee5553",
+        "id": "fbfd27151a7da81c",
         "type": "tabs",
         "children": [
           {
-            "id": "2eca03b624843457",
+            "id": "8ac553da72848dee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+                "file": "7 - Problematiche etiche, modello di mente di riferimento.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "77c954440c8ee21d",
+            "id": "604f72e392076e34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "17 - Benessere digitale (omonimo libro Fasoli).md",
+                "file": "testi esame riassunti/Macchine calcolatrici e intelligenza.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1d9901fda53999d3",
+            "id": "a62d520aa3fc1f47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18 - Manipolazione digitale.md",
+                "file": "XX - Discorso domanda a piacere esame.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "de6defad5dc2bb6f",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "18 - Manipolazione digitale.md",
+                "file": "XX - Discorso domanda a piacere esame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "18 - Manipolazione digitale.md",
+                "file": "XX - Discorso domanda a piacere esame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "18 - Manipolazione digitale.md"
+                "file": "XX - Discorso domanda a piacere esame.md"
               }
             }
           }
@@ -171,27 +172,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d9901fda53999d3",
+  "active": "a62d520aa3fc1f47",
   "lastOpenFiles": [
+    "7 - Problematiche etiche, modello di mente di riferimento.md",
+    "XX - Discorso domanda a piacere esame.md",
+    "8 - Embedded and Extended.md",
+    "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
     "17 - Benessere digitale (omonimo libro Fasoli).md",
     "18 - Manipolazione digitale.md",
-    "16 - Etica dei veicoli autonomi, dilemma del tram.md",
-    "6 - Deep Learning (ch.4 - Fasoli).md",
-    "10 - Affective computing, uncanny valley.md",
-    "11 - Cenni di storia dell'IA (seminario Numerico).md",
-    "pics/Pasted image 20231120152446.jpg",
-    "pics",
-    "9 - System 1 and System 2 Thinking.md",
-    "8 - Embedded and Extended.md",
-    "7 - Problematiche etiche, modello di mente di riferimento.md",
-    "5 - Intelligenza, continuo (ch.3 - Ienca).md",
-    "14 - Unsupervised learning, GANs.md",
-    "4 - Test di Turing, intelligenza (ch.2 - Fasoli, ch.3 - Ienca).md",
-    "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
     "2 - Artefatti tecnologici, cenni storici.md",
-    "13 - Ipotesi della simulazione, più realtà.md",
+    "9 - System 1 and System 2 Thinking.md",
+    "10 - Affective computing, uncanny valley.md",
     "1 - Intro, dettagli, inizio.md",
     "0 - Definizioni, lessico filosofico, testi vari.md",
+    "16 - Etica dei veicoli autonomi, dilemma del tram.md",
+    "13 - Ipotesi della simulazione, più realtà.md",
+    "testi esame riassunti/Artefatti cognitivi, Fasoli.md",
+    "3 - L'intelligenza, intro (ch.1,2 - Ienca).md",
+    "testi esame riassunti/Filosofia, tecnologia e scienze della mente - Fasoli, Piredda.md",
+    "testi esame riassunti/Macchine calcolatrici e intelligenza.md",
+    "testi esame riassunti",
+    "5 - Intelligenza, continuo (ch.3 - Ienca).md",
+    "11 - Cenni di storia dell'IA (seminario Numerico).md",
+    "6 - Deep Learning (ch.4 - Fasoli).md",
+    "pics/Pasted image 20231120152446.jpg",
+    "pics",
+    "14 - Unsupervised learning, GANs.md",
     "pictures/Pasted image 20231123145250.jpg",
     "pictures/Pasted image 20231123144618.png",
     "11 - Convolutional Neural Networks.md",
@@ -209,10 +215,6 @@
     "pictures/Pasted image 20231116151005.png",
     "9 - Word2Vec embeddings.md",
     "8 - Backpropagation.md",
-    "7 - ANN boundaries and training.md",
-    "6 - Neural Networks (ch.10).md",
-    "5 - Gradient Descent.md",
-    "4 - The Logistic regression algorithm.md",
     "pictures",
     "javascript"
   ]
