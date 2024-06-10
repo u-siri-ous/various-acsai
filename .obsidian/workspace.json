@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14 - Unsupervised learning, GANs.md",
+                "file": "8 - Backpropagation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "14 - Unsupervised learning, GANs.md",
+                "file": "8 - Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "14 - Unsupervised learning, GANs.md",
+                "file": "8 - Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14 - Unsupervised learning, GANs.md"
+                "file": "8 - Backpropagation.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "07000a6cb57c94f4",
   "lastOpenFiles": [
+    "5 - Gradient Descent.md",
+    "3 - Improving perceptron, finding weights (ch.5).md",
+    "2 - Perceptron and sentiment analysis (ch.5).md",
+    "2 - Exercises.md",
+    "1 - Intro, Basics, Info.md",
+    "14 - Unsupervised learning, GANs.md",
     "13 - RNN, LSTM.pdf",
     "12 - Recurrent Neural Networks.pdf",
     "11 - Convolutional Neural Networks.md",
@@ -155,16 +161,11 @@
     "9 - Word2Vec embeddings.md",
     "8 - Backpropagation.md",
     "7 - ANN boundaries and training.md",
-    "5 - Gradient Descent.md",
     "6 - Neural Networks (ch.10).md",
     "4 - The Logistic regression algorithm.md",
     "3 - Logistic regression classifier (ch.6).md",
-    "3 - Improving perceptron, finding weights (ch.5).md",
-    "2 - Perceptron and sentiment analysis (ch.5).md",
     "18 - Deep Reinforcement Learning 2.md",
     "17 - Deep Reinforcement Learning 1.pdf",
-    "2 - Exercises.md",
-    "1 - Intro, Basics, Info.md",
     "19 - DRL & transformers.md",
     "DL - Lecture 16_231130_151824.pdf",
     "15 - Restricted Boltzmann Machine (RBMs).md",
@@ -175,7 +176,6 @@
     "pictures/Pasted image 20231128154356.png",
     "pictures/Pasted image 20231128154322.png",
     "pictures/Pasted image 20231128143037.png",
-    "14 - Unsupervised learning, GANs.md",
     "pictures/Pasted image 20231123145250.jpg",
     "pictures/Pasted image 20231123144618.png",
     "pictures/Pasted image 20231116153538.png",
