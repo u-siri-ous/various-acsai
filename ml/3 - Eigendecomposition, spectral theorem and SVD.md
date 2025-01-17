@@ -69,3 +69,16 @@ Both eigendecomposition and SVD apply 3 steps:
 --------
 ## A note on einsum
 
+![](pictures/Pasted%20image%2020250114145307.png)
+
+- **Subscripts**: The subscripts indicate the indices for the input arrays (or tensors).
+    - For example, in `ij`, `i` and `j` are the indices for the dimensions of the first input array.
+        
+- **Comma Separator**: The comma separates the indices for different input arrays.
+    - For instance, in `'ij,jk->ik'`, the first part `'ij'` refers to the indices of the first array, and the second part `'jk'` refers to the indices of the second array.
+        
+- **Arrow (->) and Output Subscript**: The arrow points to the output indices, specifying how the resulting array should be indexed.
+    - For example, in `ij,jk->ik`, the output indices are `ik`. This means the result will be a matrix with dimensions corresponding to `i` and `k`.
+        
+- **Summation over Repeated Indices**: Any index that appears more than once across the input arrays is summed over.
+    - In our example, `j` appears in both `ij` and `jk`, so `j` is the summation index.

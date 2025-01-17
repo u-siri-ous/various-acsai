@@ -111,3 +111,4 @@ $$A^{-1} = \frac{1}{det(A)}C^T$$where $C^T$ is the **transposed cofactor matrix*
 ![[../pictures/Pasted image 20240123122619.png|350]]
 ![[../pictures/Pasted image 20240123122116.png|400]]
 
+![](pictures/Pasted%20image%2020250114150220.png)
