@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3058a1d05000c806",
+        "id": "7a1ab7436b9bb344",
         "type": "tabs",
         "children": [
           {
-            "id": "40961c77cdc3675c",
+            "id": "fc6d1d81134c967d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml/6 - Probabilistic formalization, Gaussian PDF and MLE.md",
+                "file": "ml/11 - Model Selection & Cross-Validation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 - Probabilistic formalization, Gaussian PDF and MLE"
-            }
-          },
-          {
-            "id": "1b51690f63200218",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ml/7 - Mixture of Gaussians and GMM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7 - Mixture of Gaussians and GMM"
+              "title": "11 - Model Selection & Cross-Validation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -178,21 +164,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b51690f63200218",
+  "active": "fc6d1d81134c967d",
   "lastOpenFiles": [
-    "pictures/Pasted image 20250130170812.png",
-    "pictures/Pasted image 20250130170503.png",
-    "pictures/Pasted image 20250130170441.png",
-    "ml/6 - Probabilistic formalization, Gaussian PDF and MLE.md",
+    "ml/11 - Model Selection & Cross-Validation.md",
+    "ml/9 - Decision Trees.md",
+    "ml/10 - Random Forest.md",
+    "pictures/Pasted image 20250204140807.png",
+    "pictures/Pasted image 20250204133108.png",
+    "pictures/Pasted image 20250204132227.png",
+    "pictures/Pasted image 20250203125828.png",
+    "pictures/Pasted image 20250203124740.png",
+    "pictures/Pasted image 20250203124259.png",
+    "pictures/Pasted image 20250203124139.png",
+    "pictures/Pasted image 20250203113753.png",
+    "pictures/Pasted image 20250203112540.png",
+    "pictures/Pasted image 20250203110446.png",
+    "ml/8 - Supervised Learning, ERM & KNN.md",
     "ml/7 - Mixture of Gaussians and GMM.md",
-    "pictures/Pasted image 20250130165058.png",
-    "pictures/Pasted image 20250130164425.png",
-    "pictures/Pasted image 20250130162425.png",
-    "pictures/Pasted image 20250130161846.png",
-    "pictures/Pasted image 20250130160902.png",
-    "pictures/Pasted image 20250130154816.png",
-    "pictures/Pasted image 20250130154754.png",
-    "pictures/Pasted image 20250130154004.png",
+    "ml/6 - Probabilistic formalization, Gaussian PDF and MLE.md",
     "ml/4 - Principal Component Analysis.md",
     "ml/5 - Clustering, K-means and K-means++.md",
     "ml/2 - Basics of LA.md",
@@ -220,9 +209,6 @@
     "ai/11 - Inference in PL.md",
     "ai/07 - CSP, backtracking and inference.md",
     "ai/04 - Search problems, informed search and heuristics.md",
-    "ai/02 - Agents, part 2.md",
-    "ai/01 - Agents, part 1.md",
-    "ai/Propositional resolution, definition and properties.md",
     "slides/DMAU_L04_Relational_Model.pdf",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf"
