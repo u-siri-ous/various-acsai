@@ -20,6 +20,7 @@ where:
 **only diagonalizable matrices can be factorized this way**
 
 ![[../pictures/Pasted image 20240202094847.png|700]]
+![](pictures/Pasted%20image%2020250207110534.png)
 ![[../pictures/Pasted image 20240202142659.png]]
 ## Geometric interpretation of eigenvectors
 
@@ -46,7 +47,7 @@ Here:
 
 - A is an m×n matrix.
 - U is an m×m orthogonal matrix with the eigenvectors of $AA^T$ as columns (meaning $U^TU=UU^T=I$).
-- Σ is an m×n diagonal matrix with eigenvalues of $AA^T \text{ or } A^TA$ on the diagonal or any positive real value, known as the singular values.
+- Σ is an m×n diagonal matrix with **square root of eigenvalues** of $AA^T \text{ or } A^TA$ on the diagonal or any positive real value, known as the singular values.
 - $V^T$ is the transpose of an n×n orthogonal matrix V with the eigenvectors of $A^TA$ as columns (meaning $V^TV=VV^T=I$)
 
 SVD, differently from eigendecomposition, works for non-square matrices as well (we don't need to invert anything) 

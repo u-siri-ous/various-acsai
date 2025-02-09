@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7a1ab7436b9bb344",
+        "id": "f544cca1be8025e5",
         "type": "tabs",
         "children": [
           {
-            "id": "fc6d1d81134c967d",
+            "id": "0c5ae59df8ee5492",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml/11 - Model Selection & Cross-Validation.md",
+                "file": "ml/4 - Principal Component Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 - Model Selection & Cross-Validation"
+              "title": "4 - Principal Component Analysis"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "horn",
+                "query": "cross entropy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,29 +164,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc6d1d81134c967d",
+  "active": "0c5ae59df8ee5492",
   "lastOpenFiles": [
-    "ml/11 - Model Selection & Cross-Validation.md",
+    "ml/16 - Backpropagation with Jacobians.md",
+    "ml/15 - Neural Networks & Backpropagation.md",
     "ml/9 - Decision Trees.md",
-    "ml/10 - Random Forest.md",
-    "pictures/Pasted image 20250204140807.png",
-    "pictures/Pasted image 20250204133108.png",
-    "pictures/Pasted image 20250204132227.png",
-    "pictures/Pasted image 20250203125828.png",
-    "pictures/Pasted image 20250203124740.png",
-    "pictures/Pasted image 20250203124259.png",
-    "pictures/Pasted image 20250203124139.png",
-    "pictures/Pasted image 20250203113753.png",
-    "pictures/Pasted image 20250203112540.png",
-    "pictures/Pasted image 20250203110446.png",
-    "ml/8 - Supervised Learning, ERM & KNN.md",
+    "ml/12 - Linear Regression.md",
+    "ml/5 - Clustering, K-means and K-means++.md",
+    "ml/11 - Model Selection & Cross-Validation, Evaluation Metrics.md",
     "ml/7 - Mixture of Gaussians and GMM.md",
     "ml/6 - Probabilistic formalization, Gaussian PDF and MLE.md",
-    "ml/4 - Principal Component Analysis.md",
-    "ml/5 - Clustering, K-means and K-means++.md",
     "ml/2 - Basics of LA.md",
-    "ml/appunti nicola/1 - PCA exercises.md",
     "ml/3 - Eigendecomposition, spectral theorem and SVD.md",
+    "pictures/Pasted image 20250207110534.png",
+    "ml/4 - Principal Component Analysis.md",
+    "pictures/Pasted image 20250206201931.png",
+    "pictures/Pasted image 20250206201834.png",
+    "pictures/Pasted image 20250206201815.png",
+    "pictures/Pasted image 20250206201557.png",
+    "pictures/Pasted image 20250206201532.png",
+    "pictures/Pasted image 20250206201501.png",
+    "pictures/Pasted image 20250206201128.png",
+    "pictures/Pasted image 20250206201016.png",
+    "pictures/Pasted image 20250206201007.png",
+    "ml/14 - Perceptron & Logistic Regression, Multi-class Classification.md",
+    "ml/13 - Polynomial Regression & Feature maps, Weight Decay.md",
+    "ml/10 - Random Forest.md",
+    "ml/8 - Supervised Learning, ERM & KNN.md",
+    "ml/appunti nicola/1 - PCA exercises.md",
     "ml/1 - Intro to learning paradigms.md",
     "ml/appunti nicola",
     "ml/docxs/~$ - K-means, K-means++.docx",
@@ -203,12 +208,6 @@
     "ai/16 - Tableaux.md",
     "ai/14 - Forward and backward chaining.md",
     "ai/15 - DPLL.md",
-    "ai/12,13 - Propositional resolution, definitions, soundness and completeness.md",
-    "ai/09 - Logic-based agents, Introduction to propositional logic.md",
-    "ai/10 - Satisfiability, tautology and contradiction.md",
-    "ai/11 - Inference in PL.md",
-    "ai/07 - CSP, backtracking and inference.md",
-    "ai/04 - Search problems, informed search and heuristics.md",
     "slides/DMAU_L04_Relational_Model.pdf",
     "slides/DMAU_L03_ER_Modelling_Patterns.pdf",
     "slides/DMAU_L03_ER_Modelling_Exercise.pdf"
